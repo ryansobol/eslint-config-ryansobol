@@ -1,5 +1,5 @@
 module.exports = {
-  extends: "../base/index.js",
+  extends: "shopify",
 
   plugins: [
     "react"

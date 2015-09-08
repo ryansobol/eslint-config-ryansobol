@@ -4,25 +4,43 @@ This package provides Shopify's `.eslintrc` as an extensible shared config.
 
 ## Usage
 
-Install this module (it should install its dependent modules):
+### React
+
+Install this module, as well as the other eslint modules on which it is dependent:
 
 ```shell
-npm install --save-dev eslint-config-airbnb
+npm install --save-dev eslint babel-eslint eslint-plugin-react # dependencies
+npm install --save-dev eslint-config-shopify
 ```
 
-then, extend this config in your own `.eslintrc`:
+then, extend the React version of this configuration in your own `.eslintrc`:
+
+```json
+{
+  "extends": "shopify/react"
+}
+```
+
+### Non-React Projects
+
+Install this module, as well as the other eslint modules on which it is dependent:
+
+```shell
+npm install --save-dev eslint babel-eslint # dependencies
+npm install --save-dev eslint-config-shopify
+```
+
+then, extend the base version of this configuration in your own `.eslintrc`:
 
 ```json
 {
   "extends": "shopify"
-
-  // your overrides and extensions
 }
 ```
 
 ## Improvements
 
-If adding complex linting changes (for example, those requiring regular expressions), consider adding tests. Tests can be run using `npm test`.
+If there are rules that you wish to alter for your particular project, feel free to do so in your own `.eslintrc`. Rule declarations you make there will override the rules declared by this configuration. If you feel that a particular rule choice is poor and should be changed for all projects using this configuration, please open a PR [against this repo on Github](https://github.com/Shopify/eslint-config-shopify).
 
 ## Changelog
 

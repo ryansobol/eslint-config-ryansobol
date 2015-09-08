@@ -6,7 +6,7 @@ module.exports = {
   // Disallow assignment in conditional expressions
   "no-cond-assign": 2,
   // Disallow use of console (off by default in the node environment)
-  "no-console": 2,
+  "no-console": 1,
   // Disallow use of constant expressions in conditions
   "no-constant-condition": 2,
   // Disallow control characters in regular expressions
@@ -28,7 +28,7 @@ module.exports = {
   // Disallow double-negation boolean casts in a boolean context
   "no-extra-boolean-cast": 0,
   // Disallow unnecessary parentheses (off by default)
-  "no-extra-parens": 2,
+  "no-extra-parens": 0,
   // Disallow unnecessary semicolons
   "no-extra-semi": 2,
   // Disallow overwriting functions written as function declarations
