@@ -47,3 +47,11 @@ If there are rules that you wish to alter for your particular project, feel free
 ### 1.0.0
 
 Initial commit.
+
+### 1.0.1
+
+Removed unnecessary dependencies.
+
+### 1.0.2
+
+Updated React linting rules.
