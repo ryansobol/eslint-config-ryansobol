@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-shopify",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Shopify's baseline ESLint config.",
   "main": "./base/index.js",
   "scripts": {

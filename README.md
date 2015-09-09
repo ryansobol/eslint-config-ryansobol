@@ -44,14 +44,18 @@ If there are rules that you wish to alter for your particular project, feel free
 
 ## Changelog
 
-### 1.0.0
+### 1.0.3
 
-Initial commit.
+Prefer const/ let.
+
+### 1.0.2
+
+Updated React linting rules.
 
 ### 1.0.1
 
 Removed unnecessary dependencies.
 
-### 1.0.2
+### 1.0.0
 
-Updated React linting rules.
+Initial commit.
