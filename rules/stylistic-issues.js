@@ -40,7 +40,7 @@ module.exports = {
   // Disallow use of the Array constructor
   "no-array-constructor": 1,
   // Disallow use of the continue statement (off by default)
-  "no-continue": 1,
+  "no-continue": 0,
   // Disallow comments inline after code (off by default)
   "no-inline-comments": 0,
   // Disallow if as the only statement in an else block (off by default)

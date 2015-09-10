@@ -44,9 +44,13 @@ If there are rules that you wish to alter for your particular project, feel free
 
 ## Changelog
 
+### 1.0.4
+
+Allow `continue`
+
 ### 1.0.3
 
-Prefer const/ let.
+Prefer `const`/ `let`.
 
 ### 1.0.2
 
