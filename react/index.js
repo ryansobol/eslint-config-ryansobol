@@ -10,7 +10,9 @@ module.exports = {
   },
 
   globals: {
-    "fetch": true
+    fetch: true,
+    ReactElement: true,
+    ReactClass: true
   },
 
   rules: require("../rules/react")

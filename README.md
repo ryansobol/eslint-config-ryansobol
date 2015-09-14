@@ -44,6 +44,10 @@ If there are rules that you wish to alter for your particular project, feel free
 
 ## Changelog
 
+### 1.0.6
+
+Adds global Flow types for React (`ReactClass` and `ReactElement`).
+
 ### 1.0.5
 
 Prefer `var` until Flow adds support for `const`/ `let`.
