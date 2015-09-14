@@ -44,6 +44,10 @@ If there are rules that you wish to alter for your particular project, feel free
 
 ## Changelog
 
+### 1.0.7
+
+Loosens restriction on `==` for `null` checking (which Flow requires for Maybe types).
+
 ### 1.0.6
 
 Adds global Flow types for React (`ReactClass` and `ReactElement`).

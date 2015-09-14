@@ -18,7 +18,7 @@ module.exports = {
   // Enforces consistent newlines before or after dots (off by default)
   "dot-location": [1, "property"],
   // Require the use of === and !==
-  "eqeqeq": 2,
+  "eqeqeq": [2, "allow-null"],
   // Make sure for-in loops have an if statement (off by default)
   "guard-for-in": 1,
   // Disallow the use of alert, confirm, and prompt
@@ -32,7 +32,7 @@ module.exports = {
   // Disallow use of labels for anything other than loops and switches
   "no-empty-label": 2,
   // Disallow comparisons to null without a type-checking operator (off by default)
-  "no-eq-null": 1,
+  "no-eq-null": 0,
   // Disallow use of eval()
   "no-eval": 2,
   // Disallow adding to native types
