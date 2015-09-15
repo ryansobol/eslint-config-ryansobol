@@ -44,6 +44,10 @@ If there are rules that you wish to alter for your particular project, feel free
 
 ## Changelog
 
+### 2.0.0
+
+All warnings are now errors. Removed some rules relating to complexity, maximum length, and nesting depth.
+
 ### 1.0.7
 
 Loosens restriction on `==` for `null` checking (which Flow requires for Maybe types).

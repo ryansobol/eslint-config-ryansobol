@@ -2,25 +2,25 @@
 
 module.exports = {
   // Enforces getter/setter pairs in objects (off by default)
-  "accessor-pairs": 1,
+  "accessor-pairs": 0,
   // Treat var statements as if they were block scoped (off by default)
-  "block-scoped-var": 1,
+  "block-scoped-var": 2,
   // Specify the maximum cyclomatic complexity allowed in a program (off by default)
-  "complexity": [1, 6],
+  "complexity": 0,
   // Require return statements to either always or never specify values
-  "consistent-return": 1,
+  "consistent-return": 2,
   // Specify curly brace conventions for all control statements
   "curly": [2, "all"],
   // Require default case in switch statements (off by default)
   "default-case": 0,
   // Encourages use of dot notation whenever possible
-  "dot-notation": [1, { allowKeywords: true }],
+  "dot-notation": [2, { allowKeywords: true }],
   // Enforces consistent newlines before or after dots (off by default)
-  "dot-location": [1, "property"],
+  "dot-location": [2, "property"],
   // Require the use of === and !==
   "eqeqeq": [2, "allow-null"],
   // Make sure for-in loops have an if statement (off by default)
-  "guard-for-in": 1,
+  "guard-for-in": 2,
   // Disallow the use of alert, confirm, and prompt
   "no-alert": 2,
   // Disallow use of arguments.caller or arguments.callee
@@ -56,7 +56,7 @@ module.exports = {
   // Disallow use of multiple spaces
   "no-multi-spaces": 2,
   // Disallow use of multiline strings
-  "no-multi-str": 1,
+  "no-multi-str": 0,
   // Disallow reassignments of native objects
   "no-native-reassign": 2,
   // Disallow use of new operator for Function object
@@ -64,12 +64,12 @@ module.exports = {
   // Disallows creating new instances of String, Number, and Boolean
   "no-new-wrappers": 2,
   // Disallow use of new operator when not part of the assignment or comparison
-  "no-new": 1,
+  "no-new": 2,
   // Disallow use of octal escape sequences in string literals,
   // such as var foo = "Copyright \251";
-  "no-octal-escape": 1,
+  "no-octal-escape": 2,
   // Disallow use of octal literals
-  "no-octal": 1,
+  "no-octal": 2,
   // Allow reassignment of function parameters (off by default)
   "no-param-reassign": 2,
   // Disallow use of process.env (off by default)
@@ -77,11 +77,11 @@ module.exports = {
   // Disallow usage of __proto__ property
   "no-proto": 2,
   // Disallow declaring the same variable more than once
-  "no-redeclare": 1,
+  "no-redeclare": 2,
   // Disallow use of assignment in return statement
   "no-return-assign": 2,
   // Disallow use of javascript: urls.,
-  "no-script-url": 1,
+  "no-script-url": 0,
   // Disallow comparisons where both sides are exactly the same (off by default)
   "no-self-compare": 2,
   // Disallow use of comma operator
@@ -93,7 +93,7 @@ module.exports = {
   // Disallow use of void operator (off by default)
   "no-void": 2,
   // Disallow usage of configurable warning terms in comments
-  "no-warning-comments": 1,
+  "no-warning-comments": 2,
   // Disallow use of the with statement
   "no-with": 2,
   // Require use of the second argument for parseInt() (off by default)

@@ -2,7 +2,7 @@
 
 module.exports = {
   // Disallow the catch clause parameter name being the same as a variable in the outer scope (off by default in the node environment)
-  "no-catch-shadow": 1,
+  "no-catch-shadow": 2,
   // Disallow deletion of variables
   "no-delete-var": 2,
   // Disallow labels that share a name with a variable
@@ -20,5 +20,5 @@ module.exports = {
   // Disallow declaration of variables that are not used in the code
   "no-unused-vars": 2,
   // Disallow use of variables before they are defined
-  "no-use-before-define": 1
+  "no-use-before-define": 2
 };

@@ -6,7 +6,7 @@ module.exports = {
   // Disallow assignment in conditional expressions
   "no-cond-assign": 2,
   // Disallow use of console (off by default in the node environment)
-  "no-console": 1,
+  "no-console": 2,
   // Disallow use of constant expressions in conditions
   "no-constant-condition": 2,
   // Disallow control characters in regular expressions
