@@ -70,7 +70,7 @@ module.exports = {
   // Require assignment operator shorthand where possible or prohibit it entirely (off by default)
   "operator-assignment": [2, "always"],
   // Enforce operators to be placed before or after line breaks (off by default)
-  "operator-linebreak": [2, "after". { overrides: { "?": "before", ":": "before" } }],
+  "operator-linebreak": [2, "after", { overrides: { "?": "before", ":": "before" } }],
   // Enforce padding within blocks (off by default)
   "padded-blocks": 0,
   // Require quotes around object literal property names (off by default)
