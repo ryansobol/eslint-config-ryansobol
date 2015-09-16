@@ -24,7 +24,7 @@ module.exports = {
   // Enforce props alphabetical sorting
   "react/jsx-sort-props": 0,
   // Prevent React to be incorrectly marked as unused
-  "react/jsx-uses-react": 0,
+  "react/jsx-uses-react": 1,
   // Prevent variables used in JSX to be incorrectly marked as unused
   "react/jsx-uses-vars": 2,
   // Prevent usage of dangerous JSX properties
