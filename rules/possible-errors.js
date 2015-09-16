@@ -2,7 +2,7 @@
 
 module.exports = {
   // Disallow or enforce trailing commas
-  "comma-dangle": 2,
+  "comma-dangle": [2, "always-multiline"],
   // Disallow assignment in conditional expressions
   "no-cond-assign": 2,
   // Disallow use of console (off by default in the node environment)
