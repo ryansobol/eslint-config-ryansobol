@@ -44,6 +44,10 @@ If there are rules that you wish to alter for your particular project, feel free
 
 ## Changelog
 
+### 3.0.1
+
+Use jsx-quotes instead of react/jsx-quotes.
+
 ### 3.0.0
 
 Enforce trailing commas on multiline literals.
