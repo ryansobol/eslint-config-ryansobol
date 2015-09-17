@@ -64,7 +64,7 @@ module.exports = {
   // Disallow the use of Boolean literals in conditional expressions (off by default)
   "no-unneeded-ternary": 2,
   // Require or disallow padding inside curly braces (off by default)
-  "object-curly-spacing": 0,
+  "object-curly-spacing": [2, "never"],
   // Allow or disallow one variable declaration per function (off by default)
   "one-var": [2, "never"],
   // Require assignment operator shorthand where possible or prohibit it entirely (off by default)
