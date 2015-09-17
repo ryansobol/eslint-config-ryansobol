@@ -44,6 +44,14 @@ If there are rules that you wish to alter for your particular project, feel free
 
 ## Changelog
 
+### 3.0.0
+
+Enforce trailing commas on multiline literals.
+
+Enforce double quotes for JSX to be in line with XML.
+
+Don't allow spacing inside object literals.
+
 ### 2.0.1
 
 Fixed typo in one rule. Minor project cleanup.
