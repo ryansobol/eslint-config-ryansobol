@@ -3,10 +3,12 @@
 module.exports = {
   // Enforce spacing inside array brackets (off by default)
   "array-bracket-spacing": [2, "never"],
+  // Disallow or enforce spaces inside of single line blocks
+  "block-spacing": [2, "always"],
   // Enforce one true brace style (off by default)
   "brace-style": [2, "1tbs", { allowSingleLine: true }],
   // Require camel case names
-  "camelcase": [2, { properties: "never" }],
+  "camelcase": [2, { properties: "always" }],
   // Enforce spacing before and after comma
   "comma-spacing": [2, { before: false, after: true }],
   // Enforce one true comma style (off by default)
@@ -20,9 +22,15 @@ module.exports = {
   // Don"t require function expressions to have a name (off by default)
   "func-names": 0,
   // Enforces use of function declarations or expressions (off by default)
-  "func-style": 0,
+  "func-style": [2, "declaration"],
+  // This option enforces minimum and maximum identifier lengths (variable names, property names etc.)
+  "id-length": [2, {min: 2, properties: "always"}],
+  // Require identifiers to match the provided regular expression
+  "id-match": 0,
   // This option sets a specific tab width for your code (off by default)
   "indent": [2, 2],
+  // Specify whether double or single quotes should be used in JSX attributes
+  "jsx-quotes": [2, "prefer-double"],
   // Enforces spacing between keys and values in object literal properties
   "key-spacing": [2, { beforeColon: false, afterColon: true }],
   // Enforces empty lines around comments (off by default)
@@ -87,6 +95,8 @@ module.exports = {
   "space-after-keywords": [2, "always"],
   // Require or disallow space before blocks (off by default)
   "space-before-blocks": [2, "always"],
+  // Require a space before certain keywords
+  "space-after-keywords": [2, "always"],
   // Require or disallow space before function opening parenthesis (off by default)
   "space-before-function-paren": [2, "never"],
   // Require or disallow spaces inside parentheses (off by default)

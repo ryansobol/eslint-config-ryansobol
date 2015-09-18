@@ -43,8 +43,12 @@ module.exports = {
   "no-fallthrough": 2,
   // Disallow the use of leading or trailing decimal points in numeric literals (off by default)
   "no-floating-decimal": 2,
+  // Disallow the type conversions with shorter notations
+  "no-implicit-coercion": 0,
   // Disallow use of eval()-like methods
   "no-implied-eval": 2,
+  // Disallow this keywords outside of classes or class-like objects
+  "no-invalid-this": 2,
   // Disallow usage of __iterator__ property
   "no-iterator": 2,
   // Disallow use of labeled statements
@@ -90,6 +94,10 @@ module.exports = {
   "no-throw-literal": 2,
   // Allow usage of expressions in statement position
   "no-unused-expressions": 2,
+  // Disallow unnecessary .call() and .apply()
+  "no-useless-call": 2,
+  // Disallow unnecessary concatenation of literals or template literals
+  "no-useless-concat": 2,
   // Disallow use of void operator (off by default)
   "no-void": 2,
   // Disallow usage of configurable warning terms in comments

@@ -12,7 +12,7 @@ module.exports = {
   // Disallow control characters in regular expressions
   "no-control-regex": 2,
   // Disallow use of debugger
-  "no-debugger": 2,
+  "no-debugger": 1,
   // Disallow duplicate arguments in functions
   "no-dupe-args": 2,
   // Disallow duplicate keys when creating object literals
@@ -45,8 +45,6 @@ module.exports = {
   "no-obj-calls": 2,
   // Disallow multiple spaces in a regular expression literal
   "no-regex-spaces": 2,
-  // Disallow reserved words being used as object literal keys (off by default)
-  "no-reserved-keys": 0,
   // Disallow sparse arrays
   "no-sparse-arrays": 2,
   // Disallow unreachable statements after a return, throw, continue, or break statement
