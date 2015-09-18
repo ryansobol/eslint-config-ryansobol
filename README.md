@@ -44,6 +44,18 @@ If there are rules that you wish to alter for your particular project, feel free
 
 ## Changelog
 
+### 4.0.0
+
+Force `let` in all cases. `const` is allowed but not enforced (use it sparingly to indicate immutable primitives).
+
+Force function declarations (`function foo() {}`) over function expressions (`var foo = function() {}`).
+
+Force variable initialization at definition (i.e., no `let foo;`, must be assigned).
+
+Force parens for arrow function parameters regardless of arity, and force spaces around the actual arrow.
+
+Prefer template strings over concatenation, and spread (`...`) over `.apply()`.
+
 ### 3.0.4
 
 Allow function declarations to be used before defined (avoids issues with, for example, functions that call each other recursively).
