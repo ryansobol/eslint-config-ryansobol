@@ -44,6 +44,10 @@ If there are rules that you wish to alter for your particular project, feel free
 
 ## Changelog
 
+### 3.0.4
+
+Allow function declarations to be used before defined (avoids issues with, for example, functions that call each other recursively).
+
 ### 3.0.3
 
 Avoid escape in quote styles.
