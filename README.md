@@ -44,6 +44,10 @@ If there are rules that you wish to alter for your particular project, feel free
 
 ## Changelog
 
+### 3.0.3
+
+Avoid escape in quote styles.
+
 ### 3.0.2
 
 Forgot to bump to package.json version.

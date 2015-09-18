@@ -76,7 +76,7 @@ module.exports = {
   // Require quotes around object literal property names (off by default)
   "quote-props": [2, "as-needed"],
   // Specify whether backticks, double or single quotes should be used
-  "quotes": [2, "single"],
+  "quotes": [2, "single", "avoid-escape"],
   // Enforce spacing before and after semicolons
   "semi-spacing": [2, { before: false, after: true }],
   // Require or disallow use of semicolons instead of ASI
