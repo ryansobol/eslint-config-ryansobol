@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-shopify",
-  "version": "5.0.0",
+  "version": "5.1.0",
   "description": "Shopify's baseline ESLint config.",
   "main": "./base/index.js",
   "repository": {
@@ -27,5 +27,8 @@
   "devDependencies": {
     "babel-eslint": "^4.1.2",
     "eslint": "^1.4.1"
+  },
+  "peerDependencies": {
+    "eslint": ">= 1.5.0"
   }
 }
