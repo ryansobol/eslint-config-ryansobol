@@ -5,7 +5,7 @@
   "main": "./base/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/shopify/shopify-eslint-config"
+    "url": "https://github.com/shopify/eslint-config-shopify"
   },
   "keywords": [
     "eslint",
@@ -18,9 +18,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/shopify/shopify-eslint-config/issues"
+    "url": "https://github.com/shopify/eslint-config-shopify/issues"
   },
-  "homepage": "https://github.com/shopify/shopify-eslint-config",
+  "homepage": "https://github.com/shopify/eslint-config-shopify",
   "dependencies": {
     "merge": "^1.2.0"
   },
