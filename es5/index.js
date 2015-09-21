@@ -12,6 +12,8 @@ Object.keys(es6Rules).forEach(function(key) {
 module.exports = {
   extends: "shopify",
 
+  parser: "espree",
+
   env: {
     node: true,
     es6: false

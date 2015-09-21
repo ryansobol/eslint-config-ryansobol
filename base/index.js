@@ -14,6 +14,10 @@ var rules = fs.readdirSync(rulesDir)
 module.exports = {
   parser: "babel-eslint",
 
+  plugins: [
+    "shopify"
+  ],
+
   env: {
     es6: true,
     node: true
