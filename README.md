@@ -63,6 +63,14 @@ For changes to existing rules, bump the major version. For addition of new rules
 
 ## Changelog
 
+### 5.2.2
+
+Fixed some issues with the parsers and plugins specified by the configs.
+
+### 5.2.1
+
+Fixed a dependency issue.
+
 ### 5.2.0
 
 Added the Shopify plugin and initial rule defaults.
