@@ -42,7 +42,27 @@ then, extend the base version of this configuration in your own `.eslintrc`:
 
 If there are rules that you wish to alter for your particular project, feel free to do so in your own `.eslintrc`. Rule declarations you make there will override the rules declared by this configuration. If you feel that a particular rule choice is poor and should be changed for all projects using this configuration, please open a PR [against this repo on Github](https://github.com/Shopify/eslint-config-shopify).
 
+For changes to existing rules, bump the major version. For addition of new rules, bump the minor version. For all other corrections and updates, bump the patch version.
+
 ## Changelog
+
+### 5.0.0
+
+Prevent implicit coercions.
+
+### 4.0.0
+
+Force `let` in all cases. `const` is allowed but not enforced (use it sparingly to indicate immutable primitives).
+
+Force function declarations (`function foo() {}`) over function expressions (`var foo = function() {}`).
+
+Force variable initialization at definition (i.e., no `let foo;`, must be assigned).
+
+Force parens for arrow function parameters regardless of arity, and force spaces around the actual arrow.
+
+Prefer template strings over concatenation, and spread (`...`) over `.apply()`.
+
+Other minor rule additions and updates.
 
 ### 3.0.4
 
