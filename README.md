@@ -63,6 +63,10 @@ For changes to existing rules, bump the major version. For addition of new rules
 
 ## Changelog
 
+### 5.2.0
+
+Added the Shopify plugin and initial rule defaults.
+
 ### 5.1.0
 
 Added an ES5 version of the config.
