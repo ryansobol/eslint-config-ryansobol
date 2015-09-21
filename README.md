@@ -63,6 +63,12 @@ For changes to existing rules, bump the major version. For addition of new rules
 
 ## Changelog
 
+### 5.3.0
+
+Reorganized the project to have a core set of rules that are added to by each config (instead of setting and overriding).
+
+Allow non-global requires.
+
 ### 5.2.2
 
 Fixed some issues with the parsers and plugins specified by the configs.
