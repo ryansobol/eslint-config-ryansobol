@@ -1,29 +1,10 @@
-var rules = {
-  "no-var": 0,
-  "comma-dangle": 0,
-  "no-param-reassign": 0
-};
-
-var es6Rules = require("../rules/ecmascript-6");
-Object.keys(es6Rules).forEach(function(key) {
-  rules[key] = 0;
-});
+var merge = require("merge");
 
 module.exports = {
-  extends: "shopify",
+  extends: "shopify/core",
 
-  parser: "espree",
-
-  env: {
-    node: true,
-    es6: false
-  },
-
-  globals: {
-    fetch: true,
-    ReactElement: true,
-    ReactClass: true
-  },
-
-  rules: rules
+  rules: merge(
+    require("../rules/node"),
+    require("../rules/shopify")
+  )
 };

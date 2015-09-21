@@ -75,7 +75,7 @@ module.exports = {
   // Disallow use of octal literals
   "no-octal": 2,
   // Allow reassignment of function parameters (off by default)
-  "no-param-reassign": 2,
+  "no-param-reassign": 0,
   // Disallow use of process.env (off by default)
   "no-process-env": 2,
   // Disallow usage of __proto__ property

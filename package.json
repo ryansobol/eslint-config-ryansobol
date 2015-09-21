@@ -2,7 +2,7 @@
   "name": "eslint-config-shopify",
   "version": "5.2.2",
   "description": "Shopify's baseline ESLint config.",
-  "main": "./base/index.js",
+  "main": "./es6/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/shopify/eslint-config-shopify"
@@ -13,6 +13,7 @@
     "config",
     "shopify",
     "javascript",
+    "es5",
     "es6",
     "react"
   ],

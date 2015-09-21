@@ -1,5 +1,5 @@
 module.exports = {
-  extends: "shopify",
+  extends: "shopify/es6",
 
   plugins: [
     "react",
