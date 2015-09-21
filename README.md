@@ -9,7 +9,7 @@ This package provides Shopify's `.eslintrc` as an extensible shared config.
 Install this module, as well as the other eslint modules on which it is dependent:
 
 ```shell
-npm install --save-dev eslint babel-eslint eslint-plugin-react # dependencies
+npm install --save-dev eslint babel-eslint eslint-plugin-react eslint-plugin-shopify # dependencies
 npm install --save-dev eslint-config-shopify
 ```
 
@@ -26,7 +26,7 @@ then, extend the React version of this configuration in your own `.eslintrc`:
 Install this module, as well as the other eslint modules on which it is dependent:
 
 ```shell
-npm install --save-dev eslint babel-eslint # dependencies
+npm install --save-dev eslint babel-eslint eslint-plugin-shopify # dependencies
 npm install --save-dev eslint-config-shopify
 ```
 
@@ -43,7 +43,7 @@ then, extend the base version of this configuration in your own `.eslintrc`:
 Projects with a legacy codebase or that target a tool that targets node may continue to use ES5. To lint these projects, first install this module, as well as the other eslint modules on which it is dependent:
 
 ```shell
-npm install --save-dev eslint # dependencies
+npm install --save-dev eslint eslint-plugin-shopify # dependencies
 npm install --save-dev eslint-config-shopify
 ```
 
