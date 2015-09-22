@@ -1,6 +1,7 @@
 var merge = require("merge")
 
 module.exports = {
+  extends: "shopify/core",
   parser: "babel-eslint",
 
   plugins: [

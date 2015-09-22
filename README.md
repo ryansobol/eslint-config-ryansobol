@@ -63,6 +63,12 @@ For changes to existing rules, bump the major version. For addition of new rules
 
 ## Changelog
 
+### 5.3.1
+
+Fix issue where ES6 config was not inheriting from core config.
+
+Added a few more exceptions to identifier length rule.
+
 ### 5.3.0
 
 Reorganized the project to have a core set of rules that are added to by each config (instead of setting and overriding).
