@@ -63,6 +63,10 @@ For changes to existing rules, bump the major version. For addition of new rules
 
 ## Changelog
 
+### 5.3.3
+
+Demote `console.log` to a warning.
+
 ### 5.3.2
 
 Allow node things in ES6 config (for Webpack-style imports, like React's images).
