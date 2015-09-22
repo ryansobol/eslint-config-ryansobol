@@ -63,6 +63,10 @@ For changes to existing rules, bump the major version. For addition of new rules
 
 ## Changelog
 
+### 5.3.2
+
+Allow node things in ES6 config (for Webpack-style imports, like React's images).
+
 ### 5.3.1
 
 Fix issue where ES6 config was not inheriting from core config.
