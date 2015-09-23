@@ -48,7 +48,7 @@ module.exports = {
   // Disallow use of eval()-like methods
   "no-implied-eval": 2,
   // Disallow this keywords outside of classes or class-like objects
-  "no-invalid-this": 2,
+  "no-invalid-this": 0,
   // Disallow usage of __iterator__ property
   "no-iterator": 2,
   // Disallow use of labeled statements

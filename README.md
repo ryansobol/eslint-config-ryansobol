@@ -63,6 +63,10 @@ For changes to existing rules, bump the major version. For addition of new rules
 
 ## Changelog
 
+### 5.3.5
+
+Loosens restriction on usage of `this` outside of objects and classes.
+
 ### 5.3.4
 
 Add `_` as an exception to the identifier length rule.
