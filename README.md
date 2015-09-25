@@ -63,6 +63,10 @@ For changes to existing rules, bump the major version. For addition of new rules
 
 ## Changelog
 
+### 5.3.6
+
+Added `eslint-plugin-shopify` to the ES5 config to avoid it dying on those rules.
+
 ### 5.3.5
 
 Loosens restriction on usage of `this` outside of objects and classes.
