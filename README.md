@@ -63,6 +63,10 @@ For changes to existing rules, bump the major version. For addition of new rules
 
 ## Changelog
 
+### 5.4.0
+
+Adds the new rules from `eslint-plugin-shopify`.
+
 ### 5.3.6
 
 Added `eslint-plugin-shopify` to the ES5 config to avoid it dying on those rules.
