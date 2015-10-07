@@ -1,14 +1,14 @@
 module.exports = {
   // Prevent missing displayName in a React component definition
-  "react/display-name": [2, { acceptTranspilerName: true }],
+  "react/display-name": [1, { acceptTranspilerName: true }],
   // Enforce boolean attributes notation in JSX
-  "react/jsx-boolean-value": 2,
+  "react/jsx-boolean-value": 1,
   // Validate closing bracket location in JSX
-  "react/jsx-closing-bracket-location": [2, { location: "tag-aligned" }],
+  "react/jsx-closing-bracket-location": [1, { location: "tag-aligned" }],
   // Enforce or disallow spaces inside of curly braces in JSX attributes
-  "react/jsx-curly-spacing": [2, "never", { allowMultiline: true }],
+  "react/jsx-curly-spacing": [1, "never", { allowMultiline: true }],
   // Validate props indentation in JSX
-  "react/jsx-indent-props": [2, 2],
+  "react/jsx-indent-props": [1, 2],
   // Limit maximum of props on a single line in JSX
   "react/jsx-max-props-per-line": 0,
   // Prevent duplicate props in JSX
@@ -22,11 +22,11 @@ module.exports = {
   // Enforce props alphabetical sorting
   "react/jsx-sort-props": 0,
   // Prevent React to be incorrectly marked as unused
-  "react/jsx-uses-react": 1,
+  "react/jsx-uses-react": 2,
   // Prevent variables used in JSX to be incorrectly marked as unused
   "react/jsx-uses-vars": 2,
   // Prevent usage of dangerous JSX properties
-  "react/no-danger": 2,
+  "react/no-danger": 1,
   // Prevent usage of setState in componentDidMount
   "react/no-did-mount-set-state": 2,
   // Prevent usage of setState in componentDidUpdate
@@ -38,16 +38,16 @@ module.exports = {
   // Prevent usage of unknown DOM property
   "react/no-unknown-property": 0,
   // Prevent missing props validation in a React component definition
-  "react/prop-types": 2,
+  "react/prop-types": 1,
   // Prevent missing React when using JSX
   "react/react-in-jsx-scope": 2,
   // Restrict file extensions that may be required
   "react/require-extension": [2, { extensions: [".js"] }],
   // Prevent extra closing tags for components without children
-  "react/self-closing-comp": 2,
+  "react/self-closing-comp": 1,
   // Enforce component methods order
   "react/sort-comp": [
-    2,
+    1,
     {
       order: [
         "statics",
@@ -59,5 +59,5 @@ module.exports = {
     }
   ],
   // Prevent missing parentheses around multilines JSX
-  "react/wrap-multilines": 2
+  "react/wrap-multilines": 1
 }

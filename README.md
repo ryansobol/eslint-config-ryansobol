@@ -63,6 +63,10 @@ For changes to existing rules, bump the major version. For addition of new rules
 
 ## Changelog
 
+### 5.5.0
+
+Converts most rules to being warnings rather than errors. Rules that catch existing bugs or *extremely* bad practices are still treated as errors.
+
 ### 5.4.0
 
 Adds the new rules from `eslint-plugin-shopify`.

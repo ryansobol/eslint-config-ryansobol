@@ -2,15 +2,15 @@
 
 module.exports = {
   // Require parens in arrow function arguments
-  "arrow-parens": [2, "always"],
+  "arrow-parens": [1, "always"],
   // Require space before/after arrow function's arrow
-  "arrow-spacing": [2, {before: true, after: true}],
+  "arrow-spacing": [1, {before: true, after: true}],
   // Verify super() callings in constructors (off by default)
   "constructor-super": 2,
   // Enforce the spacing around the * in generator functions (off by default)
-  "generator-star-spacing": [2, "after"],
+  "generator-star-spacing": [1, "after"],
   // Disallow modifying variables of class declarations
-  "no-class-assign": 2,
+  "no-class-assign": 1,
   // Disallow modifying variables that are declared using const
   "no-const-assign": 2,
   // Disallow duplicate name in class members
@@ -18,19 +18,19 @@ module.exports = {
   // Disallow to use this/super before super() calling in constructors. (off by default)
   "no-this-before-super": 2,
   // Require let or const instead of var (off by default)
-  "no-var": 2,
+  "no-var": 1,
   // Require method and property shorthand syntax for object literals (off by default)
-  "object-shorthand": [2, "always"],
+  "object-shorthand": [1, "always"],
   // Suggest using arrow functions as callbacks
-  "prefer-arrow-callback": 2,
+  "prefer-arrow-callback": 1,
   // Suggest using of const declaration for variables that are never modified after declared (off by default)
   "prefer-const": 0,
   // Suggest using the spread operator instead of .apply()
-  "prefer-spread": 2,
+  "prefer-spread": 1,
   // Suggest using Reflect methods where applicable
   "prefer-reflect": 0,
   // Suggest using template literals instead of strings concatenation
-  "prefer-template": 2,
+  "prefer-template": 1,
   // Disallow generator functions that do not have yield
   "require-yield": 2
 };
