@@ -34,19 +34,19 @@ module.exports = {
   // Enforces spacing between keys and values in object literal properties
   "key-spacing": [1, { beforeColon: false, afterColon: true }],
   // Enforces empty lines around comments (off by default)
-  "lines-around-comment": [1, { beforeBlockComment: true }],
+  "lines-around-comment": [1, {beforeBlockComment: true}],
   // Disallow mixed "LF" and "CRLF" as linebreaks (off by default)
   "linebreak-style": 0,
   // Specify the maximum depth callbacks can be nested (off by default)
   "max-nested-callbacks": 0,
   // Require a capital letter for constructors
-  "new-cap": [1, { newIsCap: true }],
+  "new-cap": [2, {newIsCap: true}],
   // Disallow the omission of parentheses when invoking a constructor with no arguments
   "new-parens": 1,
   // Allow/disallow an empty newline after var statement (off by default)
   "newline-after-var": 0,
   // Disallow use of the Array constructor
-  "no-array-constructor": 1,
+  "no-array-constructor": 2,
   // Disallow use of the continue statement (off by default)
   "no-continue": 0,
   // Disallow comments inline after code (off by default)

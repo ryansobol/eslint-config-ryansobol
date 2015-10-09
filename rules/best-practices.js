@@ -18,7 +18,7 @@ module.exports = {
   // Enforces consistent newlines before or after dots (off by default)
   "dot-location": [1, "property"],
   // Require the use of === and !==
-  "eqeqeq": [1, "allow-null"],
+  "eqeqeq": [2, "allow-null"],
   // Make sure for-in loops have an if statement (off by default)
   "guard-for-in": 1,
   // Disallow the use of alert, confirm, and prompt
@@ -36,11 +36,11 @@ module.exports = {
   // Disallow use of eval()
   "no-eval": 2,
   // Disallow adding to native types
-  "no-extend-native": 1,
+  "no-extend-native": 2,
   // Disallow unnecessary function binding
   "no-extra-bind": 1,
   // Disallow fallthrough of case statements
-  "no-fallthrough": 1,
+  "no-fallthrough": 2,
   // Disallow the use of leading or trailing decimal points in numeric literals (off by default)
   "no-floating-decimal": 1,
   // Disallow the type conversions with shorter notations
@@ -56,7 +56,7 @@ module.exports = {
   // Disallow unnecessary nested blocks
   "no-lone-blocks": 1,
   // Disallow creation of functions within loops
-  "no-loop-func": 1,
+  "no-loop-func": 2,
   // Disallow use of multiple spaces
   "no-multi-spaces": 1,
   // Disallow use of multiline strings
@@ -66,24 +66,24 @@ module.exports = {
   // Disallow use of new operator for Function object
   "no-new-func": 2,
   // Disallows creating new instances of String, Number, and Boolean
-  "no-new-wrappers": 1,
+  "no-new-wrappers": 2,
   // Disallow use of new operator when not part of the assignment or comparison
   "no-new": 1,
   // Disallow use of octal escape sequences in string literals,
   // such as var foo = "Copyright \251";
-  "no-octal-escape": 1,
+  "no-octal-escape": 2,
   // Disallow use of octal literals
   "no-octal": 1,
   // Allow reassignment of function parameters (off by default)
   "no-param-reassign": 0,
   // Disallow use of process.env (off by default)
-  "no-process-env": 1,
+  "no-process-env": 2,
   // Disallow usage of __proto__ property
   "no-proto": 2,
   // Disallow declaring the same variable more than once
-  "no-redeclare": 1,
+  "no-redeclare": 2,
   // Disallow use of assignment in return statement
-  "no-return-assign": 1,
+  "no-return-assign": 2,
   // Disallow use of javascript: urls.,
   "no-script-url": 0,
   // Disallow comparisons where both sides are exactly the same (off by default)
@@ -95,11 +95,11 @@ module.exports = {
   // Allow usage of expressions in statement position
   "no-unused-expressions": 1,
   // Disallow unnecessary .call() and .apply()
-  "no-useless-call": 1,
+  "no-useless-call": 2,
   // Disallow unnecessary concatenation of literals or template literals
   "no-useless-concat": 1,
   // Disallow use of void operator (off by default)
-  "no-void": 1,
+  "no-void": 2,
   // Disallow usage of configurable warning terms in comments
   "no-warning-comments": 1,
   // Disallow use of the with statement

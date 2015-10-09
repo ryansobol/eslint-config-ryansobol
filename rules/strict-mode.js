@@ -2,5 +2,5 @@
 
 module.exports = {
   // Controls location of Use Strict Directives
-  strict: [1, "never"]
+  strict: [2, "never"]
 };
