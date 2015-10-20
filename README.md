@@ -65,6 +65,10 @@ For changes to existing rules, bump the major version. For addition of new rules
 
 ## Changelog
 
+### 5.6.1
+
+Fix non-prefixed React plugin rule.
+
 ### 5.6.0
 
 Add new React plugin rules: `prefer-es6-class`, `no-direct-mutation-state`, and `forbid-prop-types`.
