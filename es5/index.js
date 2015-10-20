@@ -1,14 +1,14 @@
-var merge = require("merge");
+var merge = require('merge');
 
 module.exports = {
-  extends: "shopify/core",
+  extends: 'shopify/core',
 
-  plugins: [
-    "shopify"
-  ],
+  env: {
+    node: true,
+  },
 
   rules: merge(
-    require("../rules/node"),
-    require("../rules/shopify")
-  )
+    require('../rules/node'),
+    {'shopify/require-flow': 0}
+  ),
 };

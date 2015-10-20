@@ -1,5 +1,6 @@
 module.exports = {
   // Requires (or disallows) @flow declarations be present at the top of each file.
-  "shopify/require-flow": [2, "always"],
-  "shopify/binary-assignment-parens": [2, "always"],
+  'shopify/require-flow': [1, 'always'],
+  // Requires (or disallows) assignments of binary, boolean-producing expressions to be wrapped in parentheses.
+  'shopify/binary-assignment-parens': [1, 'always'],
 };

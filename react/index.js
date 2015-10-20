@@ -1,20 +1,20 @@
 module.exports = {
-  extends: "shopify/es6",
+  extends: 'shopify/es6',
 
   plugins: [
-    "react",
-    "shopify"
+    'react',
+    'shopify',
   ],
 
   ecmaFeatures: {
-    jsx: true
+    jsx: true,
   },
 
   globals: {
     fetch: true,
     ReactElement: true,
-    ReactClass: true
+    ReactClass: true,
   },
 
-  rules: require("../rules/react")
+  rules: require('../rules/react'),
 };
