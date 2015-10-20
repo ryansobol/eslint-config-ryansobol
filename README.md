@@ -1,5 +1,7 @@
 # eslint-config-shopify
 
+[![Build status][circle-image]][circle-url] [![NPM version][npm-image]][npm-url]
+
 This package provides Shopify's `.eslintrc` as an extensible shared config.
 
 ## Usage
@@ -202,3 +204,8 @@ Removed unnecessary dependencies.
 ### 1.0.0
 
 Initial commit.
+
+[npm-url]: https://npmjs.org/package/eslint-config-shopify
+[npm-image]: http://img.shields.io/npm/v/eslint-config-shopify.svg?style=flat-square
+[circle-url]: https://circleci.com/gh/Shopify/eslint-config-shopify
+[circle-image]: https://circleci.com/gh/Shopify/eslint-config-shopify.svg?&style=shield&circle-token=12c1aa1992fe3b92a6bcabfe1a6416ae7a69e35b
