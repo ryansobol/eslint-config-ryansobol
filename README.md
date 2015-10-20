@@ -208,4 +208,4 @@ Initial commit.
 [npm-url]: https://npmjs.org/package/eslint-config-shopify
 [npm-image]: http://img.shields.io/npm/v/eslint-config-shopify.svg?style=flat-square
 [circle-url]: https://circleci.com/gh/Shopify/eslint-config-shopify
-[circle-image]: https://circleci.com/gh/Shopify/eslint-config-shopify.svg?&style=shield&circle-token=12c1aa1992fe3b92a6bcabfe1a6416ae7a69e35b
+[circle-image]: https://circleci.com/gh/Shopify/eslint-config-shopify.svg?&style=shield&circle-token=3734ea0a376393800642813772f4b474c7a14a4e
