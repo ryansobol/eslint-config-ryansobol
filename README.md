@@ -65,6 +65,10 @@ For changes to existing rules, bump the major version. For addition of new rules
 
 ## Changelog
 
+### 5.6.0
+
+Add new React plugin rules: `prefer-es6-class`, `no-direct-mutation-state`, and `forbid-prop-types`.
+
 ### 5.5.0
 
 Converts most rules to being warnings rather than errors. Rules that catch existing bugs or that are considered bad practices are still treated as errors.

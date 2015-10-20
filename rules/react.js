@@ -1,6 +1,8 @@
 module.exports = {
   // Prevent missing displayName in a React component definition
   'react/display-name': [1, {acceptTranspilerName: true}],
+  // Forbid certain propTypes
+  'forbid-prop-types': [2, {forbid: ['any', 'array']}],
   // Enforce boolean attributes notation in JSX
   'react/jsx-boolean-value': 1,
   // Validate closing bracket location in JSX
@@ -31,6 +33,8 @@ module.exports = {
   'react/no-did-mount-set-state': 2,
   // Prevent usage of setState in componentDidUpdate
   'react/no-did-update-set-state': 2,
+  // Prevent direct mutation of this.state
+  'react/no-direct-mutation-state': 2,
   // Prevent multiple component definition per file
   'react/no-multi-comp': 0,
   // Prevent usage of setState
@@ -60,4 +64,5 @@ module.exports = {
   ],
   // Prevent missing parentheses around multilines JSX
   'react/wrap-multilines': 1,
+  'react/prefer-es6-class': 2,
 };
