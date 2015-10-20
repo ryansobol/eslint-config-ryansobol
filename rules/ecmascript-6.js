@@ -26,7 +26,7 @@ module.exports = {
   // Suggest using of const declaration for variables that are never modified after declared (off by default)
   'prefer-const': 0,
   // Suggest using the spread operator instead of .apply()
-  'prefer-spread': 1,
+  'prefer-spread': 2,
   // Suggest using Reflect methods where applicable
   'prefer-reflect': 0,
   // Suggest using template literals instead of strings concatenation
