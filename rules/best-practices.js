@@ -2,114 +2,114 @@
 
 module.exports = {
   // Enforces getter/setter pairs in objects (off by default)
-  "accessor-pairs": 0,
+  'accessor-pairs': 0,
   // Treat var statements as if they were block scoped (off by default)
-  "block-scoped-var": 1,
+  'block-scoped-var': 1,
   // Specify the maximum cyclomatic complexity allowed in a program (off by default)
-  "complexity": 0,
+  'complexity': 0,
   // Require return statements to either always or never specify values
-  "consistent-return": 1,
+  'consistent-return': 1,
   // Specify curly brace conventions for all control statements
-  "curly": [1, "all"],
+  'curly': [1, 'all'],
   // Require default case in switch statements (off by default)
-  "default-case": 0,
+  'default-case': 0,
   // Encourages use of dot notation whenever possible
-  "dot-notation": [1, { allowKeywords: true }],
+  'dot-notation': [1, {allowKeywords: true}],
   // Enforces consistent newlines before or after dots (off by default)
-  "dot-location": [1, "property"],
+  'dot-location': [1, 'property'],
   // Require the use of === and !==
-  "eqeqeq": [2, "allow-null"],
+  'eqeqeq': [2, 'allow-null'],
   // Make sure for-in loops have an if statement (off by default)
-  "guard-for-in": 1,
+  'guard-for-in': 1,
   // Disallow the use of alert, confirm, and prompt
-  "no-alert": 1,
+  'no-alert': 1,
   // Disallow use of arguments.caller or arguments.callee
-  "no-caller": 2,
+  'no-caller': 2,
   // Disallow division operators explicitly at beginning of regular expression (off by default)
-  "no-div-regex": 1,
+  'no-div-regex': 1,
   // Disallow else after a return in an if (off by default)
-  "no-else-return": 0,
+  'no-else-return': 0,
   // Disallow use of labels for anything other than loops and switches
-  "no-empty-label": 2,
+  'no-empty-label': 2,
   // Disallow comparisons to null without a type-checking operator (off by default)
-  "no-eq-null": 0,
+  'no-eq-null': 0,
   // Disallow use of eval()
-  "no-eval": 2,
+  'no-eval': 2,
   // Disallow adding to native types
-  "no-extend-native": 2,
+  'no-extend-native': 2,
   // Disallow unnecessary function binding
-  "no-extra-bind": 1,
+  'no-extra-bind': 1,
   // Disallow fallthrough of case statements
-  "no-fallthrough": 2,
+  'no-fallthrough': 2,
   // Disallow the use of leading or trailing decimal points in numeric literals (off by default)
-  "no-floating-decimal": 1,
+  'no-floating-decimal': 1,
   // Disallow the type conversions with shorter notations
-  "no-implicit-coercion": 1,
+  'no-implicit-coercion': 1,
   // Disallow use of eval()-like methods
-  "no-implied-eval": 2,
+  'no-implied-eval': 2,
   // Disallow this keywords outside of classes or class-like objects
-  "no-invalid-this": 0,
+  'no-invalid-this': 0,
   // Disallow usage of __iterator__ property
-  "no-iterator": 2,
+  'no-iterator': 2,
   // Disallow use of labeled statements
-  "no-labels": 2,
+  'no-labels': 2,
   // Disallow unnecessary nested blocks
-  "no-lone-blocks": 1,
+  'no-lone-blocks': 1,
   // Disallow creation of functions within loops
-  "no-loop-func": 2,
+  'no-loop-func': 2,
   // Disallow use of multiple spaces
-  "no-multi-spaces": 1,
+  'no-multi-spaces': 1,
   // Disallow use of multiline strings
-  "no-multi-str": 0,
+  'no-multi-str': 0,
   // Disallow reassignments of native objects
-  "no-native-reassign": 2,
+  'no-native-reassign': 2,
   // Disallow use of new operator for Function object
-  "no-new-func": 2,
+  'no-new-func': 2,
   // Disallows creating new instances of String, Number, and Boolean
-  "no-new-wrappers": 2,
+  'no-new-wrappers': 2,
   // Disallow use of new operator when not part of the assignment or comparison
-  "no-new": 1,
+  'no-new': 1,
   // Disallow use of octal escape sequences in string literals,
   // such as var foo = "Copyright \251";
-  "no-octal-escape": 2,
+  'no-octal-escape': 2,
   // Disallow use of octal literals
-  "no-octal": 1,
+  'no-octal': 1,
   // Allow reassignment of function parameters (off by default)
-  "no-param-reassign": 0,
+  'no-param-reassign': 0,
   // Disallow use of process.env (off by default)
-  "no-process-env": 2,
+  'no-process-env': 2,
   // Disallow usage of __proto__ property
-  "no-proto": 2,
+  'no-proto': 2,
   // Disallow declaring the same variable more than once
-  "no-redeclare": 2,
+  'no-redeclare': 2,
   // Disallow use of assignment in return statement
-  "no-return-assign": 2,
+  'no-return-assign': 2,
   // Disallow use of javascript: urls.,
-  "no-script-url": 0,
+  'no-script-url': 0,
   // Disallow comparisons where both sides are exactly the same (off by default)
-  "no-self-compare": 2,
+  'no-self-compare': 2,
   // Disallow use of comma operator
-  "no-sequences": 1,
+  'no-sequences': 1,
   // Restrict what can be thrown as an exception (off by default)
-  "no-throw-literal": 1,
+  'no-throw-literal': 1,
   // Allow usage of expressions in statement position
-  "no-unused-expressions": 1,
+  'no-unused-expressions': 1,
   // Disallow unnecessary .call() and .apply()
-  "no-useless-call": 2,
+  'no-useless-call': 2,
   // Disallow unnecessary concatenation of literals or template literals
-  "no-useless-concat": 1,
+  'no-useless-concat': 1,
   // Disallow use of void operator (off by default)
-  "no-void": 2,
+  'no-void': 2,
   // Disallow usage of configurable warning terms in comments
-  "no-warning-comments": 1,
+  'no-warning-comments': 1,
   // Disallow use of the with statement
-  "no-with": 2,
+  'no-with': 2,
   // Require use of the second argument for parseInt() (off by default)
-  "radix": 2,
+  'radix': 2,
   // Requires to declare all vars on top of their containing scope (off by default)
-  "vars-on-top": 0,
+  'vars-on-top': 0,
   // Require immediate function invocation to be wrapped in parentheses (off by default)
-  "wrap-iife": [1, "inside"],
+  'wrap-iife': [1, 'inside'],
   // Require or disallow Yoda conditions
-  "yoda": [1, "never"]
-}
+  'yoda': [1, 'never'],
+};

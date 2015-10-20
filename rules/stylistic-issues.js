@@ -2,113 +2,111 @@
 
 module.exports = {
   // Enforce spacing inside array brackets (off by default)
-  "array-bracket-spacing": [1, "never"],
+  'array-bracket-spacing': [1, 'never'],
   // Disallow or enforce spaces inside of single line blocks
-  "block-spacing": [1, "always"],
+  'block-spacing': [1, 'always'],
   // Enforce one true brace style (off by default)
-  "brace-style": [1, "1tbs", { allowSingleLine: true }],
+  'brace-style': [1, '1tbs', {allowSingleLine: true}],
   // Require camel case names
-  "camelcase": [1, { properties: "always" }],
+  'camelcase': [1, {properties: 'always'}],
   // Enforce spacing before and after comma
-  "comma-spacing": [1, { before: false, after: true }],
+  'comma-spacing': [1, {before: false, after: true}],
   // Enforce one true comma style (off by default)
-  "comma-style": [1, "last"],
+  'comma-style': [1, 'last'],
   // Require or disallow padding inside computed properties (off by default)
-  "computed-property-spacing": [1, "never"],
+  'computed-property-spacing': [1, 'never'],
   // Enforces consistent naming when capturing the current execution context (off by default)
-  "consistent-this": [1, "self"],
+  'consistent-this': [1, 'self'],
   // Enforce newline at the end of file, with no multiple empty lines
-  "eol-last": 1,
+  'eol-last': 1,
   // Don"t require function expressions to have a name (off by default)
-  "func-names": 0,
+  'func-names': 0,
   // Enforces use of function declarations or expressions (off by default)
-  "func-style": [1, "declaration"],
+  'func-style': [1, 'declaration'],
   // This option enforces minimum and maximum identifier lengths (variable names, property names etc.)
-  "id-length": [1, {min: 2, properties: "always", exceptions: ["x", "y", "i", "j", "_"]}],
+  'id-length': [1, {min: 2, properties: 'always', exceptions: ['x', 'y', 'i', 'j', '_']}],
   // Require identifiers to match the provided regular expression
-  "id-match": 0,
+  'id-match': 0,
   // This option sets a specific tab width for your code (off by default)
-  "indent": [1, 2],
+  'indent': [1, 2],
   // Specify whether double or single quotes should be used in JSX attributes
-  "jsx-quotes": [1, "prefer-double"],
+  'jsx-quotes': [1, 'prefer-double'],
   // Enforces spacing between keys and values in object literal properties
-  "key-spacing": [1, { beforeColon: false, afterColon: true }],
+  'key-spacing': [1, {beforeColon: false, afterColon: true}],
   // Enforces empty lines around comments (off by default)
-  "lines-around-comment": [1, {beforeBlockComment: true}],
+  'lines-around-comment': [1, {beforeBlockComment: true}],
   // Disallow mixed "LF" and "CRLF" as linebreaks (off by default)
-  "linebreak-style": 0,
+  'linebreak-style': 0,
   // Specify the maximum depth callbacks can be nested (off by default)
-  "max-nested-callbacks": 0,
+  'max-nested-callbacks': 0,
   // Require a capital letter for constructors
-  "new-cap": [2, {newIsCap: true}],
+  'new-cap': [2, {newIsCap: true}],
   // Disallow the omission of parentheses when invoking a constructor with no arguments
-  "new-parens": 1,
+  'new-parens': 1,
   // Allow/disallow an empty newline after var statement (off by default)
-  "newline-after-var": 0,
+  'newline-after-var': 0,
   // Disallow use of the Array constructor
-  "no-array-constructor": 2,
+  'no-array-constructor': 2,
   // Disallow use of the continue statement (off by default)
-  "no-continue": 0,
+  'no-continue': 0,
   // Disallow comments inline after code (off by default)
-  "no-inline-comments": 0,
+  'no-inline-comments': 0,
   // Disallow if as the only statement in an else block (off by default)
-  "no-lonely-if": 1,
+  'no-lonely-if': 1,
   // Disallow mixed spaces and tabs for indentation
-  "no-mixed-spaces-and-tabs": 1,
+  'no-mixed-spaces-and-tabs': 1,
   // Disallow multiple empty lines (off by default)
-  "no-multiple-empty-lines": 1,
+  'no-multiple-empty-lines': 1,
   // Disallow nested ternary expressions (off by default)
-  "no-nested-ternary": 1,
+  'no-nested-ternary': 1,
   // Disallow use of the Object constructor
-  "no-new-object": 1,
+  'no-new-object': 1,
   // Disallow space between function identifier and application
-  "no-spaced-func": 1,
+  'no-spaced-func': 1,
   // Disallow the use of ternary operators (off by default)
-  "no-ternary": 0,
+  'no-ternary': 0,
   // Disallow trailing whitespace at the end of lines
-  "no-trailing-spaces": 1,
+  'no-trailing-spaces': 1,
   // Allow dangling underscores in identifiers
-  "no-underscore-dangle": 0,
+  'no-underscore-dangle': 0,
   // Disallow the use of Boolean literals in conditional expressions (off by default)
-  "no-unneeded-ternary": 1,
+  'no-unneeded-ternary': 1,
   // Require or disallow padding inside curly braces (off by default)
-  "object-curly-spacing": [1, "never"],
+  'object-curly-spacing': [1, 'never'],
   // Allow or disallow one variable declaration per function (off by default)
-  "one-var": [1, "never"],
+  'one-var': [1, 'never'],
   // Require assignment operator shorthand where possible or prohibit it entirely (off by default)
-  "operator-assignment": [1, "always"],
+  'operator-assignment': [1, 'always'],
   // Enforce operators to be placed before or after line breaks (off by default)
-  "operator-linebreak": [1, "after", { overrides: { "?": "before", ":": "before" } }],
+  'operator-linebreak': [1, 'after', {overrides: {'?': 'before', ':': 'before'}}],
   // Enforce padding within blocks (off by default)
-  "padded-blocks": 0,
+  'padded-blocks': 0,
   // Require quotes around object literal property names (off by default)
-  "quote-props": [1, "as-needed"],
+  'quote-props': [1, 'as-needed'],
   // Specify whether backticks, double or single quotes should be used
-  "quotes": [1, "single", "avoid-escape"],
+  'quotes': [1, 'single', 'avoid-escape'],
   // Enforce spacing before and after semicolons
-  "semi-spacing": [1, { before: false, after: true }],
+  'semi-spacing': [1, {before: false, after: true}],
   // Require or disallow use of semicolons instead of ASI
-  "semi": [1, "always"],
+  'semi': [1, 'always'],
   // Sort variables within the same declaration block (off by default)
-  "sort-vars": 0,
+  'sort-vars': 0,
   // Require a space after certain keywords (off by default)
-  "space-after-keywords": [1, "always"],
+  'space-after-keywords': [1, 'always'],
   // Require or disallow space before blocks (off by default)
-  "space-before-blocks": [1, "always"],
-  // Require a space before certain keywords
-  "space-after-keywords": [1, "always"],
+  'space-before-blocks': [1, 'always'],
   // Require or disallow space before function opening parenthesis (off by default)
-  "space-before-function-paren": [1, "never"],
+  'space-before-function-paren': [1, 'never'],
   // Require or disallow spaces inside parentheses (off by default)
-  "space-in-parens": [1, "never"],
+  'space-in-parens': [1, 'never'],
   // Require spaces around operators
-  "space-infix-ops": 1,
+  'space-infix-ops': 1,
   // Require a space after return, throw, and case
-  "space-return-throw-case": 1,
+  'space-return-throw-case': 1,
   // Require or disallow spaces before/after unary operators (words on by default, nonwords off by default)
-  "space-unary-ops": [1, { words: true, nonwords: false }],
+  'space-unary-ops': [1, {words: true, nonwords: false}],
   // Require or disallow a space immediately following the // or /* in a comment (off by default)
-  "spaced-comment": [1, "always"],
+  'spaced-comment': [1, 'always'],
   // Require regex literals to be wrapped in parentheses (off by default)
-  "wrap-regex": 0
+  'wrap-regex': 0,
 };
