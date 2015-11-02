@@ -65,6 +65,10 @@ For changes to existing rules, bump the major version. For addition of new rules
 
 ## Changelog
 
+### 5.7.0
+
+Updated ESLint to 1.8 and added the new rules.
+
 ### 5.6.1
 
 Fix non-prefixed React plugin rule.
