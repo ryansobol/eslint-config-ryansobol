@@ -1,6 +1,8 @@
 // see http://eslint.org/docs/rules/#ecmascript-6
 
 module.exports = {
+  // Require braces in arrow function body
+  'arrow-body-style': [2, 'as-needed'],
   // Require parens in arrow function arguments
   'arrow-parens': [1, 'always'],
   // Require space before/after arrow function's arrow
@@ -9,6 +11,8 @@ module.exports = {
   'constructor-super': 2,
   // Enforce the spacing around the * in generator functions (off by default)
   'generator-star-spacing': [1, 'after'],
+  // Disallow arrow functions where a condition is expected
+  'no-arrow-condition': 2,
   // Disallow modifying variables of class declarations
   'no-class-assign': 1,
   // Disallow modifying variables that are declared using const
