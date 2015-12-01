@@ -15,7 +15,7 @@ npm install --save-dev eslint babel-eslint eslint-plugin-react eslint-plugin-sho
 npm install --save-dev eslint-config-shopify
 ```
 
-then, extend the React version of this configuration in your own `.eslintrc`:
+then, extend the React version of this configuration in your own `.eslintrc.json`:
 
 ```json
 {
@@ -67,7 +67,7 @@ For changes to existing rules, bump the major version. For addition of new rules
 
 ### 5.7.0
 
-Updated ESLint to 1.8 and added the new rules.
+Updated `eslint` dependency to 1.10 and `eslint-plugin-react` dependency to 3.11, and added the new rules introduced up that point.
 
 ### 5.6.1
 
