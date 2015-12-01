@@ -11,14 +11,20 @@ module.exports = {
   'react/jsx-curly-spacing': [1, 'never', {allowMultiline: true}],
   // Validate props indentation in JSX
   'react/jsx-indent-props': [1, 2],
+  // Validate JSX has key prop when in array or iterator
+  'react/jsx-key': 2,
   // Limit maximum of props on a single line in JSX
   'react/jsx-max-props-per-line': 0,
+  // Prevent usage of .bind() and arrow functions in JSX props
+  'jsx-no-bind': 0,
   // Prevent duplicate props in JSX
   'react/jsx-no-duplicate-props': 2,
   // Prevent usage of unwrapped JSX strings
   'react/jsx-no-literals': 0,
   // Disallow undeclared variables in JSX
   'react/jsx-no-undef': 2,
+  // Enforce PascalCase for user-defined JSX components
+  'react/jsx-pascal-case': 2,
   // Enforce propTypes declarations alphabetical sorting
   'react/jsx-sort-prop-types': 0,
   // Enforce props alphabetical sorting

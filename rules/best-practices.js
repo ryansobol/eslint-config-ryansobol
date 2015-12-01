@@ -23,6 +23,8 @@ module.exports = {
   'guard-for-in': 1,
   // Disallow the use of alert, confirm, and prompt
   'no-alert': 1,
+  // disallow lexical declarations in case clauses
+  'no-case-declarations': 2,
   // Disallow use of arguments.caller or arguments.callee
   'no-caller': 2,
   // Disallow division operators explicitly at beginning of regular expression (off by default)
@@ -31,6 +33,8 @@ module.exports = {
   'no-else-return': 0,
   // Disallow use of labels for anything other than loops and switches
   'no-empty-label': 2,
+  // Disallow use of empty destructuring patterns
+  'no-empty-pattern': 2,
   // Disallow comparisons to null without a type-checking operator (off by default)
   'no-eq-null': 0,
   // Disallow use of eval()
@@ -57,6 +61,8 @@ module.exports = {
   'no-lone-blocks': 1,
   // Disallow creation of functions within loops
   'no-loop-func': 2,
+  // Disallow the use of magic numbers
+  'no-magic-numbers': 0,
   // Disallow use of multiple spaces
   'no-multi-spaces': 1,
   // Disallow use of multiline strings
