@@ -65,6 +65,10 @@ For changes to existing rules, bump the major version. For addition of new rules
 
 ## Changelog
 
+### 5.8.0
+
+Updated `eslint-plugin-react` dependency to 3.14, and added the newly introduced rules.
+
 ### 5.7.1
 
 Removed `no-arrow-condition` for `ecmascript-6` that conflicted with `arrow-body-style` rule
