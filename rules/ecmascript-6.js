@@ -7,9 +7,9 @@ module.exports = {
   'arrow-parens': [1, 'always'],
   // Require space before/after arrow function's arrow
   'arrow-spacing': [1, {before: true, after: true}],
-  // Verify super() callings in constructors (off by default)
+  // Verify super() callings in constructors
   'constructor-super': 2,
-  // Enforce the spacing around the * in generator functions (off by default)
+  // Enforce the spacing around the * in generator functions
   'generator-star-spacing': [1, 'after'],
   // Disallow modifying variables of class declarations
   'no-class-assign': 1,
@@ -17,15 +17,15 @@ module.exports = {
   'no-const-assign': 2,
   // Disallow duplicate name in class members
   'no-dupe-class-members': 2,
-  // Disallow to use this/super before super() calling in constructors. (off by default)
+  // Disallow to use this/super before super() calling in constructors.
   'no-this-before-super': 2,
-  // Require let or const instead of var (off by default)
+  // Require let or const instead of var
   'no-var': 2,
-  // Require method and property shorthand syntax for object literals (off by default)
+  // Require method and property shorthand syntax for object literals
   'object-shorthand': [1, 'always'],
   // Suggest using arrow functions as callbacks
   'prefer-arrow-callback': 2,
-  // Suggest using of const declaration for variables that are never modified after declared (off by default)
+  // Suggest using of const declaration for variables that are never modified after declared
   'prefer-const': 0,
   // Suggest using the spread operator instead of .apply()
   'prefer-spread': 2,

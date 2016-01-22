@@ -5,18 +5,18 @@ module.exports = {
   'callback-return': [1, ['callback', 'cb', 'next']],
   // disallow require() outside of the top-level module scope
   'global-require': 0,
-  // Enforces error handling in callbacks (off by default) (on by default in the node environment)
+  // Enforces error handling in callbacks
   'handle-callback-err': [1, '^.*(e|E)rr(or)?$'],
-  // Disallow mixing regular variable and require declarations (off by default) (on by default in the node environment)
+  // Disallow mixing regular variable and require declarations
   'no-mixed-requires': 0,
-  // Disallow use of new operator with the require function (off by default) (on by default in the node environment)
+  // Disallow use of new operator with the require function
   'no-new-require': 1,
-  // Disallow string concatenation with __dirname and __filename (off by default) (on by default in the node environment)
+  // Disallow string concatenation with __dirname and __filename
   'no-path-concat': 1,
-  // Disallow process.exit() (on by default in the node environment)
+  // Disallow process.exit()
   'no-process-exit': 1,
-  // Restrict usage of specified node modules (off by default)
+  // Restrict usage of specified node modules
   'no-restricted-modules': 0,
-  // Disallow use of synchronous methods (off by default)
+  // Disallow use of synchronous methods
   'no-sync': 1,
 };

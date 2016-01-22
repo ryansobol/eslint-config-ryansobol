@@ -5,7 +5,7 @@ module.exports = {
   'comma-dangle': [1, 'always-multiline'],
   // Disallow assignment in conditional expressions
   'no-cond-assign': 2,
-  // Disallow use of console (off by default in the node environment)
+  // Disallow use of console
   'no-console': 1,
   // Disallow use of constant expressions in conditions
   'no-constant-condition': 1,
@@ -27,7 +27,7 @@ module.exports = {
   'no-ex-assign': 2,
   // Disallow double-negation boolean casts in a boolean context
   'no-extra-boolean-cast': 1,
-  // Disallow unnecessary parentheses (off by default)
+  // Disallow unnecessary parentheses
   'no-extra-parens': 0,
   // Disallow unnecessary semicolons
   'no-extra-semi': 1,
@@ -51,10 +51,10 @@ module.exports = {
   'no-unreachable': 2,
   // Disallow comparisons with the value NaN
   'use-isnan': 2,
-  // Ensure JSDoc comments are valid (off by default)
+  // Ensure JSDoc comments are valid
   'valid-jsdoc': 0,
   // Ensure that the results of typeof are compared against a valid string
   'valid-typeof': 2,
-  // Avoid code that looks like two expressions but is actually one (off by default)
+  // Avoid code that looks like two expressions but is actually one
   'no-unexpected-multiline': 1,
 };
