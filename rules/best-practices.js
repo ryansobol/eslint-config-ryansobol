@@ -28,7 +28,7 @@ module.exports = {
   // Disallow use of arguments.caller or arguments.callee
   'no-caller': 2,
   // Disallow division operators explicitly at beginning of regular expression
-  'no-div-regex': 1,
+  'no-div-regex': 2,
   // Disallow else after a return in an if
   'no-else-return': 0,
   // Disallow use of labels for anything other than loops and switches
