@@ -23,10 +23,10 @@ module.exports = {
   'guard-for-in': 1,
   // Disallow the use of alert, confirm, and prompt
   'no-alert': 1,
-  // disallow lexical declarations in case clauses
-  'no-case-declarations': 2,
   // Disallow use of arguments.caller or arguments.callee
   'no-caller': 2,
+  // disallow lexical declarations in case clauses
+  'no-case-declarations': 2,
   // Disallow division operators explicitly at beginning of regular expression
   'no-div-regex': 2,
   // Disallow else after a return in an if

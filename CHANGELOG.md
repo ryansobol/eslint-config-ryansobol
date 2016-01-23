@@ -13,6 +13,7 @@ All changes to this project are documented in this file. This project adheres to
 - Extend `ryansobol/core` for ES5, ES6, and React rules
 - Update `node` dependency to >=4.2.0
 - Change to TravisCI and build against Node.js >=4.2.0
+- Order rules alphabetically
 
 #### Best Practices
 - Change `block-scoped-var` rule to an error
