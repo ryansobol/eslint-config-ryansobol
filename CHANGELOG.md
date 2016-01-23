@@ -8,6 +8,7 @@ All changes to this project are documented in this file. This project adheres to
 - Include Ryan Sobol in the `LICENSE` file
 - Change `package.json` to `eslint-config-ryansobol`
 - Default to ES5 rules
+- Update CircleCI and NPM badges
 
 ## [5.9.0] - 2016-01-19
 ### Changed

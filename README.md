@@ -63,7 +63,7 @@ If there are rules that you wish to alter for your particular project, feel free
 
 For changes to existing rules, bump the major version. For addition of new rules, bump the minor version. For all other corrections and updates, bump the patch version. These can easily be done by running `npm publish <version>`, where `version` is either `major`, `minor`, or `patch`.
 
-[npm-url]: https://npmjs.org/package/eslint-config-shopify
-[npm-image]: http://img.shields.io/npm/v/eslint-config-shopify.svg?style=flat-square
-[circle-url]: https://circleci.com/gh/Shopify/eslint-config-shopify
-[circle-image]: https://circleci.com/gh/Shopify/eslint-config-shopify.svg?&style=shield&circle-token=3734ea0a376393800642813772f4b474c7a14a4e
+[circle-url]: https://circleci.com/gh/ryansobol/eslint-config-ryansobol
+[circle-image]: https://circleci.com/gh/ryansobol/eslint-config-ryansobol.svg?&style=shield
+[npm-url]: https://npmjs.org/package/eslint-config-ryansobol
+[npm-image]: http://img.shields.io/npm/v/eslint-config-ryansobol.svg
