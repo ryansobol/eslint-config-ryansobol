@@ -9,6 +9,7 @@ All changes to this project are documented in this file. This project adheres to
 - Change `package.json` to `eslint-config-ryansobol`
 - Default to ES5 rules
 - Update CircleCI and NPM badges
+- Update `node` dependency to ^5.1.0
 
 ## [5.9.0] - 2016-01-19
 ### Changed

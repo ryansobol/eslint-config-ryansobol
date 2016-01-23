@@ -40,5 +40,6 @@
     "eslint": ">=1.10.0",
     "eslint-plugin-react": "^3.15.0",
     "eslint-plugin-shopify": "^2.1.0"
-  }
+  },
+  "engines": { "node": "^5.1.0" }
 }
