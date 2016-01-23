@@ -46,7 +46,7 @@ module.exports = {
   // Disallow multiple spaces in a regular expression literal
   'no-regex-spaces': 2,
   // Disallow sparse arrays
-  'no-sparse-arrays': 1,
+  'no-sparse-arrays': 2,
   // Disallow unreachable statements after a return, throw, continue, or break statement
   'no-unreachable': 2,
   // Disallow comparisons with the value NaN
