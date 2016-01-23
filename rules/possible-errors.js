@@ -44,7 +44,7 @@ module.exports = {
   // Disallow the use of object properties of the global object (Math and JSON) as functions
   'no-obj-calls': 2,
   // Disallow multiple spaces in a regular expression literal
-  'no-regex-spaces': 1,
+  'no-regex-spaces': 2,
   // Disallow sparse arrays
   'no-sparse-arrays': 1,
   // Disallow unreachable statements after a return, throw, continue, or break statement
