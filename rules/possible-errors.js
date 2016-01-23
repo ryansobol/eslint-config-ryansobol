@@ -12,7 +12,7 @@ module.exports = {
   // Disallow control characters in regular expressions
   'no-control-regex': 2,
   // Disallow use of debugger
-  'no-debugger': 1,
+  'no-debugger': 2,
   // Disallow duplicate arguments in functions
   'no-dupe-args': 2,
   // Disallow duplicate keys when creating object literals
