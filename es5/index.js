@@ -1,5 +1,5 @@
 module.exports = {
-  extends: 'shopify/core',
+  extends: 'ryansobol/core',
 
   env: {
     node: true,

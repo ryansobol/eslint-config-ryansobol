@@ -11,6 +11,7 @@ All changes to this project are documented in this file. This project adheres to
 - Update CircleCI and NPM badges
 - Update `node` dependency to ^5.1.0
 - Update `.eslintrc.js` to extend `ryansobol/es5`
+- Extend `ryansobol/core` for ES5, ES6, and React rules
 
 ### Removed
 - Replace `merge` dependency with `Object.assign()` function
