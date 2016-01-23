@@ -38,7 +38,7 @@ module.exports = {
   // Disallow invalid regular expression strings in the RegExp constructor
   'no-invalid-regexp': 2,
   // Disallow irregular whitespace outside of strings and comments
-  'no-irregular-whitespace': 1,
+  'no-irregular-whitespace': 2,
   // Disallow negation of the left operand of an in expression
   'no-negated-in-lhs': 1,
   // Disallow the use of object properties of the global object (Math and JSON) as functions
