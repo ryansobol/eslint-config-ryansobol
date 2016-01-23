@@ -72,11 +72,11 @@ module.exports = {
         'constructor',
         'lifecycle',
         'everything-else',
-        'render',
-      ],
-    },
+        'render'
+      ]
+    }
   ],
   // Prevent missing parentheses around multilines JSX
   'react/wrap-multilines': 1,
-  'react/prefer-es6-class': 2,
+  'react/prefer-es6-class': 2
 };

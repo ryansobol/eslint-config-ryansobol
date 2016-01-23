@@ -2,7 +2,7 @@ module.exports = {
   extends: 'ryansobol/core',
 
   env: {
-    node: true,
+    node: true
   },
 
   rules: require('../rules/node')

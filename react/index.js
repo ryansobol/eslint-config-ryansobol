@@ -2,18 +2,18 @@ module.exports = {
   extends: 'ryansobol/es6',
 
   plugins: [
-    'react',
+    'react'
   ],
 
   ecmaFeatures: {
-    jsx: true,
+    jsx: true
   },
 
   globals: {
     fetch: true,
     ReactElement: true,
-    ReactClass: true,
+    ReactClass: true
   },
 
-  rules: require('../rules/react'),
+  rules: require('../rules/react')
 };

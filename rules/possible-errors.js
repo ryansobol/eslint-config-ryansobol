@@ -2,7 +2,7 @@
 
 module.exports = {
   // Disallow or enforce trailing commas
-  'comma-dangle': [1, 'always-multiline'],
+  'comma-dangle': [2, 'never'],
   // Disallow assignment in conditional expressions
   'no-cond-assign': 2,
   // Disallow use of console
@@ -56,5 +56,5 @@ module.exports = {
   // Ensure that the results of typeof are compared against a valid string
   'valid-typeof': 2,
   // Avoid code that looks like two expressions but is actually one
-  'no-unexpected-multiline': 1,
+  'no-unexpected-multiline': 1
 };

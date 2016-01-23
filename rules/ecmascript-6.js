@@ -34,5 +34,5 @@ module.exports = {
   // Suggest using template literals instead of strings concatenation
   'prefer-template': 1,
   // Disallow generator functions that do not have yield
-  'require-yield': 2,
+  'require-yield': 2
 };
