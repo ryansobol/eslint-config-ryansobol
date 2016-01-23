@@ -30,7 +30,7 @@ module.exports = {
   // Disallow division operators explicitly at beginning of regular expression
   'no-div-regex': 2,
   // Disallow else after a return in an if
-  'no-else-return': 0,
+  'no-else-return': 2,
   // Disallow use of labels for anything other than loops and switches
   'no-empty-label': 2,
   // Disallow use of empty destructuring patterns
