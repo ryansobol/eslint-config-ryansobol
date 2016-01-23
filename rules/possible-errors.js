@@ -22,7 +22,7 @@ module.exports = {
   // Disallow the use of empty character classes in regular expressions
   'no-empty-character-class': 2,
   // Disallow empty statements
-  'no-empty': 1,
+  'no-empty': 2,
   // Disallow assigning to the exception in a catch block
   'no-ex-assign': 2,
   // Disallow double-negation boolean casts in a boolean context
