@@ -10,7 +10,7 @@ module.exports = {
   // Require return statements to either always or never specify values
   'consistent-return': 2,
   // Specify curly brace conventions for all control statements
-  'curly': [1, 'all'],
+  'curly': [2, 'all'],
   // Require default case in switch statements
   'default-case': 0,
   // Encourages use of dot notation whenever possible
