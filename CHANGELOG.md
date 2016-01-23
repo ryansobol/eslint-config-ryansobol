@@ -19,6 +19,7 @@ All changes to this project are documented in this file. This project adheres to
 - Change `no-constant-condition` rule to an error
 - Change `no-debugger` rule to an error
 - Change `no-empty` rule to an error
+- Change `no-extra-boolean-cast` rule to an error
 
 ### Removed
 - Replace `merge` dependency with `Object.assign()` function

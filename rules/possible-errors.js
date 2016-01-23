@@ -26,7 +26,7 @@ module.exports = {
   // Disallow assigning to the exception in a catch block
   'no-ex-assign': 2,
   // Disallow double-negation boolean casts in a boolean context
-  'no-extra-boolean-cast': 1,
+  'no-extra-boolean-cast': 2,
   // Disallow unnecessary parentheses
   'no-extra-parens': 0,
   // Disallow unnecessary semicolons
