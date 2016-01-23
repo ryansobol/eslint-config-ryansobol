@@ -1,5 +1,5 @@
 module.exports = {
-  rules: Object.assign({},
+  rules: Object.assign(
     require('../rules/best-practices'),
     require('../rules/legacy'),
     require('../rules/possible-errors'),
