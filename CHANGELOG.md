@@ -12,6 +12,7 @@ All changes to this project are documented in this file. This project adheres to
 - Update `.eslintrc.js` to extend `ryansobol/es5`
 - Extend `ryansobol/core` for ES5, ES6, and React rules
 - Update `node` dependency to >=4.2.0
+- Change to TravisCI and build against Node.js >=4.2.0
 
 #### Possible Errors
 - Change `comma-dangle` rule to `'never'`

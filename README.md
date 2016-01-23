@@ -1,6 +1,6 @@
 # eslint-config-shopify
 
-[![Build status][circle-image]][circle-url] [![NPM version][npm-image]][npm-url]
+[![Build status][travis-image]][travis-url] [![NPM version][npm-image]][npm-url]
 
 This package provides Shopify's `.eslintrc` as an extensible shared config.
 
@@ -63,7 +63,7 @@ If there are rules that you wish to alter for your particular project, feel free
 
 For changes to existing rules, bump the major version. For addition of new rules, bump the minor version. For all other corrections and updates, bump the patch version. These can easily be done by running `npm publish <version>`, where `version` is either `major`, `minor`, or `patch`.
 
-[circle-url]: https://circleci.com/gh/ryansobol/eslint-config-ryansobol
-[circle-image]: https://circleci.com/gh/ryansobol/eslint-config-ryansobol.svg?&style=shield
-[npm-url]: https://npmjs.org/package/eslint-config-ryansobol
 [npm-image]: http://img.shields.io/npm/v/eslint-config-ryansobol.svg
+[npm-url]: https://npmjs.org/package/eslint-config-ryansobol
+[travis-image]: https://travis-ci.org/ryansobol/eslint-config-ryansobol.svg
+[travis-url]: https://travis-ci.org/ryansobol/eslint-config-ryansobol
