@@ -20,7 +20,7 @@ module.exports = {
   // Require the use of === and !==
   'eqeqeq': [2, 'allow-null'],
   // Make sure for-in loops have an if statement
-  'guard-for-in': 1,
+  'guard-for-in': 0,
   // Disallow the use of alert, confirm, and prompt
   'no-alert': 1,
   // Disallow use of arguments.caller or arguments.callee
