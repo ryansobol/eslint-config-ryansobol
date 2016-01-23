@@ -16,6 +16,7 @@ All changes to this project are documented in this file. This project adheres to
 #### Possible Errors
 - Change `comma-dangle` rule to `'never'`
 - Change `no-console` rule to an error
+- Change `no-constant-condition` rule to an error
 
 ### Removed
 - Replace `merge` dependency with `Object.assign()` function

@@ -8,7 +8,7 @@ module.exports = {
   // Disallow use of console
   'no-console': 2,
   // Disallow use of constant expressions in conditions
-  'no-constant-condition': 1,
+  'no-constant-condition': 2,
   // Disallow control characters in regular expressions
   'no-control-regex': 2,
   // Disallow use of debugger
