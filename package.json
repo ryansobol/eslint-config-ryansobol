@@ -30,13 +30,11 @@
     "babel-eslint": "^4.1.2",
     "eslint": "^1.10.0",
     "eslint-config-ryansobol": "file:.",
-    "eslint-plugin-react": "^3.15.0",
-    "eslint-plugin-shopify": "^2.1.0"
+    "eslint-plugin-react": "^3.15.0"
   },
   "peerDependencies": {
     "eslint": ">=1.10.0",
-    "eslint-plugin-react": "^3.15.0",
-    "eslint-plugin-shopify": "^2.1.0"
+    "eslint-plugin-react": "^3.15.0"
   },
   "engines": { "node": "^5.1.0" }
 }
