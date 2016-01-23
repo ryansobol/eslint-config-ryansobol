@@ -32,7 +32,7 @@ module.exports = {
   // Disallow unnecessary semicolons
   'no-extra-semi': 2,
   // Disallow overwriting functions written as function declarations
-  'no-func-assign': 1,
+  'no-func-assign': 2,
   // Disallow function or variable declarations in nested blocks
   'no-inner-declarations': 1,
   // Disallow invalid regular expression strings in the RegExp constructor
