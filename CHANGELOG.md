@@ -19,6 +19,7 @@ All changes to this project are documented in this file. This project adheres to
 - Change `consistent-return` rule to an error
 - Change `curly` rule to an error
 - Change `default-case` rule to an error
+- Change `dot-location` rule to an error
 
 #### Possible Errors
 - Change `comma-dangle` rule to `'never'`

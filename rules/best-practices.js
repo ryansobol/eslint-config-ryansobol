@@ -13,10 +13,10 @@ module.exports = {
   'curly': [2, 'all'],
   // Require default case in switch statements
   'default-case': 2,
+  // Enforces consistent newlines before or after dots
+  'dot-location': [2, 'property'],
   // Encourages use of dot notation whenever possible
   'dot-notation': [1, {allowKeywords: true}],
-  // Enforces consistent newlines before or after dots
-  'dot-location': [1, 'property'],
   // Require the use of === and !==
   'eqeqeq': [2, 'allow-null'],
   // Make sure for-in loops have an if statement
