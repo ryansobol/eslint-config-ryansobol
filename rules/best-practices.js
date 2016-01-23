@@ -16,7 +16,7 @@ module.exports = {
   // Enforces consistent newlines before or after dots
   'dot-location': [2, 'property'],
   // Encourages use of dot notation whenever possible
-  'dot-notation': [1, {allowKeywords: true}],
+  'dot-notation': 2,
   // Require the use of === and !==
   'eqeqeq': [2, 'allow-null'],
   // Make sure for-in loops have an if statement
