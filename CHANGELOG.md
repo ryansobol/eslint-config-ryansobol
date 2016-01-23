@@ -14,6 +14,9 @@ All changes to this project are documented in this file. This project adheres to
 - Update `node` dependency to >=4.2.0
 - Change to TravisCI and build against Node.js >=4.2.0
 
+#### Best Practices
+- Change `block-scoped-var` rule to an error
+
 #### Possible Errors
 - Change `comma-dangle` rule to `'never'`
 - Change `no-console` rule to an error

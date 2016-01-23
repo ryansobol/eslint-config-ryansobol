@@ -4,7 +4,7 @@ module.exports = {
   // Enforces getter/setter pairs in objects
   'accessor-pairs': 0,
   // Treat var statements as if they were block scoped
-  'block-scoped-var': 1,
+  'block-scoped-var': 2,
   // Specify the maximum cyclomatic complexity allowed in a program
   'complexity': 0,
   // Require return statements to either always or never specify values
