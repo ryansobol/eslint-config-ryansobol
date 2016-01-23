@@ -23,6 +23,7 @@ All changes to this project are documented in this file. This project adheres to
 - Change `no-extra-parens` rule to an error
 - Change `no-extra-semi` rule to an error
 - Change `no-func-assign` rule to an error
+- Change `no-inner-declarations` rule to an error
 
 ### Removed
 - Replace `merge` dependency with `Object.assign()` function

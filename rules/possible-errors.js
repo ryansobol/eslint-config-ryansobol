@@ -34,7 +34,7 @@ module.exports = {
   // Disallow overwriting functions written as function declarations
   'no-func-assign': 2,
   // Disallow function or variable declarations in nested blocks
-  'no-inner-declarations': 1,
+  'no-inner-declarations': 2,
   // Disallow invalid regular expression strings in the RegExp constructor
   'no-invalid-regexp': 2,
   // Disallow irregular whitespace outside of strings and comments
