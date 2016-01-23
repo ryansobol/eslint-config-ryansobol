@@ -26,9 +26,6 @@
     "url": "https://github.com/ryansobol/eslint-config-ryansobol/issues"
   },
   "homepage": "https://github.com/ryansobol/eslint-config-ryansobol",
-  "dependencies": {
-    "merge": "^1.2.0"
-  },
   "devDependencies": {
     "babel-eslint": "^4.1.2",
     "eslint": "^1.10.0",

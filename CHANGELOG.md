@@ -12,6 +12,9 @@ All changes to this project are documented in this file. This project adheres to
 - Update `node` dependency to ^5.1.0
 - Update `.eslintrc.js` to extend `ryansobol/es5`
 
+### Removed
+- Replace `merge` dependency with `Object.assign()` function
+
 ## [5.9.0] - 2016-01-19
 ### Changed
 - Updated `eslint-plugin-react` dependency to 3.15
