@@ -2,7 +2,7 @@
   "name": "eslint-config-ryansobol",
   "version": "5.9.0",
   "description": "Ryan Sobol's extensible ESLint configuration",
-  "main": "./es6/index.js",
+  "main": "./es5/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/ryansobol/eslint-config-ryansobol"
