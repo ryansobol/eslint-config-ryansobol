@@ -6,6 +6,7 @@ All changes to this project are documented in this file. This project adheres to
 ### Changed
 - Move the changelog to a dedicated `CHANGLOG.md` file
 - Include Ryan Sobol in the `LICENSE` file
+- Change `package.json` to `eslint-config-ryansobol`
 
 ## [5.9.0] - 2016-01-19
 ### Changed
