@@ -3,7 +3,6 @@ module.exports = {
 
   plugins: [
     'react',
-    'shopify',
   ],
 
   ecmaFeatures: {

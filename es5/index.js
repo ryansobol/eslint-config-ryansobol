@@ -5,8 +5,5 @@ module.exports = {
     node: true,
   },
 
-  rules: Object.assign({},
-    require('../rules/node'),
-    {'shopify/require-flow': 0}
-  )
+  rules: require('../rules/node')
 };

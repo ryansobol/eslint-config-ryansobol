@@ -14,6 +14,7 @@ All changes to this project are documented in this file. This project adheres to
 
 ### Removed
 - Replace `merge` dependency with `Object.assign()` function
+- Remove `eslint-plugin-shopify` rules and dependencies
 
 ## [5.9.0] - 2016-01-19
 ### Changed
