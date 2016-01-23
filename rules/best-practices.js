@@ -42,7 +42,7 @@ module.exports = {
   // Disallow adding to native types
   'no-extend-native': 2,
   // Disallow unnecessary function binding
-  'no-extra-bind': 1,
+  'no-extra-bind': 2,
   // Disallow fallthrough of case statements
   'no-fallthrough': 2,
   // Disallow the use of leading or trailing decimal points in numeric literals
