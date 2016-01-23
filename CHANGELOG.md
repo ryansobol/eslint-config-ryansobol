@@ -18,6 +18,7 @@ All changes to this project are documented in this file. This project adheres to
 - Change `block-scoped-var` rule to an error
 - Change `consistent-return` rule to an error
 - Change `curly` rule to an error
+- Change `default-case` rule to an error
 
 #### Possible Errors
 - Change `comma-dangle` rule to `'never'`

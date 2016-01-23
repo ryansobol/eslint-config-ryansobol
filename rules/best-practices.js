@@ -12,7 +12,7 @@ module.exports = {
   // Specify curly brace conventions for all control statements
   'curly': [2, 'all'],
   // Require default case in switch statements
-  'default-case': 0,
+  'default-case': 2,
   // Encourages use of dot notation whenever possible
   'dot-notation': [1, {allowKeywords: true}],
   // Enforces consistent newlines before or after dots
