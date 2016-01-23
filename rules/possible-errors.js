@@ -2,7 +2,7 @@
 
 module.exports = {
   // Disallow or enforce trailing commas
-  'comma-dangle': [2, 'never'],
+  'comma-dangle': 2,
   // Disallow assignment in conditional expressions
   'no-cond-assign': 2,
   // Disallow use of console
