@@ -21,6 +21,7 @@ All changes to this project are documented in this file. This project adheres to
 - Change `no-empty` rule to an error
 - Change `no-extra-boolean-cast` rule to an error
 - Change `no-extra-parens` rule to an error
+- Change `no-extra-semi` rule to an error
 
 ### Removed
 - Replace `merge` dependency with `Object.assign()` function

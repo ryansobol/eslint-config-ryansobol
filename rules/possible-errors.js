@@ -30,7 +30,7 @@ module.exports = {
   // Disallow unnecessary parentheses
   'no-extra-parens': 2,
   // Disallow unnecessary semicolons
-  'no-extra-semi': 1,
+  'no-extra-semi': 2,
   // Disallow overwriting functions written as function declarations
   'no-func-assign': 1,
   // Disallow function or variable declarations in nested blocks
