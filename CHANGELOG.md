@@ -28,6 +28,7 @@ All changes to this project are documented in this file. This project adheres to
 - Change `no-negated-in-lhs` rule to an error
 - Change `no-regex-spaces` rule to an error
 - Change `no-sparse-arrays` rule to an error
+- Change `no-unexpected-multiline` rule to an error
 
 ### Removed
 - Replace `merge` dependency with `Object.assign()` function
