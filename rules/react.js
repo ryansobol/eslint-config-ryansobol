@@ -107,18 +107,36 @@ module.exports = {
   'react/self-closing-comp': 2,
 
   // Enforce component methods order
-  'react/sort-comp': [
-    1,
-    {
-      order: [
+  'react/sort-comp': [2, {
+    order: [
+      'lifecycle',
+      'everything-else',
+      'render'
+    ],
+    groups: {
+      lifecycle: [
+        'displayName',
+        'propTypes',
+        'contextTypes',
+        'childContextTypes',
+        'mixins',
         'statics',
+        'defaultProps',
         'constructor',
-        'lifecycle',
-        'everything-else',
-        'render'
+        'getDefaultProps',
+        'getInitialState',
+        'state',
+        'getChildContext',
+        'componentWillMount',
+        'componentDidMount',
+        'componentWillReceiveProps',
+        'shouldComponentUpdate',
+        'componentWillUpdate',
+        'componentDidUpdate',
+        'componentWillUnmount'
       ]
     }
-  ],
+  }],
 
   // Prevent missing parentheses around multilines JSX
   'react/wrap-multilines': 1

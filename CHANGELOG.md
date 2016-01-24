@@ -120,6 +120,7 @@ All changes to this project are documented in this file. This project adheres to
 - Change `react/prop-types` rule to disabled
 - Change `react/require-extension` rule to include `'.jsx'`
 - Change `react/self-closing-comp` rule to an error
+- Change `react/sort-comp` rule to an error and use the default order
 
 #### Strict Mode
 - Change `strict` rule to `'global'`
