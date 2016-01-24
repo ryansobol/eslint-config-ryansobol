@@ -6,6 +6,7 @@ All changes to this project are documented in this file. This project adheres to
 ### Added
 #### ECMAScript 6
 - Add `no-arrow-condition` to disallow arrow funcs where a condition is expected
+- Add `prefer-reflect` to not suggest using Reflect methods until more supported
 
 #### Stylistic Issues
 - Add `max-depth` rule to specify the max depth blocks can be nested (4 levels)
