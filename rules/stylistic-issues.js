@@ -111,6 +111,9 @@ module.exports = {
   // Disallow multiple empty lines
   'no-multiple-empty-lines': [2, {max: 1, maxEOF: 1}],
 
+  // Disallow negated conditions
+  'no-negated-condition': 2,
+
   // Disallow nested ternary expressions
   'no-nested-ternary': 1,
 
