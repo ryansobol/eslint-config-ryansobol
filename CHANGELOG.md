@@ -42,6 +42,7 @@ All changes to this project are documented in this file. This project adheres to
 - Change `no-warning-comments` rule to disabled
 - Change `radix` rule to `'as-needed'`
 - Change `wrap-iife` rule to an error
+- Change `yoda` rule to an error except ranges
 
 #### Possible Errors
 - Change `comma-dangle` rule to `'never'`
