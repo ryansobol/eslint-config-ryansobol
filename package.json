@@ -8,8 +8,7 @@
     "url": "https://github.com/ryansobol/eslint-config-ryansobol"
   },
   "scripts": {
-    "lint": "eslint .",
-    "test": "npm run lint"
+    "test": "eslint ."
   },
   "keywords": [
     "eslint",

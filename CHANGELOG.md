@@ -15,6 +15,7 @@ All changes to this project are documented in this file. This project adheres to
 - Change to TravisCI and build against Node.js >=4.2.0
 - Order rules alphabetically
 - Remove unnecessary `eslint --max-warnings` flag
+- Remove unnecessary `npm run lint` script
 
 #### Best Practices
 - Change `block-scoped-var` rule to an error
