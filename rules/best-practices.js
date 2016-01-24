@@ -111,7 +111,7 @@ module.exports = {
   // Disallow use of the with statement
   'no-with': 2,
   // Require use of the second argument for parseInt()
-  'radix': 2,
+  'radix': [2, 'as-needed'],
   // Requires to declare all vars on top of their containing scope
   'vars-on-top': 0,
   // Require immediate function invocation to be wrapped in parentheses
