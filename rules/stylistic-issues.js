@@ -11,7 +11,7 @@ module.exports = {
   // Require camel case names
   'camelcase': [2, {properties: 'always'}],
   // Enforce spacing before and after comma
-  'comma-spacing': [1, {before: false, after: true}],
+  'comma-spacing': [2, {before: false, after: true}],
   // Enforce one true comma style
   'comma-style': [1, 'last'],
   // Require or disallow padding inside computed properties
