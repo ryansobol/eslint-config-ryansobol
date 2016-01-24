@@ -62,7 +62,7 @@ module.exports = {
   'react/jsx-uses-vars': 2,
 
   // Prevent usage of dangerous JSX properties
-  'react/no-danger': 1,
+  'react/no-danger': 2,
 
   // Prevent usage of deprecated methods
   'react/no-deprecated': 2,
