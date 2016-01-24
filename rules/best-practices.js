@@ -115,7 +115,7 @@ module.exports = {
   // Requires to declare all vars on top of their containing scope
   'vars-on-top': 0,
   // Require immediate function invocation to be wrapped in parentheses
-  'wrap-iife': [1, 'inside'],
+  'wrap-iife': [2, 'inside'],
   // Require or disallow Yoda conditions
   'yoda': [1, 'never']
 };
