@@ -35,7 +35,7 @@ module.exports = {
   // Enforces spacing between keys and values in object literal properties
   'key-spacing': [2, {beforeColon: false, afterColon: true}],
   // Enforces empty lines around comments
-  'lines-around-comment': [1, {beforeBlockComment: true}],
+  'lines-around-comment': [2, {'allowBlockStart': true, 'beforeBlockComment': true, 'beforeLineComment': true}],
   // Disallow mixed "LF" and "CRLF" as linebreaks
   'linebreak-style': 0,
   // Specify the maximum depth callbacks can be nested
