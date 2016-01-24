@@ -23,7 +23,7 @@ module.exports = {
   // Don't require function expressions to have a name
   'func-names': 0,
   // Enforces use of function declarations or expressions
-  'func-style': [1, 'declaration'],
+  'func-style': [2, 'expression'],
   // This option enforces minimum and maximum identifier lengths (variable names, property names etc.)
   'id-length': [1, {min: 2, properties: 'always', exceptions: ['x', 'y', 'i', 'j', '_']}],
   // Require identifiers to match the provided regular expression

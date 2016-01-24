@@ -85,6 +85,7 @@ All changes to this project are documented in this file. This project adheres to
 - Change `computed-property-spacing` rule to an error
 - Change `consistent-this` rule to an error
 - Change `eol-last` rule to an error
+- Change `func-style` rule to an error enforce `'expression'` style
 
 #### Variables
 - Change `init-declarations` rule to disabled
