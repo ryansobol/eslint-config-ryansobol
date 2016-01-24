@@ -15,7 +15,7 @@ module.exports = {
   // Disallow string concatenation with __dirname and __filename
   'no-path-concat': 0,
   // Disallow process.exit()
-  'no-process-exit': 1,
+  'no-process-exit': 0,
   // Restrict usage of specified node modules
   'no-restricted-modules': 0,
   // Disallow use of synchronous methods
