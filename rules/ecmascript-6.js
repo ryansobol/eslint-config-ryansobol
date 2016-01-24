@@ -36,7 +36,7 @@ module.exports = {
   'no-var': 2,
 
   // Require method and property shorthand syntax for object literals
-  'object-shorthand': [1, 'always'],
+  'object-shorthand': [2, 'always'],
 
   // Suggest using arrow functions as callbacks
   'prefer-arrow-callback': 2,
