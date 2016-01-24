@@ -7,7 +7,7 @@ module.exports = {
   // Disallow or enforce spaces inside of single line blocks
   'block-spacing': [2, 'always'],
   // Enforce one true brace style
-  'brace-style': [1, '1tbs', {allowSingleLine: true}],
+  'brace-style': [2, 'stroustrup', {allowSingleLine: true}],
   // Require camel case names
   'camelcase': [1, {properties: 'always'}],
   // Enforce spacing before and after comma

@@ -78,6 +78,7 @@ All changes to this project are documented in this file. This project adheres to
 #### Stylistic Issues
 - Change `array-bracket-spacing` rule to an error
 - Change `block-spacing` rule to an error
+- Change `brace-style` rule to an error and enforce `'stroustrup'` style
 
 #### Variables
 - Change `init-declarations` rule to disabled
