@@ -95,7 +95,7 @@ module.exports = {
   'react/prefer-es6-class': 0,
 
   // Prevent missing props validation in a React component definition
-  'react/prop-types': 1,
+  'react/prop-types': 0,
 
   // Prevent missing React when using JSX
   'react/react-in-jsx-scope': 2,
