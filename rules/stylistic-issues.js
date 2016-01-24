@@ -160,7 +160,7 @@ module.exports = {
   'quote-props': [2, 'as-needed'],
 
   // Specify whether backticks, double or single quotes should be used
-  'quotes': [1, 'single', 'avoid-escape'],
+  'quotes': [2, 'single', 'avoid-escape'],
 
   // Enforce spacing before and after semicolons
   'semi-spacing': [1, { before: false, after: true }],
