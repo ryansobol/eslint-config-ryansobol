@@ -14,7 +14,7 @@ module.exports = {
   'react/jsx-closing-bracket-location': [2, { location: 'line-aligned' }],
 
   // Enforce or disallow spaces inside of curly braces in JSX attributes
-  'react/jsx-curly-spacing': [1, 'never', { allowMultiline: true }],
+  'react/jsx-curly-spacing': [2, 'never', { allowMultiline: true }],
 
   // Validate props indentation in JSX
   'react/jsx-indent-props': [1, 2],
