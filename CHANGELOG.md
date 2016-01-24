@@ -123,6 +123,7 @@ All changes to this project are documented in this file. This project adheres to
 - Change `semi-spacing` rule to an error
 - Change `semi` rule to an error
 - Change `space-after-keywords` rule to an error
+- Change `space-before-blocks` rule to an error
 
 #### Variables
 - Change `init-declarations` rule to disabled

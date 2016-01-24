@@ -178,7 +178,7 @@ module.exports = {
   'space-after-keywords': [2, 'always'],
 
   // Require or disallow space before blocks
-  'space-before-blocks': [1, 'always'],
+  'space-before-blocks': [2, 'always'],
 
   // Require or disallow space before function opening parenthesis
   'space-before-function-paren': [1, 'never'],
