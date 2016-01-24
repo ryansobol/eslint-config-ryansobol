@@ -129,6 +129,7 @@ All changes to this project are documented in this file. This project adheres to
 - Change `space-in-parens` rule to an error
 - Change `space-infix-ops` rule to an error
 - Change `space-return-throw-case` rule to an error
+- Change `space-unary-ops` rule to an error
 
 #### Variables
 - Change `init-declarations` rule to disabled

@@ -197,7 +197,7 @@ module.exports = {
 
   // Require or disallow spaces before/after unary operators (words on by
   // default, nonwords)
-  'space-unary-ops': [1, { words: true, nonwords: false }],
+  'space-unary-ops': [2, { words: true, nonwords: false }],
 
   // Require or disallow a space immediately following the // or /* in a comment
   'spaced-comment': [1, 'always'],
