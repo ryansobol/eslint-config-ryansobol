@@ -121,6 +121,7 @@ All changes to this project are documented in this file. This project adheres to
 - Change `quote-props` rule to an error
 - Change `quotes` rule to an error
 - Change `semi-spacing` rule to an error
+- Change `semi` rule to an error
 
 #### Variables
 - Change `init-declarations` rule to disabled

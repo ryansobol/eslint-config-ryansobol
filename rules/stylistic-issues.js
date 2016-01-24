@@ -169,7 +169,7 @@ module.exports = {
   'semi-spacing': [2, { before: false, after: true }],
 
   // Require or disallow use of semicolons instead of ASI
-  'semi': [1, 'always'],
+  'semi': [2, 'always'],
 
   // Sort variables within the same declaration block
   'sort-vars': 0,
