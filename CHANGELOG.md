@@ -50,6 +50,7 @@ All changes to this project are documented in this file. This project adheres to
 - Update comment to official docs
 - Change `callback-return` rule to disabled
 - Change `handle-callback-err` rule to an error
+- Change `no-new-require` rule to an error
 
 #### Possible Errors
 - Change `comma-dangle` rule to `'never'`

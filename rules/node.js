@@ -11,7 +11,7 @@ module.exports = {
   // Disallow mixing regular variable and require declarations
   'no-mixed-requires': 0,
   // Disallow use of new operator with the require function
-  'no-new-require': 1,
+  'no-new-require': 2,
   // Disallow string concatenation with __dirname and __filename
   'no-path-concat': 1,
   // Disallow process.exit()
