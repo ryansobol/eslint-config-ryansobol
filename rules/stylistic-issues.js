@@ -193,7 +193,7 @@ module.exports = {
   'space-infix-ops': 2,
 
   // Require a space after return, throw, and case
-  'space-return-throw-case': 1,
+  'space-return-throw-case': 2,
 
   // Require or disallow spaces before/after unary operators (words on by
   // default, nonwords)
