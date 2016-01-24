@@ -30,6 +30,7 @@ All changes to this project are documented in this file. This project adheres to
 - Change to TravisCI and build against Node.js >=4.2.0
 - Order rules alphabetically
 - Change `eslint` peer dependency to ^1.10.0
+- Split Node specific `env` and `rules` into `ryansobol/node` config
 
 #### Best Practices
 - Change `block-scoped-var` rule to an error
