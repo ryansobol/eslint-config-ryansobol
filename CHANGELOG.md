@@ -45,6 +45,7 @@ All changes to this project are documented in this file. This project adheres to
 - Change `dot-location` rule to an error
 - Change `dot-notation` rule to an error
 - Change `guard-for-in` rule to disabled
+- Change `no-alert` rule to an error
 - Change `no-div-regex` rule to an error
 - Change `no-else-return` rule to an error
 - Change `no-extra-bind` rule to an error
