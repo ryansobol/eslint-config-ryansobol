@@ -74,7 +74,7 @@ module.exports = {
   // Disallows creating new instances of String, Number, and Boolean
   'no-new-wrappers': 2,
   // Disallow use of new operator when not part of the assignment or comparison
-  'no-new': 1,
+  'no-new': 2,
   // Disallow use of octal escape sequences in string literals,
   // such as var foo = "Copyright \251";
   'no-octal-escape': 2,
