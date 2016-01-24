@@ -103,7 +103,7 @@ module.exports = {
   'no-inline-comments': 0,
 
   // Disallow if as the only statement in an else block
-  'no-lonely-if': 1,
+  'no-lonely-if': 2,
 
   // Disallow mixed spaces and tabs for indentation
   'no-mixed-spaces-and-tabs': 1,
