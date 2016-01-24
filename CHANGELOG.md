@@ -97,6 +97,9 @@ All changes to this project are documented in this file. This project adheres to
 - Change `no-sparse-arrays` rule to an error
 - Change `no-unexpected-multiline` rule to an error
 
+#### React
+- Change `react/display-name` rule to an error
+
 #### Strict Mode
 - Change `strict` rule to `'global'`
 
