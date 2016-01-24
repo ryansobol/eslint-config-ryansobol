@@ -136,7 +136,7 @@ module.exports = {
   'no-underscore-dangle': 0,
 
   // Disallow the use of Boolean literals in conditional expressions
-  'no-unneeded-ternary': 1,
+  'no-unneeded-ternary': 2,
 
   // Require or disallow padding inside curly braces
   'object-curly-spacing': [1, 'never'],
