@@ -46,6 +46,9 @@ All changes to this project are documented in this file. This project adheres to
 - Change `wrap-iife` rule to an error
 - Change `yoda` rule to an error except ranges
 
+#### Node.js and CommonJS
+- Update comment to official docs
+
 #### Possible Errors
 - Change `comma-dangle` rule to `'never'`
 - Change `no-console` rule to an error
