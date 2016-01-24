@@ -99,7 +99,7 @@ module.exports = {
   // Restrict what can be thrown as an exception
   'no-throw-literal': 2,
   // Allow usage of expressions in statement position
-  'no-unused-expressions': 1,
+  'no-unused-expressions': 2,
   // Disallow unnecessary .call() and .apply()
   'no-useless-call': 2,
   // Disallow unnecessary concatenation of literals or template literals
