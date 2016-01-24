@@ -1,5 +1,6 @@
-// see http://eslint.org/docs/rules/#possible-errors
+'use strict';
 
+// see http://eslint.org/docs/rules/#possible-errors
 module.exports = {
   // Disallow or enforce trailing commas
   'comma-dangle': 2,

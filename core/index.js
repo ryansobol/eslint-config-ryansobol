@@ -1,3 +1,5 @@
+'use strict';
+
 module.exports = {
   rules: Object.assign(
     require('../rules/best-practices'),

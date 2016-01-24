@@ -1,5 +1,6 @@
-// see http://eslint.org/docs/rules/#variables
+'use strict';
 
+// see http://eslint.org/docs/rules/#variables
 module.exports = {
   // enforce or disallow variable initializations at definition
   'init-declarations': [1, 'always'],

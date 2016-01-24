@@ -1,5 +1,6 @@
-// see http://eslint.org/docs/rules/#best-practices
+'use strict';
 
+// see http://eslint.org/docs/rules/#best-practices
 module.exports = {
   // Enforces getter/setter pairs in objects
   'accessor-pairs': 0,

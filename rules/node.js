@@ -1,5 +1,6 @@
-// see http://eslint.org/docs/rules/#nodejs
+'use strict';
 
+// see http://eslint.org/docs/rules/#nodejs
 module.exports = {
   // enforce return after a callback
   'callback-return': [1, ['callback', 'cb', 'next']],

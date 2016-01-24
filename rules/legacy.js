@@ -1,5 +1,6 @@
-// see http://eslint.org/docs/rules/#legacy
+'use strict';
 
+// see http://eslint.org/docs/rules/#legacy
 module.exports = {
   // Specify the maximum depth that blocks can be nested
   'max-depth': 0,

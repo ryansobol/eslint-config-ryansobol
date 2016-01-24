@@ -1,5 +1,6 @@
-// see http://eslint.org/docs/rules/#ecmascript-6
+'use strict';
 
+// see http://eslint.org/docs/rules/#ecmascript-6
 module.exports = {
   // Require braces in arrow function body
   'arrow-body-style': [2, 'as-needed'],
