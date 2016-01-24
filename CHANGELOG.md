@@ -90,6 +90,7 @@ All changes to this project are documented in this file. This project adheres to
 - Change `indent` rule to an error and indent case statements by 1 level
 - Change `jsx-quotes` rule to an error
 - Change `key-spacing` rule to an error
+- Change `linebreak-style` rule to an error and enforce `'unix'` linebreaks
 - Change `lines-around-comment` rule to an error, enforce before line comments, and allow at the start of blocks
 
 #### Variables

@@ -34,10 +34,10 @@ module.exports = {
   'jsx-quotes': [2, 'prefer-double'],
   // Enforces spacing between keys and values in object literal properties
   'key-spacing': [2, {beforeColon: false, afterColon: true}],
+  // Disallow mixed 'LF' and 'CRLF' as linebreaks
+  'linebreak-style': [2, 'unix'],
   // Enforces empty lines around comments
   'lines-around-comment': [2, {'allowBlockStart': true, 'beforeBlockComment': true, 'beforeLineComment': true}],
-  // Disallow mixed "LF" and "CRLF" as linebreaks
-  'linebreak-style': 0,
   // Specify the maximum depth callbacks can be nested
   'max-nested-callbacks': 0,
   // Require a capital letter for constructors
