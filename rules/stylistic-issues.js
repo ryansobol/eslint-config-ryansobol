@@ -124,7 +124,7 @@ module.exports = {
   'no-plusplus': [2, {allowForLoopAfterthoughts: true}],
 
   // Disallow space between function identifier and application
-  'no-spaced-func': 1,
+  'no-spaced-func': 2,
 
   // Disallow the use of ternary operators
   'no-ternary': 0,
