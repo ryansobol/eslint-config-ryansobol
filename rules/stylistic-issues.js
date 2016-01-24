@@ -183,6 +183,9 @@ module.exports = {
   // Require or disallow space before function opening parenthesis
   'space-before-function-paren': [2, 'never'],
 
+  // Require a space before certain keywords
+  'space-before-keywords': [2, 'always'],
+
   // Require or disallow spaces inside parentheses
   'space-in-parens': [1, 'never'],
 

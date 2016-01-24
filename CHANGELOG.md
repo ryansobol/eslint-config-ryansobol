@@ -12,6 +12,7 @@ All changes to this project are documented in this file. This project adheres to
 - Add `no-negated-condition` to disallow negated conditions
 - Add `no-plusplus` to disallow use of `++` and `--` except in for loops
 - Add `require-jsdoc` to not require JSDoc comments
+- Add `space-before-keywords` to require a space before keywords
 
 ### Changed
 - Move the changelog to a dedicated `CHANGLOG.md` file
