@@ -76,6 +76,7 @@ All changes to this project are documented in this file. This project adheres to
 - Change `object-shorthand` rule to an error
 - Change `prefer-const` rule to an error
 - Change `prefer-template` rule to an error
+- Change `no-arrow-condition` rule to `no-confusing-arrow`
 
 #### Node.js and CommonJS
 - Update comment to official docs
