@@ -9,7 +9,7 @@ module.exports = {
   // Enforce one true brace style
   'brace-style': [2, 'stroustrup', {allowSingleLine: true}],
   // Require camel case names
-  'camelcase': [1, {properties: 'always'}],
+  'camelcase': [2, {properties: 'always'}],
   // Enforce spacing before and after comma
   'comma-spacing': [1, {before: false, after: true}],
   // Enforce one true comma style
