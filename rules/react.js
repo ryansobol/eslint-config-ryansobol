@@ -91,6 +91,9 @@ module.exports = {
   // Prevent usage of unknown DOM property
   'react/no-unknown-property': 2,
 
+  // Enforce ES5 or ES6 class for React Components
+  'react/prefer-es6-class': 0,
+
   // Prevent missing props validation in a React component definition
   'react/prop-types': 1,
 
@@ -118,6 +121,5 @@ module.exports = {
   ],
 
   // Prevent missing parentheses around multilines JSX
-  'react/wrap-multilines': 1,
-  'react/prefer-es6-class': 2
+  'react/wrap-multilines': 1
 };

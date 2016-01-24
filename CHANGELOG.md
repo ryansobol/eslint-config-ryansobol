@@ -116,6 +116,7 @@ All changes to this project are documented in this file. This project adheres to
 - Change `react/no-multi-comp` rule to an error
 - Change `react/no-string-refs` rule to an error
 - Change `react/no-unknown-property` rule to an error
+- Change `react/prefer-es6-class` rule to disabled
 
 #### Strict Mode
 - Change `strict` rule to `'global'`
