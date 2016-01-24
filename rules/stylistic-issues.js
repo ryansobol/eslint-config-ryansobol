@@ -42,7 +42,7 @@ module.exports = {
   'id-match': 0,
 
   // This option sets a specific tab width for your code
-  'indent': [2, 2, { 'SwitchCase': 1 }],
+  'indent': [2, 2, {'SwitchCase': 1}],
 
   // Specify whether double or single quotes should be used in JSX attributes
   'jsx-quotes': [2, 'prefer-double'],
