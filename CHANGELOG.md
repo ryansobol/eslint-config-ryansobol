@@ -113,6 +113,7 @@ All changes to this project are documented in this file. This project adheres to
 - Change `react/jsx-sort-prop-types` rule to an error
 - Change `react/jsx-sort-props` rule to an error
 - Change `react/no-danger` rule to an error
+- Change `react/no-multi-comp` rule to an error
 
 #### Strict Mode
 - Change `strict` rule to `'global'`

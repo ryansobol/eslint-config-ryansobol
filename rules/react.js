@@ -80,7 +80,7 @@ module.exports = {
   'react/no-is-mounted': 2,
 
   // Prevent multiple component definition per file
-  'react/no-multi-comp': 0,
+  'react/no-multi-comp': 2,
 
   // Prevent usage of setState
   'react/no-set-state': 0,
