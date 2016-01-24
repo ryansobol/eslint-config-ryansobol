@@ -118,7 +118,7 @@ module.exports = {
   'no-nested-ternary': 2,
 
   // Disallow use of the Object constructor
-  'no-new-object': 1,
+  'no-new-object': 2,
 
   // Disallow space between function identifier and application
   'no-spaced-func': 1,
