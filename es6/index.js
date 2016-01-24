@@ -7,9 +7,5 @@ module.exports = {
 
   extends: 'ryansobol/core',
 
-  parserOptions: {
-    sourceType: 'module'
-  },
-
   rules: require('../rules/ecmascript-6')
 };
