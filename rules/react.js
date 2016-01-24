@@ -139,5 +139,9 @@ module.exports = {
   }],
 
   // Prevent missing parentheses around multilines JSX
-  'react/wrap-multilines': 1
+  'react/wrap-multilines': [2, {
+    assignment: false,
+    declaration: false,
+    return: false
+  }]
 };

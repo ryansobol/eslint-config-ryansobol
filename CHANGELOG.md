@@ -121,6 +121,7 @@ All changes to this project are documented in this file. This project adheres to
 - Change `react/require-extension` rule to include `'.jsx'`
 - Change `react/self-closing-comp` rule to an error
 - Change `react/sort-comp` rule to an error and use the default order
+- Change `react/wrap-multilines` rule to an error and prevent wrapping parens
 
 #### Strict Mode
 - Change `strict` rule to `'global'`
