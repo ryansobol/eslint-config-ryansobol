@@ -43,7 +43,7 @@ module.exports = {
 
   // Suggest using of const declaration for variables that are never modified
   // after declared
-  'prefer-const': 0,
+  'prefer-const': 2,
 
   // Suggest using the spread operator instead of .apply()
   'prefer-spread': 2,
