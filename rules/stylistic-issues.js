@@ -142,7 +142,7 @@ module.exports = {
   'object-curly-spacing': [2, 'always', { 'objectsInObjects': false }],
 
   // Allow or disallow one variable declaration per function
-  'one-var': [1, 'never'],
+  'one-var': [2, 'never'],
 
   // Require assignment operator shorthand where possible or prohibit it
   // entirely
