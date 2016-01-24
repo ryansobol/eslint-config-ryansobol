@@ -166,7 +166,7 @@ module.exports = {
   'require-jsdoc': 0,
 
   // Enforce spacing before and after semicolons
-  'semi-spacing': [1, { before: false, after: true }],
+  'semi-spacing': [2, { before: false, after: true }],
 
   // Require or disallow use of semicolons instead of ASI
   'semi': [1, 'always'],
