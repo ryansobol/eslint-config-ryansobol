@@ -80,6 +80,9 @@ module.exports = {
   // declaration.
   'max-params': [2, 3],
 
+  // Specify the maximum number of statement allowed in a function
+  'max-statements': [2, 15],
+
   // Require a capital letter for constructors
   'new-cap': [2, {newIsCap: true}],
 

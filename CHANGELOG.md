@@ -8,6 +8,7 @@ All changes to this project are documented in this file. This project adheres to
 - Add `max-depth` rule to specify the max depth blocks can be nested (4 levels)
 - Add `max-len` rule to specify the max length of a line (80 chars, ignore URLs)
 - Add `max-params` rule to limit the number of function parameters (3)
+- Add `max-statements` rule to specify the max statements in a function (15)
 
 ### Changed
 - Move the changelog to a dedicated `CHANGLOG.md` file
