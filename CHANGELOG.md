@@ -21,8 +21,7 @@ All changes to this project are documented in this file. This project adheres to
 - Update `node` dependency to >=4.2.0
 - Change to TravisCI and build against Node.js >=4.2.0
 - Order rules alphabetically
-- Remove unnecessary `eslint --max-warnings` flag
-- Remove unnecessary `npm run lint` script
+- Change `eslint` peer dependency to ^1.10.0
 
 #### Best Practices
 - Change `block-scoped-var` rule to an error
@@ -118,6 +117,8 @@ All changes to this project are documented in this file. This project adheres to
 - Replace `merge` dependency with `Object.assign()` function
 - Remove `eslint-plugin-shopify` rules and dependencies
 - Remove `.nvmrc` file
+- Remove unnecessary `eslint --max-warnings` flag
+- Remove unnecessary `npm run lint` script
 
 ## [5.9.0] - 2016-01-19
 ### Changed
