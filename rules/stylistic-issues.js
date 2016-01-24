@@ -5,7 +5,7 @@ module.exports = {
   // Enforce spacing inside array brackets
   'array-bracket-spacing': [2, 'never'],
   // Disallow or enforce spaces inside of single line blocks
-  'block-spacing': [1, 'always'],
+  'block-spacing': [2, 'always'],
   // Enforce one true brace style
   'brace-style': [1, '1tbs', {allowSingleLine: true}],
   // Require camel case names
