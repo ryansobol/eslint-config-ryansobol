@@ -175,5 +175,5 @@ module.exports = {
   'wrap-iife': [2, 'inside'],
 
   // Require or disallow Yoda conditions
-  'yoda': [2, 'never', {'exceptRange': true}]
+  'yoda': [2, 'never', { 'exceptRange': true }]
 };

@@ -9,13 +9,13 @@ module.exports = {
   'block-spacing': [2, 'always'],
 
   // Enforce one true brace style
-  'brace-style': [2, 'stroustrup', {allowSingleLine: true}],
+  'brace-style': [2, 'stroustrup', { allowSingleLine: true }],
 
   // Require camel case names
-  'camelcase': [2, {properties: 'always'}],
+  'camelcase': [2, { properties: 'always' }],
 
   // Enforce spacing before and after comma
-  'comma-spacing': [2, {before: false, after: true}],
+  'comma-spacing': [2, { before: false, after: true }],
 
   // Enforce one true comma style
   'comma-style': [2, 'last'],
@@ -47,13 +47,13 @@ module.exports = {
   'id-match': 0,
 
   // This option sets a specific tab width for your code
-  'indent': [2, 2, {'SwitchCase': 1}],
+  'indent': [2, 2, { 'SwitchCase': 1 }],
 
   // Specify whether double or single quotes should be used in JSX attributes
   'jsx-quotes': [2, 'prefer-double'],
 
   // Enforces spacing between keys and values in object literal properties
-  'key-spacing': [2, {beforeColon: false, afterColon: true}],
+  'key-spacing': [2, { beforeColon: false, afterColon: true }],
 
   // Disallow mixed 'LF' and 'CRLF' as linebreaks
   'linebreak-style': [2, 'unix'],
@@ -71,7 +71,7 @@ module.exports = {
   'max-depth': [2, 4],
 
   // Specify the maximum length of a line in your program
-  'max-len': [2, 80, 4, {'ignoreUrls': true}],
+  'max-len': [2, 80, 4, { 'ignoreUrls': true }],
 
   // Specify the maximum depth callbacks can be nested
   'max-nested-callbacks': [2, 4],
@@ -109,7 +109,7 @@ module.exports = {
   'no-mixed-spaces-and-tabs': 2,
 
   // Disallow multiple empty lines
-  'no-multiple-empty-lines': [2, {max: 1, maxEOF: 1}],
+  'no-multiple-empty-lines': [2, { max: 1, maxEOF: 1 }],
 
   // Disallow negated conditions
   'no-negated-condition': 2,
@@ -121,7 +121,7 @@ module.exports = {
   'no-new-object': 2,
 
   // Disallow use of unary operators, ++ and --
-  'no-plusplus': [2, {allowForLoopAfterthoughts: true}],
+  'no-plusplus': [2, { allowForLoopAfterthoughts: true }],
 
   // Disallow space between function identifier and application
   'no-spaced-func': 2,
@@ -139,7 +139,7 @@ module.exports = {
   'no-unneeded-ternary': 2,
 
   // Require or disallow padding inside curly braces
-  'object-curly-spacing': [1, 'never'],
+  'object-curly-spacing': [2, 'always', { 'objectsInObjects': false }],
 
   // Allow or disallow one variable declaration per function
   'one-var': [1, 'never'],
@@ -150,7 +150,7 @@ module.exports = {
 
   // Enforce operators to be placed before or after line breaks
   'operator-linebreak': [1, 'after', {
-    overrides: {'?': 'before', ':': 'before'}
+    overrides: { '?': 'before', ':': 'before' }
   }],
 
   // Enforce padding within blocks
@@ -163,7 +163,7 @@ module.exports = {
   'quotes': [1, 'single', 'avoid-escape'],
 
   // Enforce spacing before and after semicolons
-  'semi-spacing': [1, {before: false, after: true}],
+  'semi-spacing': [1, { before: false, after: true }],
 
   // Require or disallow use of semicolons instead of ASI
   'semi': [1, 'always'],
@@ -191,7 +191,7 @@ module.exports = {
 
   // Require or disallow spaces before/after unary operators (words on by
   // default, nonwords)
-  'space-unary-ops': [1, {words: true, nonwords: false}],
+  'space-unary-ops': [1, { words: true, nonwords: false }],
 
   // Require or disallow a space immediately following the // or /* in a comment
   'spaced-comment': [1, 'always'],

@@ -2,19 +2,19 @@
 
 module.exports = {
   // Prevent missing displayName in a React component definition
-  'react/display-name': [1, {acceptTranspilerName: true}],
+  'react/display-name': [1, { acceptTranspilerName: true }],
 
   // Forbid certain propTypes
-  'react/forbid-prop-types': [2, {forbid: ['any', 'array']}],
+  'react/forbid-prop-types': [2, { forbid: ['any', 'array'] }],
 
   // Enforce boolean attributes notation in JSX
   'react/jsx-boolean-value': 1,
 
   // Validate closing bracket location in JSX
-  'react/jsx-closing-bracket-location': [1, {location: 'tag-aligned'}],
+  'react/jsx-closing-bracket-location': [1, { location: 'tag-aligned' }],
 
   // Enforce or disallow spaces inside of curly braces in JSX attributes
-  'react/jsx-curly-spacing': [1, 'never', {allowMultiline: true}],
+  'react/jsx-curly-spacing': [1, 'never', { allowMultiline: true }],
 
   // Validate props indentation in JSX
   'react/jsx-indent-props': [1, 2],
@@ -92,7 +92,7 @@ module.exports = {
   'react/react-in-jsx-scope': 2,
 
   // Restrict file extensions that may be required
-  'react/require-extension': [2, {extensions: ['.js']}],
+  'react/require-extension': [2, { extensions: ['.js'] }],
 
   // Prevent extra closing tags for components without children
   'react/self-closing-comp': 1,
