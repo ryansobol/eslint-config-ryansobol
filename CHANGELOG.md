@@ -28,7 +28,6 @@ All changes to this project are documented in this file. This project adheres to
 - Change `package.json` to `eslint-config-ryansobol`
 - Default to ES5 rules
 - Update CircleCI and NPM badges
-- Update `.eslintrc.js` to extend `ryansobol/es5`
 - Extend `ryansobol/core` for ES5, ES6, and React rules
 - Update `node` dependency to >=4.2.0
 - Change to TravisCI and build against Node.js >=4.2.0
@@ -38,7 +37,7 @@ All changes to this project are documented in this file. This project adheres to
 - Enforce `consistent-as-needed` for this project's `quote-props` rule
 - Extend `ryansobol/core` within `ryansobol/react` rules
 - Update `eslint` dependencies to ^2.0.0-beta.2
-- Migrate to the new top-level `parserOptions` property
+- Update `.eslintrc.js` to extend `ryansobol/es6` and `ryansobol/node`
 
 #### Best Practices
 - Change `block-scoped-var` rule to an error
