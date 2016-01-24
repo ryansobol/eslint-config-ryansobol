@@ -15,7 +15,7 @@ module.exports = {
   // Enforce one true comma style
   'comma-style': [2, 'last'],
   // Require or disallow padding inside computed properties
-  'computed-property-spacing': [1, 'never'],
+  'computed-property-spacing': [2, 'never'],
   // Enforces consistent naming when capturing the current execution context
   'consistent-this': [1, 'self'],
   // Enforce newline at the end of file, with no multiple empty lines
