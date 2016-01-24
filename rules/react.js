@@ -101,7 +101,7 @@ module.exports = {
   'react/react-in-jsx-scope': 2,
 
   // Restrict file extensions that may be required
-  'react/require-extension': [2, { extensions: ['.js'] }],
+  'react/require-extension': [2, { extensions: ['.js', '.jsx'] }],
 
   // Prevent extra closing tags for components without children
   'react/self-closing-comp': 1,
