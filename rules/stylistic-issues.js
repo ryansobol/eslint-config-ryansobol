@@ -200,7 +200,7 @@ module.exports = {
   'space-unary-ops': [2, { words: true, nonwords: false }],
 
   // Require or disallow a space immediately following the // or /* in a comment
-  'spaced-comment': [1, 'always'],
+  'spaced-comment': [2, 'always'],
 
   // Require regex literals to be wrapped in parentheses
   'wrap-regex': 0
