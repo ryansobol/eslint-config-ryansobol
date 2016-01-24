@@ -51,6 +51,7 @@ All changes to this project are documented in this file. This project adheres to
 - Change `callback-return` rule to disabled
 - Change `handle-callback-err` rule to an error
 - Change `no-new-require` rule to an error
+- Change `no-path-concat` rule to disabled
 
 #### Possible Errors
 - Change `comma-dangle` rule to `'never'`
