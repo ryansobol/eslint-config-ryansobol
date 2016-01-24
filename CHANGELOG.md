@@ -38,6 +38,7 @@ All changes to this project are documented in this file. This project adheres to
 - Enforce `consistent-as-needed` for this project's `quote-props` rule
 - Extend `ryansobol/core` within `ryansobol/react` rules
 - Update `eslint` dependencies to ^2.0.0-beta.2
+- Migrate to the new top-level `parserOptions` property
 
 #### Best Practices
 - Change `block-scoped-var` rule to an error

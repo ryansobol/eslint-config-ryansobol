@@ -1,11 +1,13 @@
 'use strict';
 
 module.exports = {
-  ecmaFeatures: {
-    jsx: true
-  },
-
   extends: 'ryansobol/core',
+
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true
+    }
+  },
 
   plugins: [
     'react'
