@@ -38,7 +38,8 @@ module.exports = {
   // Suggest using arrow functions as callbacks
   'prefer-arrow-callback': 2,
 
-  // Suggest using of const declaration for variables that are never modified after declared
+  // Suggest using of const declaration for variables that are never modified
+  // after declared
   'prefer-const': 0,
 
   // Suggest using the spread operator instead of .apply()

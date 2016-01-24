@@ -62,7 +62,8 @@ module.exports = {
   // Disallow negation of the left operand of an in expression
   'no-negated-in-lhs': 2,
 
-  // Disallow the use of object properties of the global object (Math and JSON) as functions
+  // Disallow the use of object properties of the global object (Math and JSON)
+  // as functions
   'no-obj-calls': 2,
 
   // Disallow multiple spaces in a regular expression literal
@@ -74,7 +75,8 @@ module.exports = {
   // Avoid code that looks like two expressions but is actually one
   'no-unexpected-multiline': 2,
 
-  // Disallow unreachable statements after a return, throw, continue, or break statement
+  // Disallow unreachable statements after a return, throw, continue, or break
+  // statement
   'no-unreachable': 2,
 
   // Disallow comparisons with the value NaN

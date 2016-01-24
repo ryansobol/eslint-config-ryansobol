@@ -8,7 +8,8 @@ module.exports = {
   // Specify the maximum length of a line in your program
   'max-len': 0,
 
-  // Limits the number of parameters that can be used in the function declaration.
+  // Limits the number of parameters that can be used in the function
+  // declaration.
   'max-params': [1, 10],
 
   // Specify the maximum number of statement allowed in a function

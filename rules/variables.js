@@ -5,7 +5,8 @@ module.exports = {
   // enforce or disallow variable initializations at definition
   'init-declarations': 0,
 
-  // Disallow the catch clause parameter name being the same as a variable in the outer scope
+  // Disallow the catch clause parameter name being the same as a variable in
+  // the outer scope
   'no-catch-shadow': 0,
 
   // Disallow deletion of variables
@@ -23,7 +24,8 @@ module.exports = {
   // Disallow use of undefined when initializing variables
   'no-undef-init': 2,
 
-  // Disallow use of undeclared variables unless mentioned in a /*global */ block
+  // Disallow use of undeclared variables unless mentioned in a /*global */
+  // block
   'no-undef': 2,
 
   // Disallow use of undefined variable

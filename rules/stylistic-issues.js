@@ -35,8 +35,13 @@ module.exports = {
   // Enforces use of function declarations or expressions
   'func-style': [2, 'expression'],
 
-  // This option enforces minimum and maximum identifier lengths (variable names, property names etc.)
-  'id-length': [2, {min: 2, properties: 'always', exceptions: ['x', 'y', 'z', 'e', 'i', 'j', 'k', 'v', '_']}],
+  // This option enforces minimum and maximum identifier lengths (variable
+  // names, property names etc.)
+  'id-length': [2, {
+    min: 2,
+    properties: 'always',
+    exceptions: ['x', 'y', 'z', 'e', 'i', 'j', 'k', 'v', '_']
+  }],
 
   // Require identifiers to match the provided regular expression
   'id-match': 0,
@@ -54,10 +59,19 @@ module.exports = {
   'linebreak-style': [2, 'unix'],
 
   // Enforces empty lines around comments
-  'lines-around-comment': [2, {'allowArrayStart': true, 'allowBlockStart': true, 'allowObjectStart': true, 'beforeBlockComment': true, 'beforeLineComment': true}],
+  'lines-around-comment': [2, {
+    'allowArrayStart': true,
+    'allowBlockStart': true,
+    'allowObjectStart': true,
+    'beforeBlockComment': true,
+    'beforeLineComment': true
+  }],
 
   // Specify the maximum depth that blocks can be nested
   'max-depth': [2, 4],
+
+  // Specify the maximum length of a line in your program
+  'max-len': [2, 80, 4, {'ignoreUrls': true}],
 
   // Specify the maximum depth callbacks can be nested
   'max-nested-callbacks': 0,
@@ -65,7 +79,8 @@ module.exports = {
   // Require a capital letter for constructors
   'new-cap': [2, {newIsCap: true}],
 
-  // Disallow the omission of parentheses when invoking a constructor with no arguments
+  // Disallow the omission of parentheses when invoking a constructor with no
+  // arguments
   'new-parens': 1,
 
   // Allow/disallow an empty newline after var statement
@@ -116,11 +131,14 @@ module.exports = {
   // Allow or disallow one variable declaration per function
   'one-var': [1, 'never'],
 
-  // Require assignment operator shorthand where possible or prohibit it entirely
+  // Require assignment operator shorthand where possible or prohibit it
+  // entirely
   'operator-assignment': [1, 'always'],
 
   // Enforce operators to be placed before or after line breaks
-  'operator-linebreak': [1, 'after', {overrides: {'?': 'before', ':': 'before'}}],
+  'operator-linebreak': [1, 'after', {
+    overrides: {'?': 'before', ':': 'before'}
+  }],
 
   // Enforce padding within blocks
   'padded-blocks': 0,
@@ -158,7 +176,8 @@ module.exports = {
   // Require a space after return, throw, and case
   'space-return-throw-case': 1,
 
-  // Require or disallow spaces before/after unary operators (words on by default, nonwords)
+  // Require or disallow spaces before/after unary operators (words on by
+  // default, nonwords)
   'space-unary-ops': [1, {words: true, nonwords: false}],
 
   // Require or disallow a space immediately following the // or /* in a comment
