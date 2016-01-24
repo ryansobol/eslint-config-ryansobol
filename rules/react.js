@@ -86,7 +86,7 @@ module.exports = {
   'react/no-set-state': 0,
 
   // Prevent using string references in ref attribute.
-  'react/no-string-refs': 1,
+  'react/no-string-refs': 2,
 
   // Prevent usage of unknown DOM property
   'react/no-unknown-property': 0,
