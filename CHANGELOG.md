@@ -86,6 +86,7 @@ All changes to this project are documented in this file. This project adheres to
 - Change `consistent-this` rule to an error
 - Change `eol-last` rule to an error
 - Change `func-style` rule to an error enforce `'expression'` style
+- Change `id-length` rule to an error and exempt `'z'`, `'e'`, `'k'`, and `'v'`
 
 #### Variables
 - Change `init-declarations` rule to disabled
