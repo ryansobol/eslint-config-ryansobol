@@ -53,6 +53,7 @@ All changes to this project are documented in this file. This project adheres to
 - Change `no-new-require` rule to an error
 - Change `no-path-concat` rule to disabled
 - Change `no-process-exit` rule to disabled
+- Change `no-sync` rule to an error
 
 #### Possible Errors
 - Change `comma-dangle` rule to `'never'`

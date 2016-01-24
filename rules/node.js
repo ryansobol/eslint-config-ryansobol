@@ -19,5 +19,5 @@ module.exports = {
   // Restrict usage of specified node modules
   'no-restricted-modules': 0,
   // Disallow use of synchronous methods
-  'no-sync': 1
+  'no-sync': 2
 };
