@@ -6,7 +6,7 @@ module.exports = {
   'arrow-body-style': [2, 'as-needed'],
 
   // Require parens in arrow function arguments
-  'arrow-parens': [1, 'always'],
+  'arrow-parens': [2, 'always'],
 
   // Require space before/after arrow function's arrow
   'arrow-spacing': [1, { before: true, after: true }],

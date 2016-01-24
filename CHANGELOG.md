@@ -56,6 +56,9 @@ All changes to this project are documented in this file. This project adheres to
 - Change `wrap-iife` rule to an error
 - Change `yoda` rule to an error except ranges
 
+#### ECMAScript 6
+- Change `arrow-parens` rule to an error
+
 #### Node.js and CommonJS
 - Update comment to official docs
 - Change `callback-return` rule to disabled
