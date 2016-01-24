@@ -1,8 +1,6 @@
 'use strict';
 
 module.exports = {
-  extends: 'ryansobol/core',
-
   ecmaFeatures: {
     modules: true
   },
@@ -10,6 +8,8 @@ module.exports = {
   env: {
     es6: true
   },
+
+  extends: 'ryansobol/core',
 
   parser: 'babel-eslint',
 
