@@ -56,6 +56,9 @@ module.exports = {
   // Enforces empty lines around comments
   'lines-around-comment': [2, {'allowArrayStart': true, 'allowBlockStart': true, 'allowObjectStart': true, 'beforeBlockComment': true, 'beforeLineComment': true}],
 
+  // Specify the maximum depth that blocks can be nested
+  'max-depth': [2, 4],
+
   // Specify the maximum depth callbacks can be nested
   'max-nested-callbacks': 0,
 
