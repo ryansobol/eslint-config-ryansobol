@@ -8,7 +8,7 @@
     "url": "https://github.com/ryansobol/eslint-config-ryansobol"
   },
   "scripts": {
-    "lint": "eslint . --max-warnings 0",
+    "lint": "eslint .",
     "test": "npm run lint"
   },
   "keywords": [
