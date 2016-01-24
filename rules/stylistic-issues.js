@@ -154,7 +154,7 @@ module.exports = {
   }],
 
   // Enforce padding within blocks
-  'padded-blocks': 0,
+  'padded-blocks': [2, 'never'],
 
   // Require quotes around object literal property names
   'quote-props': [1, 'as-needed'],
