@@ -193,6 +193,7 @@ All changes to this project are documented in this file. This project adheres to
 - Remove unnecessary `npm run lint` script
 - Remove legacy rules for old Shopify projects
 - Remove globals for `ryansobol/react` rules
+- Remove `babel-eslint` parser from `ryansobol/es6`
 
 ## [5.9.0] - 2016-01-19
 ### Changed

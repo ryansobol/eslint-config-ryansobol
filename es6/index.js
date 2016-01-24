@@ -7,8 +7,6 @@ module.exports = {
 
   extends: 'ryansobol/core',
 
-  parser: 'babel-eslint',
-
   parserOptions: {
     sourceType: 'module'
   },
