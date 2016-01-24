@@ -17,7 +17,7 @@ module.exports = {
   // Require or disallow padding inside computed properties
   'computed-property-spacing': [2, 'never'],
   // Enforces consistent naming when capturing the current execution context
-  'consistent-this': [1, 'self'],
+  'consistent-this': [2, 'self'],
   // Enforce newline at the end of file, with no multiple empty lines
   'eol-last': 1,
   // Don't require function expressions to have a name
