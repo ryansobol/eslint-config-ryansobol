@@ -18,6 +18,7 @@
     "javascript",
     "es5",
     "es6",
+    "node",
     "react"
   ],
   "license": "MIT",

@@ -4,6 +4,8 @@ All changes to this project are documented in this file. This project adheres to
 
 ## [Unreleased]
 ### Added
+- Add `'node'` keyword to `package.json` file
+
 #### ECMAScript 6
 - Add `no-arrow-condition` to disallow arrow funcs where a condition is expected
 - Add `prefer-reflect` to not suggest using Reflect methods until more supported
