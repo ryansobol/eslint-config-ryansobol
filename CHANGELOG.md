@@ -8,6 +8,9 @@ All changes to this project are documented in this file. This project adheres to
 - Add `no-arrow-condition` to disallow arrow funcs where a condition is expected
 - Add `prefer-reflect` to not suggest using Reflect methods until more supported
 
+#### React
+- Add `react/jsx-equals-spacing` to enforce spaces around equal signs in JSX
+
 #### Stylistic Issues
 - Add `max-depth` rule to specify the max depth blocks can be nested (4 levels)
 - Add `max-len` rule to specify the max length of a line (80 chars, ignore URLs)
