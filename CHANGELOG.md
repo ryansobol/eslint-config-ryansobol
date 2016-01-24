@@ -101,6 +101,7 @@ All changes to this project are documented in this file. This project adheres to
 - Change `react/display-name` rule to an error
 - Change `react/forbid-prop-types` rule to forbid vague `object` prop type
 - Change `react/jsx-boolean-value` rule to `'always'` enforce boolean JSX attrs
+- Change `react/jsx-closing-bracket-location` rule to enforce `'line-aligned'`
 
 #### Strict Mode
 - Change `strict` rule to `'global'`

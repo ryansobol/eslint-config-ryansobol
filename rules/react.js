@@ -11,7 +11,7 @@ module.exports = {
   'react/jsx-boolean-value': [2, 'always'],
 
   // Validate closing bracket location in JSX
-  'react/jsx-closing-bracket-location': [1, { location: 'tag-aligned' }],
+  'react/jsx-closing-bracket-location': [2, { location: 'line-aligned' }],
 
   // Enforce or disallow spaces inside of curly braces in JSX attributes
   'react/jsx-curly-spacing': [1, 'never', { allowMultiline: true }],
