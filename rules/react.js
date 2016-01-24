@@ -104,7 +104,7 @@ module.exports = {
   'react/require-extension': [2, { extensions: ['.js', '.jsx'] }],
 
   // Prevent extra closing tags for components without children
-  'react/self-closing-comp': 1,
+  'react/self-closing-comp': 2,
 
   // Enforce component methods order
   'react/sort-comp': [

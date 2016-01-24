@@ -119,6 +119,7 @@ All changes to this project are documented in this file. This project adheres to
 - Change `react/prefer-es6-class` rule to disabled
 - Change `react/prop-types` rule to disabled
 - Change `react/require-extension` rule to include `'.jsx'`
+- Change `react/self-closing-comp` rule to an error
 
 #### Strict Mode
 - Change `strict` rule to `'global'`
