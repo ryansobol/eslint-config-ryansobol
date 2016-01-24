@@ -28,12 +28,13 @@
   "homepage": "https://github.com/ryansobol/eslint-config-ryansobol",
   "devDependencies": {
     "eslint": "^2.0.0-beta.2",
-    "eslint-config-ryansobol": "file:.",
+    "eslint-config-ryansobol": "file:."
+  },
+  "dependencies": {
     "eslint-plugin-react": "^3.16.0"
   },
   "peerDependencies": {
-    "eslint": "^2.0.0-beta.2",
-    "eslint-plugin-react": "^3.16.0"
+    "eslint": "^2.0.0-beta.2"
   },
   "engines": {
     "node": ">=4.2.0"
