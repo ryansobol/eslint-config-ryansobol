@@ -69,6 +69,7 @@ All changes to this project are documented in this file. This project adheres to
 #### Variables
 - Change `init-declarations` rule to disabled
 - Change `no-catch-shadow` rule to disabled
+- Change `no-shadow` rule to reports `'all'` shadowing
 
 ### Removed
 - Replace `merge` dependency with `Object.assign()` function

@@ -13,7 +13,7 @@ module.exports = {
   // Disallow shadowing of names such as arguments
   'no-shadow-restricted-names': 2,
   // Disallow declaration of variables already declared in the outer scope
-  'no-shadow': 2,
+  'no-shadow': [2, {'hoist': 'all'}],
   // Disallow use of undefined when initializing variables
   'no-undef-init': 2,
   // Disallow use of undeclared variables unless mentioned in a /*global */ block
