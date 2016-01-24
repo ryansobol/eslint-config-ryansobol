@@ -107,7 +107,7 @@ module.exports = {
   // Disallow use of void operator
   'no-void': 2,
   // Disallow usage of configurable warning terms in comments
-  'no-warning-comments': 1,
+  'no-warning-comments': 0,
   // Disallow use of the with statement
   'no-with': 2,
   // Require use of the second argument for parseInt()
