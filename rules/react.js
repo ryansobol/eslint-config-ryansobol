@@ -35,7 +35,7 @@ module.exports = {
   'react/jsx-max-props-per-line': 0,
 
   // Prevent usage of .bind() and arrow functions in JSX props
-  'jsx-no-bind': 2,
+  'react/jsx-no-bind': 2,
 
   // Prevent duplicate props in JSX
   'react/jsx-no-duplicate-props': 2,
@@ -50,7 +50,7 @@ module.exports = {
   'react/jsx-pascal-case': 2,
 
   // Enforce propTypes declarations alphabetical sorting
-  'react/jsx-sort-prop-types': 0,
+  'react/jsx-sort-prop-types': 2,
 
   // Enforce props alphabetical sorting
   'react/jsx-sort-props': 0,

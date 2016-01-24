@@ -109,7 +109,8 @@ All changes to this project are documented in this file. This project adheres to
 - Change `react/jsx-curly-spacing` rule to an error
 - Change `react/jsx-indent-props` rule to an error
 - Change `react/jsx-indent` rule to an error
-- Change `jsx-no-bind` rule to an error
+- Change `react/jsx-no-bind` rule to an error
+- Change `react/jsx-sort-prop-types` rule to an error
 
 #### Strict Mode
 - Change `strict` rule to `'global'`
