@@ -88,6 +88,7 @@ All changes to this project are documented in this file. This project adheres to
 - Change `func-style` rule to an error enforce `'expression'` style
 - Change `id-length` rule to an error and exempt `'z'`, `'e'`, `'k'`, and `'v'`
 - Change `indent` rule to an error and indent case statements by 1 level
+- Change `jsx-quotes` rule to an error
 
 #### Variables
 - Change `init-declarations` rule to disabled

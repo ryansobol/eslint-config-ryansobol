@@ -31,7 +31,7 @@ module.exports = {
   // This option sets a specific tab width for your code
   'indent': [2, 2, { 'SwitchCase': 1 }],
   // Specify whether double or single quotes should be used in JSX attributes
-  'jsx-quotes': [1, 'prefer-double'],
+  'jsx-quotes': [2, 'prefer-double'],
   // Enforces spacing between keys and values in object literal properties
   'key-spacing': [1, {beforeColon: false, afterColon: true}],
   // Enforces empty lines around comments
