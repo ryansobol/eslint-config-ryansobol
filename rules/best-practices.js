@@ -97,7 +97,7 @@ module.exports = {
   // Disallow use of comma operator
   'no-sequences': 2,
   // Restrict what can be thrown as an exception
-  'no-throw-literal': 1,
+  'no-throw-literal': 2,
   // Allow usage of expressions in statement position
   'no-unused-expressions': 1,
   // Disallow unnecessary .call() and .apply()
