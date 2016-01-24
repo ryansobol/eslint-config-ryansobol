@@ -190,7 +190,7 @@ module.exports = {
   'space-in-parens': [2, 'never'],
 
   // Require spaces around operators
-  'space-infix-ops': 1,
+  'space-infix-ops': 2,
 
   // Require a space after return, throw, and case
   'space-return-throw-case': 1,
