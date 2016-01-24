@@ -120,6 +120,9 @@ module.exports = {
   // Disallow use of the Object constructor
   'no-new-object': 2,
 
+  // Disallow use of unary operators, ++ and --
+  'no-plusplus': [2, {allowForLoopAfterthoughts: true}],
+
   // Disallow space between function identifier and application
   'no-spaced-func': 1,
 
