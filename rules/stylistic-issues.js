@@ -149,7 +149,7 @@ module.exports = {
   'operator-assignment': [2, 'always'],
 
   // Enforce operators to be placed before or after line breaks
-  'operator-linebreak': [1, 'after', {
+  'operator-linebreak': [2, 'after', {
     overrides: { '?': 'before', ':': 'before' }
   }],
 
