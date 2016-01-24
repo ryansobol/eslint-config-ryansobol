@@ -103,7 +103,7 @@ module.exports = {
   // Disallow unnecessary .call() and .apply()
   'no-useless-call': 2,
   // Disallow unnecessary concatenation of literals or template literals
-  'no-useless-concat': 1,
+  'no-useless-concat': 2,
   // Disallow use of void operator
   'no-void': 2,
   // Disallow usage of configurable warning terms in comments
