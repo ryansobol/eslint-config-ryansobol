@@ -23,7 +23,7 @@ module.exports = {
   'react/jsx-handler-names': 2,
 
   // Validate props indentation in JSX
-  'react/jsx-indent-props': [1, 2],
+  'react/jsx-indent-props': [2, 2],
 
   // Validate JSX indentation
   'react/jsx-indent': [1, 2],
