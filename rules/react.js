@@ -8,7 +8,7 @@ module.exports = {
   'react/forbid-prop-types': [2, { forbid: ['any', 'array', 'object'] }],
 
   // Enforce boolean attributes notation in JSX
-  'react/jsx-boolean-value': 1,
+  'react/jsx-boolean-value': [2, 'always'],
 
   // Validate closing bracket location in JSX
   'react/jsx-closing-bracket-location': [1, { location: 'tag-aligned' }],
