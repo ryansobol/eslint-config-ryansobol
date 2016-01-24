@@ -13,8 +13,5 @@ module.exports = {
     modules: true
   },
 
-  rules: Object.assign(
-    require('../rules/ecmascript-6'),
-    { 'no-param-reassign': 0 } // because of default params
-  )
+  rules: require('../rules/ecmascript-6')
 };
