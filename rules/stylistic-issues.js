@@ -175,7 +175,7 @@ module.exports = {
   'sort-vars': 0,
 
   // Require a space after certain keywords
-  'space-after-keywords': [1, 'always'],
+  'space-after-keywords': [2, 'always'],
 
   // Require or disallow space before blocks
   'space-before-blocks': [1, 'always'],
