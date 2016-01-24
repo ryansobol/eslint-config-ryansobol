@@ -58,7 +58,7 @@ module.exports = {
   // Disallow use of labeled statements
   'no-labels': 2,
   // Disallow unnecessary nested blocks
-  'no-lone-blocks': 1,
+  'no-lone-blocks': 2,
   // Disallow creation of functions within loops
   'no-loop-func': 2,
   // Disallow the use of magic numbers
