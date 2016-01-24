@@ -3,7 +3,7 @@
 // see http://eslint.org/docs/rules/#nodejs-and-commonjs
 module.exports = {
   // enforce return after a callback
-  'callback-return': [1, ['callback', 'cb', 'next']],
+  'callback-return': 0,
   // disallow require() outside of the top-level module scope
   'global-require': 0,
   // Enforces error handling in callbacks

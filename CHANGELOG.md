@@ -48,6 +48,7 @@ All changes to this project are documented in this file. This project adheres to
 
 #### Node.js and CommonJS
 - Update comment to official docs
+- Change `callback-return` rule to disabled
 
 #### Possible Errors
 - Change `comma-dangle` rule to `'never'`
