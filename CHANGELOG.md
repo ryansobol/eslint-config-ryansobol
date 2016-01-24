@@ -126,6 +126,7 @@ All changes to this project are documented in this file. This project adheres to
 - Change `space-after-keywords` rule to an error
 - Change `space-before-blocks` rule to an error
 - Change `space-before-function-paren` rule to an error
+- Change `space-in-parens` rule to an error
 
 #### Variables
 - Change `init-declarations` rule to disabled

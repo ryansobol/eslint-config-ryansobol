@@ -187,7 +187,7 @@ module.exports = {
   'space-before-keywords': [2, 'always'],
 
   // Require or disallow spaces inside parentheses
-  'space-in-parens': [1, 'never'],
+  'space-in-parens': [2, 'never'],
 
   // Require spaces around operators
   'space-infix-ops': 1,
