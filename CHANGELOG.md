@@ -10,6 +10,7 @@ All changes to this project are documented in this file. This project adheres to
 
 #### React
 - Add `react/jsx-equals-spacing` to enforce spaces around equal signs in JSX
+- Add `react/jsx-handler-names` to enforce event handler naming in JSX
 
 #### Stylistic Issues
 - Add `max-depth` rule to specify the max depth blocks can be nested (4 levels)

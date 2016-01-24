@@ -19,6 +19,9 @@ module.exports = {
   // Enforce or disallow spaces around equal signs in JSX attributes
   'react/jsx-equals-spacing': [2, 'never'],
 
+  // Enforce event handler naming conventions in JSX
+  'react/jsx-handler-names': 2,
+
   // Validate props indentation in JSX
   'react/jsx-indent-props': [1, 2],
 
