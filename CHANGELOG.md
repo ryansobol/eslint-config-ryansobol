@@ -126,7 +126,7 @@ All changes to this project are documented in this file. This project adheres to
 - Change `react/wrap-multilines` rule to an error and prevent wrapping parens
 
 #### Strict Mode
-- Change `strict` rule to `'global'`
+- Change `strict` rule to `'safe'`
 
 #### Stylistic Issues
 - Change `array-bracket-spacing` rule to an error
