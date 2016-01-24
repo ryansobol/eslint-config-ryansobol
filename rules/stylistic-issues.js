@@ -157,7 +157,7 @@ module.exports = {
   'padded-blocks': [2, 'never'],
 
   // Require quotes around object literal property names
-  'quote-props': [1, 'as-needed'],
+  'quote-props': [2, 'as-needed'],
 
   // Specify whether backticks, double or single quotes should be used
   'quotes': [1, 'single', 'avoid-escape'],
