@@ -146,7 +146,7 @@ module.exports = {
 
   // Require assignment operator shorthand where possible or prohibit it
   // entirely
-  'operator-assignment': [1, 'always'],
+  'operator-assignment': [2, 'always'],
 
   // Enforce operators to be placed before or after line breaks
   'operator-linebreak': [1, 'after', {
