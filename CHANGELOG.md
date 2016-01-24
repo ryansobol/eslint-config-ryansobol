@@ -106,6 +106,7 @@ All changes to this project are documented in this file. This project adheres to
 - Change `no-lonely-if` rule to an error
 - Change `no-mixed-spaces-and-tabs` rule to an error
 - Change `no-multiple-empty-lines` rule to an error and enforce a max of 1 line
+- Change `no-nested-ternary` rule to an error
 
 #### Variables
 - Change `init-declarations` rule to disabled

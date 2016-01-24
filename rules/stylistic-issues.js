@@ -115,7 +115,7 @@ module.exports = {
   'no-negated-condition': 2,
 
   // Disallow nested ternary expressions
-  'no-nested-ternary': 1,
+  'no-nested-ternary': 2,
 
   // Disallow use of the Object constructor
   'no-new-object': 1,
