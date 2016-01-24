@@ -55,6 +55,9 @@ module.exports = {
   // Enforces spacing between keys and values in object literal properties
   'key-spacing': [2, { beforeColon: false, afterColon: true }],
 
+  // Enforce spacing before and after keywords
+  'keyword-spacing': 2,
+
   // Disallow mixed 'LF' and 'CRLF' as linebreaks
   'linebreak-style': [2, 'unix'],
 
@@ -174,26 +177,17 @@ module.exports = {
   // Sort variables within the same declaration block
   'sort-vars': 0,
 
-  // Require a space after certain keywords
-  'space-after-keywords': [2, 'always'],
-
   // Require or disallow space before blocks
   'space-before-blocks': [2, 'always'],
 
   // Require or disallow space before function opening parenthesis
   'space-before-function-paren': [2, 'never'],
 
-  // Require a space before certain keywords
-  'space-before-keywords': [2, 'always'],
-
   // Require or disallow spaces inside parentheses
   'space-in-parens': [2, 'never'],
 
   // Require spaces around operators
   'space-infix-ops': 2,
-
-  // Require a space after return, throw, and case
-  'space-return-throw-case': 2,
 
   // Require or disallow spaces before/after unary operators (words on by
   // default, nonwords)

@@ -77,6 +77,7 @@ All changes to this project are documented in this file. This project adheres to
 - Change `prefer-const` rule to an error
 - Change `prefer-template` rule to an error
 - Change `no-arrow-condition` rule to `no-confusing-arrow`
+- Change all keyword spacing rules to `keyword-spacing`
 
 #### Node.js and CommonJS
 - Update comment to official docs
