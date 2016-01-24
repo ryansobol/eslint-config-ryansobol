@@ -74,7 +74,7 @@ module.exports = {
   'max-len': [2, 80, 4, {'ignoreUrls': true}],
 
   // Specify the maximum depth callbacks can be nested
-  'max-nested-callbacks': 0,
+  'max-nested-callbacks': [2, 4],
 
   // Require a capital letter for constructors
   'new-cap': [2, {newIsCap: true}],

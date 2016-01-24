@@ -97,6 +97,7 @@ All changes to this project are documented in this file. This project adheres to
 - Change `key-spacing` rule to an error
 - Change `linebreak-style` rule to an error and enforce `'unix'` linebreaks
 - Change `lines-around-comment` rule to an error and enforce more exemptions
+- Change `max-nested-callbacks` rule to an error and enforce 4 levels
 
 #### Variables
 - Change `init-declarations` rule to disabled
