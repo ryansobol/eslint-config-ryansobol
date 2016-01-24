@@ -71,6 +71,7 @@ All changes to this project are documented in this file. This project adheres to
 - Change `no-catch-shadow` rule to disabled
 - Change `no-shadow` rule to reports `'all'` shadowing
 - Change `no-unused-vars` rule to an error
+- Change `no-use-before-define` rule to remove exemptions
 
 ### Removed
 - Replace `merge` dependency with `Object.assign()` function
