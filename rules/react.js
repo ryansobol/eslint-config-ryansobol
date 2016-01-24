@@ -5,7 +5,7 @@ module.exports = {
   'react/display-name': [2, { acceptTranspilerName: true }],
 
   // Forbid certain propTypes
-  'react/forbid-prop-types': [2, { forbid: ['any', 'array'] }],
+  'react/forbid-prop-types': [2, { forbid: ['any', 'array', 'object'] }],
 
   // Enforce boolean attributes notation in JSX
   'react/jsx-boolean-value': 1,

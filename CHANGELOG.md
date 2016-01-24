@@ -99,6 +99,7 @@ All changes to this project are documented in this file. This project adheres to
 
 #### React
 - Change `react/display-name` rule to an error
+- Change `react/forbid-prop-types` rule to forbid vague `object` prop type
 
 #### Strict Mode
 - Change `strict` rule to `'global'`
