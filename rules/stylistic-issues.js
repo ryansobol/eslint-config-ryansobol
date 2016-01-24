@@ -76,6 +76,10 @@ module.exports = {
   // Specify the maximum depth callbacks can be nested
   'max-nested-callbacks': [2, 4],
 
+  // Limits the number of parameters that can be used in the function
+  // declaration.
+  'max-params': [2, 3],
+
   // Require a capital letter for constructors
   'new-cap': [2, {newIsCap: true}],
 
