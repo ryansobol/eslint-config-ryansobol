@@ -91,7 +91,7 @@ module.exports = {
   // Disallow use of assignment in return statement
   'no-return-assign': 2,
   // Disallow use of javascript: urls.,
-  'no-script-url': 0,
+  'no-script-url': 2,
   // Disallow comparisons where both sides are exactly the same
   'no-self-compare': 2,
   // Disallow use of comma operator
