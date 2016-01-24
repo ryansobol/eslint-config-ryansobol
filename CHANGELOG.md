@@ -145,6 +145,7 @@ All changes to this project are documented in this file. This project adheres to
 - Remove `.nvmrc` file
 - Remove unnecessary `eslint --max-warnings` flag
 - Remove unnecessary `npm run lint` script
+- Remove legacy rules for old Shopify projects
 
 ## [5.9.0] - 2016-01-19
 ### Changed
