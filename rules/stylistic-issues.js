@@ -13,7 +13,7 @@ module.exports = {
   // Enforce spacing before and after comma
   'comma-spacing': [2, {before: false, after: true}],
   // Enforce one true comma style
-  'comma-style': [1, 'last'],
+  'comma-style': [2, 'last'],
   // Require or disallow padding inside computed properties
   'computed-property-spacing': [1, 'never'],
   // Enforces consistent naming when capturing the current execution context

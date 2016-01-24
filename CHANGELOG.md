@@ -81,6 +81,7 @@ All changes to this project are documented in this file. This project adheres to
 - Change `brace-style` rule to an error and enforce `'stroustrup'` style
 - Change `camelcase` rule to an error
 - Change `comma-spacing` rule to an error
+- Change `comma-style` rule to an error
 
 #### Variables
 - Change `init-declarations` rule to disabled
