@@ -1,69 +1,218 @@
-# eslint-config-shopify
+# eslint-config-ryansobol
 
-[![Build status][travis-image]][travis-url] [![NPM version][npm-image]][npm-url]
+[![NPM version][ni]][nu]
+[![Build status][ti]][tu]
 
-This package provides Shopify's `.eslintrc` as an extensible shared config.
+Ryan Sobol's extensible ESLint configuration
 
-## Usage
+The MIT License - Copyright (c) 2016 Brigade and Ryan Sobol
 
-### React
+## Philosophy
 
-Install this module, as well as the other eslint modules on which it is dependent:
+- Declare all available rules
+- Support ECMAScript 5 and above
+- Be compatible with alternative parsers
+- Break the build when code fails any rule
+- Equip developers with powerful semantics
+- Teach developers how to write maintainable code
+- Allow any rule to be overridden on a per project basis
+
+## Dependencies
+
+| Dependency                   | Type     | Version         |
+|------------------------------|----------|-----------------|
+| [eslint][eslint]             | Peer     | `^2.0.0-beta.2` |
+| [eslint-plugin-react][react] | Required | `^3.16.0`       |
+| [node][node]                 | Engine   | `>=4.2.0`       |
+
+## Global Installation & Usage
+
+Install the package globally.
 
 ```shell
-npm install --save-dev eslint babel-eslint eslint-plugin-react eslint-plugin-shopify # dependencies
-npm install --save-dev eslint-config-shopify
+npm install -g eslint eslint-config-ryansobol
 ```
 
-then, extend the React version of this configuration in your own `.eslintrc.json`:
+Create a configuration file and configure the [project's language][language].
+
+```shell
+touch .eslintrc.js
+```
+
+Run the package globally returning a non-zero status code with it fails.
+
+```shell
+eslint .
+```
+
+## Local Installation & Usage
+
+Install the package locally by adding it to the `package.json` file as a development dependency.
+
+```shell
+npm install -D eslint eslint-config-ryansobol
+```
+
+Create a configuration file and configure the [project's language][language].
+
+```shell
+touch .eslintrc.js
+```
+
+Run the package locally returning a non-zero status code with it fails.
+
+```shell
+./node_modules/.bin/eslint .
+```
+
+Additionally, add a script to the `package.json` file.
 
 ```json
 {
-  "extends": "shopify/react"
+  "script": {
+    "lint": "eslint ."
+  }
 }
 ```
 
-### ES2015 and Beyond Projects
-
-Install this module, as well as the other eslint modules on which it is dependent:
+And run the script locally returning a non-zero status code with it fails.
 
 ```shell
-npm install --save-dev eslint babel-eslint eslint-plugin-shopify # dependencies
-npm install --save-dev eslint-config-shopify
+npm run lint
 ```
 
-then, extend the base version of this configuration in your own `.eslintrc`:
+## Language Configuration
 
-```json
-{
-  "extends": "shopify"
+A project can be linted by **one** of the following language configurations.
+
+| Language     | Module            |
+|--------------|-------------------|
+| ECMAScript 5 | `ryansobol/es5`   |
+| ECMAScript 6 | `ryansobol/es6`   |
+
+Add the following code to the `.eslintrc.js` file of an ECMAScript 5 project.
+
+```js
+module.exports = {
+  extends: 'ryansobol/es5'
 }
 ```
 
-### ES5 Projects
+Or add the following code to the `.eslintrc.js` file of an ECMAScript 6 project.
 
-Projects with a legacy codebase or that target a tool that targets node may continue to use ES5. To lint these projects, first install this module, as well as the other eslint modules on which it is dependent:
-
-```shell
-npm install --save-dev eslint eslint-plugin-shopify # dependencies
-npm install --save-dev eslint-config-shopify
+```js
+module.exports = {
+  extends: 'ryansobol/es6'
+}
 ```
 
-then, extend the ES5 version of this configuration in your own `.eslintrc`:
+## Overriding Rules
 
-```json
-{
-  "extends": "shopify/es5"
+Alter any rule by overriding it in the `.eslintrc.js` file.
+
+```js
+module.exports = {
+  extends: 'ryansobol/es5',
+
+  rules: {
+    'brace-style': [2, '1tbs', { allowSingleLine: true }],
+  }
+}
+```
+
+## Supplemental configuration
+
+A project can be linted by **any** of the following supplemental configurations.
+
+| Supplement | Module            |
+|------------|-------------------|
+| Node.js    | `ryansobol/node`  |
+| React.js   | `ryansobol/react` |
+
+Add the following code to the `.eslintrc.js` file of an ECMAScript 6 project using Node.js.
+
+```js
+module.exports = {
+  extends: [
+    'ryansobol/es6',
+    'ryansobol/node'
+  ]
+}
+```
+
+Add the following code to the `.eslintrc.js` file of an ECMAScript 6 project using Node.js and React.js.
+
+```js
+module.exports = {
+  extends: [
+    'ryansobol/es6',
+    'ryansobol/node',
+    'ryansobol/react',
+  ]
+}
+```
+
+## Alternative parsers
+
+The default [Espree][espree] parser is assumed, but alternative parsers like [babel-eslint][babel] can be specified in the `.eslintrc.js` file.
+
+```js
+module.exports = {
+  extends: [
+    'ryansobol/es6',
+    'ryansobol/node',
+    'ryansobol/react',
+  ],
+
+  parser: 'babel-eslint'
+}
+```
+
+Parser options can be specified in the `.eslintrc.js` file as well.
+
+```js
+module.exports = {
+  extends: [
+    'ryansobol/es6',
+    'ryansobol/node',
+    'ryansobol/react',
+  ],
+
+  parser: 'babel-eslint',
+
+  parserOptions: {
+    sourceType: 'module'
+  }
 }
 ```
 
 ## Contributing
 
-If there are rules that you wish to alter for your particular project, feel free to do so in your own `.eslintrc`. Rule declarations you make there will override the rules declared by this configuration. If you feel that a particular rule choice is poor and should be changed for all projects using this configuration, please open a PR [against this repo on Github](https://github.com/Shopify/eslint-config-shopify).
+See the section on [overriding rules][overriding] to learn how to alter any of them for your own project.
 
-For changes to existing rules, bump the major version. For addition of new rules, bump the minor version. For all other corrections and updates, bump the patch version. These can easily be done by running `npm publish <version>`, where `version` is either `major`, `minor`, or `patch`.
+Pull requests are very much welcome for the following.
 
-[npm-image]: http://img.shields.io/npm/v/eslint-config-ryansobol.svg
-[npm-url]: https://npmjs.org/package/eslint-config-ryansobol
-[travis-image]: https://travis-ci.org/ryansobol/eslint-config-ryansobol.svg
-[travis-url]: https://travis-ci.org/ryansobol/eslint-config-ryansobol
+- Fixing bugs
+- Adding tests
+- Writing documentation
+- Adding rules for another plugin (e.g. [`eslint-plugin-angular`][angular])
+- Changing rules that don't follow the [project's philosophy][philosophy]
+
+## Credits
+
+Thanks goes to the Shopify team for publishing [eslint-config-shopify][shopify] under a permissive license.
+
+[ni]: https://img.shields.io/npm/v/eslint-config-ryansobol.svg?style=flat-square
+[nu]: https://www.npmjs.com/package/eslint-config-ryansobol
+[ti]: https://img.shields.io/travis/ryansobol/eslint-config-ryansobol/master.svg?style=flat-square
+[tu]: https://travis-ci.org/ryansobol/eslint-config-ryansobol
+[angular]: https://github.com/Gillespie59/eslint-plugin-angular
+[babel]: https://github.com/babel/babel-eslint
+[eslint]: http://eslint.org/
+[espree]: https://github.com/eslint/espree
+[node]: https://nodejs.org/
+[react]: https://github.com/yannickcr/eslint-plugin-react
+[shopify]: https://github.com/Shopify/eslint-config-shopify
+[language]: #language-configuration
+[overriding]: #overriding-rules
+[philosophy]: #philosophy
