@@ -35,6 +35,7 @@ All changes to this project are documented in this file. This project adheres to
 - Change `no-octal` rule to an error
 - Change `no-process-env` rule to disabled
 - Change `no-script-url` rule to an error
+- Change `no-sequences` rule to an error
 
 #### Possible Errors
 - Change `comma-dangle` rule to `'never'`

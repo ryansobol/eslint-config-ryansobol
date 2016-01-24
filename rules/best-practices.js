@@ -95,7 +95,7 @@ module.exports = {
   // Disallow comparisons where both sides are exactly the same
   'no-self-compare': 2,
   // Disallow use of comma operator
-  'no-sequences': 1,
+  'no-sequences': 2,
   // Restrict what can be thrown as an exception
   'no-throw-literal': 1,
   // Allow usage of expressions in statement position
