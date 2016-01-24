@@ -58,6 +58,7 @@ All changes to this project are documented in this file. This project adheres to
 
 #### ECMAScript 6
 - Change `arrow-parens` rule to an error
+- Change `arrow-spacing` rule to an error
 
 #### Node.js and CommonJS
 - Update comment to official docs

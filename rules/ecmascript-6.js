@@ -9,7 +9,7 @@ module.exports = {
   'arrow-parens': [2, 'always'],
 
   // Require space before/after arrow function's arrow
-  'arrow-spacing': [1, { before: true, after: true }],
+  'arrow-spacing': [2, { before: true, after: true }],
 
   // Verify super() callings in constructors
   'constructor-super': 2,
