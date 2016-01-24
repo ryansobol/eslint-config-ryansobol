@@ -66,6 +66,9 @@ All changes to this project are documented in this file. This project adheres to
 #### Strict Mode
 - Change `strict` rule to `'global'`
 
+#### Variables
+- Change `init-declarations` rule to disabled
+
 ### Removed
 - Replace `merge` dependency with `Object.assign()` function
 - Remove `eslint-plugin-shopify` rules and dependencies
