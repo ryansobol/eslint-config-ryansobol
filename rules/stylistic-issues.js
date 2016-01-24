@@ -130,7 +130,7 @@ module.exports = {
   'no-ternary': 0,
 
   // Disallow trailing whitespace at the end of lines
-  'no-trailing-spaces': 1,
+  'no-trailing-spaces': 2,
 
   // Allow dangling underscores in identifiers
   'no-underscore-dangle': 0,

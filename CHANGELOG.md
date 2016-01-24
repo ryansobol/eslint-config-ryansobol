@@ -110,6 +110,7 @@ All changes to this project are documented in this file. This project adheres to
 - Change `no-nested-ternary` rule to an error
 - Change `no-new-object` rule to an error
 - Change `no-spaced-func` rule to an error
+- Change `no-trailing-spaces` rule to an error
 
 #### Variables
 - Change `init-declarations` rule to disabled
