@@ -75,6 +75,9 @@ All changes to this project are documented in this file. This project adheres to
 #### Strict Mode
 - Change `strict` rule to `'global'`
 
+#### Stylistic Issues
+- Change `array-bracket-spacing` rule to an error
+
 #### Variables
 - Change `init-declarations` rule to disabled
 - Change `no-catch-shadow` rule to disabled
