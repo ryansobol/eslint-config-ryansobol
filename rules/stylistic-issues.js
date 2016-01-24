@@ -19,7 +19,7 @@ module.exports = {
   // Enforces consistent naming when capturing the current execution context
   'consistent-this': [2, 'self'],
   // Enforce newline at the end of file, with no multiple empty lines
-  'eol-last': 1,
+  'eol-last': 2,
   // Don't require function expressions to have a name
   'func-names': 0,
   // Enforces use of function declarations or expressions
