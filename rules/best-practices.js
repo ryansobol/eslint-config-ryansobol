@@ -46,7 +46,7 @@ module.exports = {
   // Disallow fallthrough of case statements
   'no-fallthrough': 2,
   // Disallow the use of leading or trailing decimal points in numeric literals
-  'no-floating-decimal': 1,
+  'no-floating-decimal': 2,
   // Disallow the type conversions with shorter notations
   'no-implicit-coercion': 1,
   // Disallow use of eval()-like methods
