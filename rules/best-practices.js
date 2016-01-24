@@ -79,7 +79,7 @@ module.exports = {
   // such as var foo = "Copyright \251";
   'no-octal-escape': 2,
   // Disallow use of octal literals
-  'no-octal': 1,
+  'no-octal': 2,
   // Allow reassignment of function parameters
   'no-param-reassign': 0,
   // Disallow use of process.env
