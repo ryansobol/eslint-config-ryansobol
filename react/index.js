@@ -5,7 +5,7 @@ module.exports = {
     jsx: true
   },
 
-  extends: 'ryansobol/es6',
+  extends: 'ryansobol/core',
 
   plugins: [
     'react'

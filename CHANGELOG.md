@@ -36,6 +36,7 @@ All changes to this project are documented in this file. This project adheres to
 - Change `eslint` peer dependency to ^1.10.0
 - Split Node specific `env` and `rules` into `ryansobol/node` config
 - Enforce `consistent-as-needed` for this project's `quote-props` rule
+- Extend `ryansobol/core` within `ryansobol/react` rules
 
 #### Best Practices
 - Change `block-scoped-var` rule to an error
