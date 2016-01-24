@@ -35,7 +35,7 @@ module.exports = {
   'react/jsx-max-props-per-line': 0,
 
   // Prevent usage of .bind() and arrow functions in JSX props
-  'jsx-no-bind': 0,
+  'jsx-no-bind': 2,
 
   // Prevent duplicate props in JSX
   'react/jsx-no-duplicate-props': 2,
