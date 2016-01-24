@@ -36,6 +36,7 @@ All changes to this project are documented in this file. This project adheres to
 - Enforce `consistent-as-needed` for this project's `quote-props` rule
 - Update `eslint` dependencies to ^2.0.0-beta.2
 - Update `.eslintrc.js` to extend `ryansobol/es6` and `ryansobol/node`
+- Update `eslint-plugin-react` dependencies to ^3.16.0
 
 #### Best Practices
 - Change `block-scoped-var` rule to an error
