@@ -89,7 +89,7 @@ module.exports = {
   'react/no-string-refs': 2,
 
   // Prevent usage of unknown DOM property
-  'react/no-unknown-property': 0,
+  'react/no-unknown-property': 2,
 
   // Prevent missing props validation in a React component definition
   'react/prop-types': 1,
