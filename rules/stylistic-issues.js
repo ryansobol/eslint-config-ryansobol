@@ -162,6 +162,9 @@ module.exports = {
   // Specify whether backticks, double or single quotes should be used
   'quotes': [2, 'single', 'avoid-escape'],
 
+  // Don't require JSDoc comment
+  'require-jsdoc': 0,
+
   // Enforce spacing before and after semicolons
   'semi-spacing': [1, { before: false, after: true }],
 
