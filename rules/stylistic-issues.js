@@ -47,7 +47,7 @@ module.exports = {
   'id-match': 0,
 
   // This option sets a specific tab width for your code
-  'indent': [2, 2, { 'SwitchCase': 1 }],
+  'indent': [2, 2, { SwitchCase: 1 }],
 
   // Specify whether double or single quotes should be used in JSX attributes
   'jsx-quotes': [2, 'prefer-double'],
@@ -60,18 +60,18 @@ module.exports = {
 
   // Enforces empty lines around comments
   'lines-around-comment': [2, {
-    'allowArrayStart': true,
-    'allowBlockStart': true,
-    'allowObjectStart': true,
-    'beforeBlockComment': true,
-    'beforeLineComment': true
+    allowArrayStart: true,
+    allowBlockStart: true,
+    allowObjectStart: true,
+    beforeBlockComment: true,
+    beforeLineComment: true
   }],
 
   // Specify the maximum depth that blocks can be nested
   'max-depth': [2, 4],
 
   // Specify the maximum length of a line in your program
-  'max-len': [2, 80, 4, { 'ignoreUrls': true }],
+  'max-len': [2, 80, 4, { ignoreUrls: true }],
 
   // Specify the maximum depth callbacks can be nested
   'max-nested-callbacks': [2, 4],
@@ -139,7 +139,7 @@ module.exports = {
   'no-unneeded-ternary': 2,
 
   // Require or disallow padding inside curly braces
-  'object-curly-spacing': [2, 'always', { 'objectsInObjects': false }],
+  'object-curly-spacing': [2, 'always', { objectsInObjects: false }],
 
   // Allow or disallow one variable declaration per function
   'one-var': [2, 'never'],

@@ -19,7 +19,7 @@ module.exports = {
   'no-shadow-restricted-names': 2,
 
   // Disallow declaration of variables already declared in the outer scope
-  'no-shadow': [2, { 'hoist': 'all' }],
+  'no-shadow': [2, { hoist: 'all' }],
 
   // Disallow use of undefined when initializing variables
   'no-undef-init': 2,

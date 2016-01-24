@@ -5,7 +5,6 @@ module.exports = {
   ],
 
   'rules': {
-    // For consistency with keys that require quotes
-    'quote-props': 0
+    'quote-props': [2, 'consistent-as-needed']
   }
 };
