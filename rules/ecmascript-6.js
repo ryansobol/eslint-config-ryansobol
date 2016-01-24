@@ -21,7 +21,7 @@ module.exports = {
   'no-arrow-condition': 2,
 
   // Disallow modifying variables of class declarations
-  'no-class-assign': 1,
+  'no-class-assign': 2,
 
   // Disallow modifying variables that are declared using const
   'no-const-assign': 2,

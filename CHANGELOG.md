@@ -63,6 +63,7 @@ All changes to this project are documented in this file. This project adheres to
 - Change `arrow-parens` rule to an error
 - Change `arrow-spacing` rule to an error
 - Change `generator-star-spacing` rule to an error and be more explicit
+- Change `no-class-assign` rule to an error
 
 #### Node.js and CommonJS
 - Update comment to official docs
