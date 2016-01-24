@@ -106,7 +106,7 @@ module.exports = {
   'no-lonely-if': 2,
 
   // Disallow mixed spaces and tabs for indentation
-  'no-mixed-spaces-and-tabs': 1,
+  'no-mixed-spaces-and-tabs': 2,
 
   // Disallow multiple empty lines
   'no-multiple-empty-lines': 1,

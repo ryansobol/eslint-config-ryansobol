@@ -101,6 +101,10 @@ All changes to this project are documented in this file. This project adheres to
 - Change `lines-around-comment` rule to an error and enforce more exemptions
 - Change `max-nested-callbacks` rule to an error and enforce 4 levels
 - Change `new-cap` rule to use its defaults
+- Change `new-parens` rule to an error
+- Change `newline-after-var` rule to an error
+- Change `no-lonely-if` rule to an error
+- Change `no-mixed-spaces-and-tabs` rule to an error
 
 #### Variables
 - Change `init-declarations` rule to disabled
@@ -108,9 +112,6 @@ All changes to this project are documented in this file. This project adheres to
 - Change `no-shadow` rule to reports `'all'` shadowing
 - Change `no-unused-vars` rule to an error
 - Change `no-use-before-define` rule to remove exemptions
-- Change `new-parens` rule to an error
-- Change `newline-after-var` rule to an error
-- Change `no-lonely-if` rule to an error
 
 ### Removed
 - Replace `merge` dependency with `Object.assign()` function
