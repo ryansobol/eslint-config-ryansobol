@@ -88,7 +88,7 @@ module.exports = {
 
   // Disallow the omission of parentheses when invoking a constructor with no
   // arguments
-  'new-parens': 1,
+  'new-parens': 2,
 
   // Allow/disallow an empty newline after var statement
   'newline-after-var': 0,
