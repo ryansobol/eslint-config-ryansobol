@@ -53,7 +53,7 @@ module.exports = {
   'react/jsx-sort-prop-types': 2,
 
   // Enforce props alphabetical sorting
-  'react/jsx-sort-props': 0,
+  'react/jsx-sort-props': 2,
 
   // Prevent React to be incorrectly marked as unused
   'react/jsx-uses-react': 2,
