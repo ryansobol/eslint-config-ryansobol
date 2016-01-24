@@ -84,7 +84,7 @@ module.exports = {
   'max-statements': [2, 15],
 
   // Require a capital letter for constructors
-  'new-cap': [2, {newIsCap: true}],
+  'new-cap': 2,
 
   // Disallow the omission of parentheses when invoking a constructor with no
   // arguments
