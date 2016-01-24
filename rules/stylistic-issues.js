@@ -109,7 +109,7 @@ module.exports = {
   'no-mixed-spaces-and-tabs': 2,
 
   // Disallow multiple empty lines
-  'no-multiple-empty-lines': 1,
+  'no-multiple-empty-lines': [2, {max: 1, maxEOF: 1}],
 
   // Disallow nested ternary expressions
   'no-nested-ternary': 1,
