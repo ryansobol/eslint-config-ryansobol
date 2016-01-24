@@ -7,7 +7,7 @@ module.exports = {
   // disallow require() outside of the top-level module scope
   'global-require': 0,
   // Enforces error handling in callbacks
-  'handle-callback-err': [1, '^.*(e|E)rr(or)?$'],
+  'handle-callback-err': [2, '^.*(e|E)rr(or)?$'],
   // Disallow mixing regular variable and require declarations
   'no-mixed-requires': 0,
   // Disallow use of new operator with the require function
