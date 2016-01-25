@@ -6,6 +6,9 @@ All changes to this project are documented in this file. This project adheres to
 ### Changed
 - Tweak the `README.md` file
 
+### Fixed
+- Fix the compare links in the `CHANGLOG.md` file
+
 ## [6.0.0-alpha.1] - 2016-01-24
 ### Added
 - Add `'node'` keyword to `package.json` file
@@ -399,21 +402,21 @@ All changes to this project are documented in this file. This project adheres to
 [5.2.1]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v5.2.0...v5.2.1
 [5.2.0]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v5.1.1...v5.2.0
 [5.1.1]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v5.1.0...v5.1.1
-[5.1.0]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v5.0.0...v5.1.0
-[5.0.0]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v4.0.0...v5.0.0
-[4.0.0]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v3.0.4...v4.0.0
-[3.0.4]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v3.0.3...v3.0.4
-[3.0.3]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v3.0.2...v3.0.3
-[3.0.2]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v3.0.1...v3.0.2
-[3.0.1]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v3.0.0...v3.0.1
-[3.0.0]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v2.0.1...v3.0.0
-[2.0.1]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v2.0.0...v2.0.1
-[2.0.0]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v1.0.7...v2.0.0
-[1.0.7]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v1.0.6...v1.0.7
-[1.0.6]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v1.0.5...v1.0.6
-[1.0.5]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v1.0.4...v1.0.5
-[1.0.4]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v1.0.3...v1.0.4
-[1.0.3]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v1.0.2...v1.0.3
-[1.0.2]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v1.0.1...v1.0.2
-[1.0.1]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v1.0.0...v1.0.1
+[5.1.0]: https://github.com/ryansobol/eslint-config-ryansobol/compare/5.0.0...v5.1.0
+[5.0.0]: https://github.com/ryansobol/eslint-config-ryansobol/compare/4.0.0...5.0.0
+[4.0.0]: https://github.com/ryansobol/eslint-config-ryansobol/compare/3.0.4...4.0.0
+[3.0.4]: https://github.com/ryansobol/eslint-config-ryansobol/compare/3.0.3...3.0.4
+[3.0.3]: https://github.com/ryansobol/eslint-config-ryansobol/compare/3.0.2...3.0.3
+[3.0.2]: https://github.com/ryansobol/eslint-config-ryansobol/compare/3.0.1...3.0.2
+[3.0.1]: https://github.com/ryansobol/eslint-config-ryansobol/compare/3.0.0...3.0.1
+[3.0.0]: https://github.com/ryansobol/eslint-config-ryansobol/compare/2.0.1...3.0.0
+[2.0.1]: https://github.com/ryansobol/eslint-config-ryansobol/compare/2.0.0...2.0.1
+[2.0.0]: https://github.com/ryansobol/eslint-config-ryansobol/compare/1.0.7...2.0.0
+[1.0.7]: https://github.com/ryansobol/eslint-config-ryansobol/compare/1.0.6...1.0.7
+[1.0.6]: https://github.com/ryansobol/eslint-config-ryansobol/compare/1.0.5...1.0.6
+[1.0.5]: https://github.com/ryansobol/eslint-config-ryansobol/compare/1.0.4...1.0.5
+[1.0.4]: https://github.com/ryansobol/eslint-config-ryansobol/compare/1.0.3...1.0.4
+[1.0.3]: https://github.com/ryansobol/eslint-config-ryansobol/compare/1.0.2...1.0.3
+[1.0.2]: https://github.com/ryansobol/eslint-config-ryansobol/compare/1.0.1...1.0.2
+[1.0.1]: https://github.com/ryansobol/eslint-config-ryansobol/compare/1.0.0...1.0.1
 [1.0.0]: https://github.com/ryansobol/eslint-config-ryansobol/tree/5ea066257
