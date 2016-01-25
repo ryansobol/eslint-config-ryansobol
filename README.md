@@ -195,7 +195,7 @@ Pull requests are very much welcome for the following.
 - Fixing bugs
 - Adding tests
 - Writing documentation
-- Adding rules for another plugin (e.g. [`eslint-plugin-angular`][angular])
+- Adding rules for another plugin (e.g. [eslint-plugin-angular][angular])
 - Changing rules that don't follow the [project's philosophy][philosophy]
 
 ## Credits

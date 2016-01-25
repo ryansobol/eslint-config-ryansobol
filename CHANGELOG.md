@@ -3,6 +3,8 @@
 All changes to this project are documented in this file. This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+### Changed
+- Tweak the `README.md` file
 
 ## [6.0.0-alpha.1] - 2016-01-24
 ### Added
