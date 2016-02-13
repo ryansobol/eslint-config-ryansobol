@@ -8,6 +8,9 @@ All changes to this project are documented in this file. This project adheres to
 - Add `array-callback-return` to enforce returns in callbacks of array's methods
 - Add `no-empty-function` to disallow use of empty functions
 
+#### Stylistic Issues
+- Add `newline-per-chained-call` to not enforce newline after each chained call
+
 ### Changed
 - Tweak the `README.md` file
 - Update `eslint` dependencies to ^2.0.0

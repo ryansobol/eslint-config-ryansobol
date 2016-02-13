@@ -96,6 +96,9 @@ module.exports = {
   // Allow/disallow an empty newline after var statement
   'newline-after-var': 2,
 
+  // Don't enforce newline after each call when chaining the calls
+  'newline-per-chained-call': 0,
+
   // Disallow use of the Array constructor
   'no-array-constructor': 2,
 
