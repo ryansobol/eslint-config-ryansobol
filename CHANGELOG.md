@@ -28,6 +28,7 @@ All changes to this project are documented in this file. This project adheres to
 - Add `one-var-declaration-per-line` to require newlines around var declarations
 - Add `sort-imports` to sort import declarations within module
 - Add `template-curly-spacing` to enforce spacing in template strings
+- Add `yield-star-spacing` to enforce spacing around the * in yield* expressions
 
 ### Changed
 - Tweak the `README.md` file

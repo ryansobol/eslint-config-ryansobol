@@ -67,5 +67,8 @@ module.exports = {
   'require-yield': 2,
 
   // Enforce spacing around embedded expressions of template strings
-  'template-curly-spacing': [2, 'never']
+  'template-curly-spacing': [2, 'never'],
+
+  // Enforce spacing around the * in yield* expressions
+  'yield-star-spacing': [2, { before: false, after: true }]
 };
