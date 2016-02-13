@@ -165,6 +165,9 @@ module.exports = {
   // Allow usage of expressions in statement position
   'no-unused-expressions': 2,
 
+  // Disallow unused labels
+  'no-unused-labels': 2,
+
   // Disallow unnecessary .call() and .apply()
   'no-useless-call': 2,
 
