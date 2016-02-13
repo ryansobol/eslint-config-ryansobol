@@ -23,6 +23,9 @@ module.exports = {
   // Disallow process.exit()
   'no-process-exit': 0,
 
+  // Restrict usage of specified node imports
+  'no-restricted-imports': 0,
+
   // Restrict usage of specified node modules
   'no-restricted-modules': 0,
 
