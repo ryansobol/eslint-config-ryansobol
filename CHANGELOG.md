@@ -27,6 +27,7 @@ All changes to this project are documented in this file. This project adheres to
 - Add `no-whitespace-before-property` to disallow whitespace before properties
 - Add `one-var-declaration-per-line` to require newlines around var declarations
 - Add `sort-imports` to sort import declarations within module
+- Add `template-curly-spacing` to enforce spacing in template strings
 
 ### Changed
 - Tweak the `README.md` file

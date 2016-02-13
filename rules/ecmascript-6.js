@@ -64,5 +64,8 @@ module.exports = {
   'prefer-template': 2,
 
   // Disallow generator functions that do not have yield
-  'require-yield': 2
+  'require-yield': 2,
+
+  // Enforce spacing around embedded expressions of template strings
+  'template-curly-spacing': [2, 'never']
 };
