@@ -47,6 +47,9 @@ module.exports = {
   // Disallow else after a return in an if
   'no-else-return': 2,
 
+  // Disallow use of empty functions
+  'no-empty-function': 2,
+
   // Disallow use of empty destructuring patterns
   'no-empty-pattern': 2,
 

@@ -3,6 +3,10 @@
 All changes to this project are documented in this file. This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+### Added
+#### Best Practices
+- Add `no-empty-function` to disallow use of empty functions
+
 ### Changed
 - Tweak the `README.md` file
 - Update `eslint` dependencies to ^2.0.0
