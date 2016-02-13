@@ -135,6 +135,9 @@ module.exports = {
   // Disallow use of unary operators, ++ and --
   'no-plusplus': [2, { allowForLoopAfterthoughts: true }],
 
+  // Disallow use of certain syntax in code
+  'no-restricted-syntax': 0,
+
   // Disallow whitespace before properties
   'no-whitespace-before-property': 2,
 
