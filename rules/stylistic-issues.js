@@ -132,6 +132,9 @@ module.exports = {
   // Disallow use of unary operators, ++ and --
   'no-plusplus': [2, { allowForLoopAfterthoughts: true }],
 
+  // Disallow whitespace before properties
+  'no-whitespace-before-property': 2,
+
   // Disallow space between function identifier and application
   'no-spaced-func': 2,
 

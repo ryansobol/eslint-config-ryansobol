@@ -23,6 +23,7 @@ All changes to this project are documented in this file. This project adheres to
 #### Stylistic Issues
 - Add `id-blacklist` to not blacklist certain identifiers to prevent their use
 - Add `newline-per-chained-call` to not enforce newline after each chained call
+- Add `no-whitespace-before-property` to disallow whitespace before properties
 
 ### Changed
 - Tweak the `README.md` file
