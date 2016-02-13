@@ -10,6 +10,7 @@ All changes to this project are documented in this file. This project adheres to
 
 ### Changed
 - Test with Node.js 4.3, 5.5, and 5.6 on TravisCI
+- Change the description to shareable (fixes #4)
 
 ## [6.0.0-alpha.2] - 2016-02-13
 ### Added

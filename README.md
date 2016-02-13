@@ -3,7 +3,7 @@
 [![NPM version][ni]][nu]
 [![Build status][ti]][tu]
 
-Ryan Sobol's extensible ESLint configuration
+Ryan Sobol's shareable ESLint configuration
 
 The MIT License - Copyright (c) 2016 Brigade and Ryan Sobol
 
