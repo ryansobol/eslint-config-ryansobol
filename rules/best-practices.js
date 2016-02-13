@@ -80,6 +80,9 @@ module.exports = {
   // Disallow the type conversions with shorter notations
   'no-implicit-coercion': 2,
 
+  // Disallow var and named functions in global scope
+  'no-implicit-globals': 2,
+
   // Disallow use of eval()-like methods
   'no-implied-eval': 2,
 
