@@ -7,6 +7,7 @@ All changes to this project are documented in this file. This project adheres to
 #### Best Practices
 - Add `array-callback-return` to enforce returns in callbacks of array's methods
 - Add `no-empty-function` to disallow use of empty functions
+- Add `no-extra-label` to disallow unnecessary labels
 
 #### Stylistic Issues
 - Add `newline-per-chained-call` to not enforce newline after each chained call

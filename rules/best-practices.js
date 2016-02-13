@@ -68,6 +68,9 @@ module.exports = {
   // Disallow unnecessary function binding
   'no-extra-bind': 2,
 
+  // Disallow unnecessary labels
+  'no-extra-label': 2,
+
   // Disallow fallthrough of case statements
   'no-fallthrough': 2,
 
