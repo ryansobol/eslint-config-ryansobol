@@ -10,6 +10,7 @@ All changes to this project are documented in this file. This project adheres to
 - Add `no-extra-label` to disallow unnecessary labels
 - Add `no-implicit-globals` to disallow var and named functions in global scope
 - Add `no-self-assign` to disallow assignments where both sides are the same
+- Add `no-unmodified-loop-condition` to disallow unmodified conditions of loops
 
 #### ECMAScript 6
 - Add `no-new-symbol` to disallow use of the new operator with the Symbol object

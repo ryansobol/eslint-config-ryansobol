@@ -159,6 +159,9 @@ module.exports = {
   // Restrict what can be thrown as an exception
   'no-throw-literal': 2,
 
+  // Disallow unmodified conditions of loops
+  'no-unmodified-loop-condition': 2,
+
   // Allow usage of expressions in statement position
   'no-unused-expressions': 2,
 
