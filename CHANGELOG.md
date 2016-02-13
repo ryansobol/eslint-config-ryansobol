@@ -10,6 +10,9 @@ All changes to this project are documented in this file. This project adheres to
 - Add `no-extra-label` to disallow unnecessary labels
 - Add `no-implicit-globals` to disallow var and named functions in global scope
 
+#### ECMAScript 6
+- Add `no-new-symbol` to disallow use of the new operator with the Symbol object
+
 #### Stylistic Issues
 - Add `newline-per-chained-call` to not enforce newline after each chained call
 
