@@ -147,6 +147,9 @@ module.exports = {
   // Disallow use of javascript: urls.,
   'no-script-url': 2,
 
+  // Disallow assignments where both sides are exactly the same
+  'no-self-assign': 2,
+
   // Disallow comparisons where both sides are exactly the same
   'no-self-compare': 2,
 
