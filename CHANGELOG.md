@@ -35,6 +35,9 @@ All changes to this project are documented in this file. This project adheres to
 #### Best Practices
 - Replace `no-empty-label` with `no-labels`
 
+#### Stylistic Issues
+- Change `sort-vars` to sort variables within the same declaration block
+
 ### Fixed
 - Fix the compare links in the `CHANGLOG.md` file
 

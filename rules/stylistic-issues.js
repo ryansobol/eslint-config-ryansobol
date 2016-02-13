@@ -187,7 +187,7 @@ module.exports = {
   'semi': [2, 'always'],
 
   // Sort variables within the same declaration block
-  'sort-vars': 0,
+  'sort-vars': [2, { ignoreCase: false }],
 
   // Sort import declarations within module
   'sort-imports': [2, {
