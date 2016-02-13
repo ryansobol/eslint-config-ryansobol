@@ -5,6 +5,7 @@ All changes to this project are documented in this file. This project adheres to
 ## [Unreleased]
 ### Changed
 - Tweak the `README.md` file
+- Update `eslint` dependencies to ^2.0.0
 
 ### Fixed
 - Fix the compare links in the `CHANGLOG.md` file

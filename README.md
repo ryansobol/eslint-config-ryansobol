@@ -19,11 +19,11 @@ The MIT License - Copyright (c) 2016 Brigade and Ryan Sobol
 
 ## Dependencies
 
-| Dependency                   | Type     | Version         |
-|------------------------------|----------|-----------------|
-| [eslint][eslint]             | Peer     | `^2.0.0-beta.2` |
-| [eslint-plugin-react][react] | Required | `^3.16.0`       |
-| [node][node]                 | Engine   | `>=4.2.0`       |
+| Dependency                   | Type     | Version   |
+|------------------------------|----------|-----------|
+| [eslint][eslint]             | Peer     | `^2.0.0`  |
+| [eslint-plugin-react][react] | Required | `^3.16.0` |
+| [node][node]                 | Engine   | `>=4.2.0` |
 
 ## Global Installation & Usage
 
