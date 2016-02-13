@@ -5,6 +5,9 @@ module.exports = {
   // Enforces getter/setter pairs in objects
   'accessor-pairs': 0,
 
+  // Enforces return statements in callbacks of array's methods
+  'array-callback-return': 2,
+
   // Treat var statements as if they were block scoped
   'block-scoped-var': 2,
 
