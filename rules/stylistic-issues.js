@@ -46,6 +46,9 @@ module.exports = {
   // Require identifiers to match the provided regular expression
   'id-match': 0,
 
+  // Blacklist certain identifiers to prevent them being used
+  'id-blacklist': 0,
+
   // This option sets a specific tab width for your code
   'indent': [2, 2, { SwitchCase: 1 }],
 

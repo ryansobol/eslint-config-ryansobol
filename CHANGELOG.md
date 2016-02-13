@@ -17,6 +17,7 @@ All changes to this project are documented in this file. This project adheres to
 - Add `no-restricted-imports` to not restrict usage of specified node imports
 
 #### Stylistic Issues
+- Add `id-blacklist` to not blacklist certain identifiers to prevent their use
 - Add `newline-per-chained-call` to not enforce newline after each chained call
 
 ### Changed
