@@ -105,6 +105,9 @@ module.exports = {
   // Disallow use of the Array constructor
   'no-array-constructor': 2,
 
+  // Disallow use of bitwise operators
+  'no-bitwise': 2,
+
   // Disallow use of the continue statement
   'no-continue': 0,
 

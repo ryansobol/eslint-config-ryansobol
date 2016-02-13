@@ -3,6 +3,10 @@
 All changes to this project are documented in this file. This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+### Added
+#### Stylistic Issues
+- Add `no-bitwise` to not disallow use of bitwise operators
+
 ### Changed
 - Test with Node.js 4.3, 5.5, and 5.6 on TravisCI
 
