@@ -24,6 +24,7 @@ All changes to this project are documented in this file. This project adheres to
 - Add `id-blacklist` to not blacklist certain identifiers to prevent their use
 - Add `newline-per-chained-call` to not enforce newline after each chained call
 - Add `no-whitespace-before-property` to disallow whitespace before properties
+- Add `one-var-declaration-per-line` to require newlines around var declarations
 
 ### Changed
 - Tweak the `README.md` file

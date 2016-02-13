@@ -156,6 +156,9 @@ module.exports = {
   // Allow or disallow one variable declaration per function
   'one-var': [2, 'never'],
 
+  // Require or disallow an newline around variable declarations
+  'one-var-declaration-per-line': [2, 'always'],
+
   // Require assignment operator shorthand where possible or prohibit it
   // entirely
   'operator-assignment': [2, 'always'],
