@@ -54,6 +54,9 @@ module.exports = {
   // Suggest using Reflect methods where applicable
   'prefer-reflect': 0,
 
+  // Suggest using the rest parameters instead of arguments
+  'prefer-rest-params': 2,
+
   // Suggest using the spread operator instead of .apply()
   'prefer-spread': 2,
 
