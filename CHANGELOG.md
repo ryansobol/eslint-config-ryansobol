@@ -26,6 +26,7 @@ All changes to this project are documented in this file. This project adheres to
 - Add `newline-per-chained-call` to not enforce newline after each chained call
 - Add `no-whitespace-before-property` to disallow whitespace before properties
 - Add `one-var-declaration-per-line` to require newlines around var declarations
+- Add `sort-imports` to sort import declarations within module
 
 ### Changed
 - Tweak the `README.md` file
