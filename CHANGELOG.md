@@ -15,6 +15,7 @@ All changes to this project are documented in this file. This project adheres to
 
 #### ECMAScript 6
 - Add `no-new-symbol` to disallow use of the new operator with the Symbol object
+- Add `no-useless-constructor` to disallow unnecessary constructor
 
 #### Node.js and CommonJS
 - Add `no-restricted-imports` to not restrict usage of specified node imports

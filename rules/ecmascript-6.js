@@ -38,6 +38,9 @@ module.exports = {
   // Require let or const instead of var
   'no-var': 2,
 
+  // Disallow unnecessary constructor
+  'no-useless-constructor': 2,
+
   // Require method and property shorthand syntax for object literals
   'object-shorthand': [2, 'always'],
 
