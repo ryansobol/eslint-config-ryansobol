@@ -3,6 +3,8 @@
 All changes to this project are documented in this file. This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+
+## [6.0.0-alpha.2] - 2016-02-13
 ### Added
 #### Best Practices
 - Add `array-callback-return` to enforce returns in callbacks of array's methods
@@ -416,7 +418,8 @@ All changes to this project are documented in this file. This project adheres to
 ### Added
 - Initial commit
 
-[Unreleased]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v6.0.0-alpha.1...HEAD
+[Unreleased]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v6.0.0-alpha.2...HEAD
+[6.0.0-alpha.2]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v6.0.0-alpha.1...v6.0.0-alpha.2
 [6.0.0-alpha.1]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v5.9.0...v6.0.0-alpha.1
 [5.9.0]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v5.8.0...v5.9.0
 [5.8.0]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v5.7.1...v5.8.0
