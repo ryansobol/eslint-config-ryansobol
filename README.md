@@ -95,7 +95,7 @@ Add the following code to the `.eslintrc.js` file of an ECMAScript 5 project.
 ```js
 module.exports = {
   extends: 'ryansobol/es5'
-}
+};
 ```
 
 Or add the following code to the `.eslintrc.js` file of an ECMAScript 6 project.
@@ -103,7 +103,7 @@ Or add the following code to the `.eslintrc.js` file of an ECMAScript 6 project.
 ```js
 module.exports = {
   extends: 'ryansobol/es6'
-}
+};
 ```
 
 ## Overriding Rules
@@ -117,7 +117,7 @@ module.exports = {
   rules: {
     'brace-style': [2, '1tbs', { allowSingleLine: true }],
   }
-}
+};
 ```
 
 ## Supplemental configuration
@@ -137,7 +137,7 @@ module.exports = {
     'ryansobol/es6',
     'ryansobol/node'
   ]
-}
+};
 ```
 
 Add the following code to the `.eslintrc.js` file of an ECMAScript 6 project using Node.js and React.js.
@@ -149,7 +149,7 @@ module.exports = {
     'ryansobol/node',
     'ryansobol/react',
   ]
-}
+};
 ```
 
 ## Alternative parsers
@@ -165,7 +165,7 @@ module.exports = {
   ],
 
   parser: 'babel-eslint'
-}
+};
 ```
 
 Parser options can be specified in the `.eslintrc.js` file as well.
@@ -183,7 +183,7 @@ module.exports = {
   parserOptions: {
     sourceType: 'module'
   }
-}
+};
 ```
 
 ## Contributing

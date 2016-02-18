@@ -3,6 +3,8 @@
 All changes to this project are documented in this file. This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+### Changed
+- Add semicolons to config examples (fixes #5)
 
 ## [6.0.0-beta.1] - 2016-02-13
 ### Added
