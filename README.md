@@ -9,7 +9,7 @@ The MIT License - Copyright (c) 2016 Brigade and Ryan Sobol
 
 ## Philosophy
 
-While there are many ways to lint an ECMAScript project, the philosophy behind these ESLint rules are the following.
+A major aspect of the [ESLint philosophy](eslint_philosophy) is that it doesn't promote any particular coding style. While there are many different styles of writing JavaScript, the ESLint rules in this shareable configuration adhere the following philosophy.
 
 - Declare all available rules
 - Support ECMAScript 5 and above
@@ -277,6 +277,7 @@ Thanks goes to the Shopify team for publishing [eslint-config-shopify][shopify] 
 [angular]: https://github.com/Gillespie59/eslint-plugin-angular
 [babel]: https://github.com/babel/babel-eslint
 [eslint]: http://eslint.org/
+[eslint_philosophy]: http://eslint.org/docs/about/
 [espree]: https://github.com/eslint/espree
 [node]: https://nodejs.org/
 [react]: https://github.com/yannickcr/eslint-plugin-react

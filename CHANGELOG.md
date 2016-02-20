@@ -10,6 +10,7 @@ All changes to this project are documented in this file. This project adheres to
 - Close #8 Add ryansobol/jquery config
 - Close #3 Add README section on additional ESLint environments
 - Close #2 Tighten up the Philosophy section of the README
+- Close #10 Link to the ESLint philosophy in the README
 
 ### Changed
 - Close #9 Clarify the language and examples in the README
