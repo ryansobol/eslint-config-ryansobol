@@ -33,13 +33,24 @@ Install the package globally.
 npm install -g eslint eslint-config-ryansobol
 ```
 
-Create a configuration file and configure the [project's language][language].
+Create a `.eslintrc.js` configuration file.
 
 ```shell
 touch .eslintrc.js
 ```
 
-Run the package globally returning a non-zero status code with it fails.
+Add [language configuration][language] and [supplemental configuration][supplemental] to the `.eslintrc.js` file.
+
+```js
+module.exports = {
+  extends: [
+    'ryansobol/es5',
+    'ryansobol/node'  
+  ]
+};
+```
+
+Run the package globally and fix any linting errors.
 
 ```shell
 eslint .
@@ -53,13 +64,24 @@ Install the package locally by adding it to the `package.json` file as a develop
 npm install -D eslint eslint-config-ryansobol
 ```
 
-Create a configuration file and configure the [project's language][language].
+Create a `.eslintrc.js` configuration file.
 
 ```shell
 touch .eslintrc.js
 ```
 
-Run the package locally returning a non-zero status code with it fails.
+Add [language configuration][language] and [supplemental configuration][supplemental] to the `.eslintrc.js` file.
+
+```js
+module.exports = {
+  extends: [
+    'ryansobol/es5',
+    'ryansobol/node'  
+  ]
+};
+```
+
+Run the package locally and fix any linting errors.
 
 ```shell
 ./node_modules/.bin/eslint .
@@ -75,7 +97,7 @@ Additionally, add a script to the `package.json` file.
 }
 ```
 
-And run the script locally returning a non-zero status code with it fails.
+Then run the `npm` script locally and fix any linting errors.
 
 ```shell
 npm run lint
@@ -83,7 +105,7 @@ npm run lint
 
 ## Language Configuration
 
-A project can be linted by **one** of the following language configurations.
+A project is linted by **one** of the following language configurations.
 
 | Language     | Module            |
 |--------------|-------------------|
@@ -108,7 +130,7 @@ module.exports = {
 
 ## Overriding Rules
 
-Alter any rule by overriding it in the `.eslintrc.js` file.
+Customize any rule by overriding it in the `.eslintrc.js` file.
 
 ```js
 module.exports = {
@@ -122,7 +144,7 @@ module.exports = {
 
 ## Supplemental configuration
 
-A project can be linted by **any** of the following supplemental configurations.
+Additionally, a project is linted by **any** of the following supplemental configurations.
 
 | Supplement  | Module              |
 |-------------|---------------------|
@@ -132,7 +154,7 @@ A project can be linted by **any** of the following supplemental configurations.
 | Node.js     | `ryansobol/node`    |
 | React.js    | `ryansobol/react`   |
 
-Add the following code to the `.eslintrc.js` file of an ECMAScript 5 project running in a web browser.
+Add the following code to the `.eslintrc.js` file of an ECMAScript 5 project that's running in a browser.
 
 ```js
 module.exports = {
@@ -143,7 +165,7 @@ module.exports = {
 };
 ```
 
-Add the following code to the `.eslintrc.js` file of an ECMAScript 5 project running in a web browser and using jQuery.
+Add the following code to the `.eslintrc.js` file of an ECMAScript 5 project that's running in a browser and using jQuery.
 
 ```js
 module.exports = {
@@ -155,7 +177,7 @@ module.exports = {
 };
 ```
 
-Add the following code to the `.eslintrc.js` file of an ECMAScript 6 project running in Node.js.
+Add the following code to the `.eslintrc.js` file of an ECMAScript 6 project that's running in Node.js.
 
 ```js
 module.exports = {
@@ -166,19 +188,7 @@ module.exports = {
 };
 ```
 
-Add the following code to the `.eslintrc.js` file of an ECMAScript 6 project running in Node.js and using Mocha.
-
-```js
-module.exports = {
-  extends: [
-    'ryansobol/es5',
-    'ryansobol/mocha'
-    'ryansobol/node'
-  ]
-};
-```
-
-Add the following code to the `.eslintrc.js` file of an ECMAScript 6 project running in Node.js and using React.js.
+Add the following code to the `.eslintrc.js` file of an ECMAScript 6 project that's running in Node.js and using React.js.
 
 ```js
 module.exports = {
@@ -192,7 +202,7 @@ module.exports = {
 
 ## Alternative parsers
 
-The default [Espree][espree] parser is assumed, but alternative parsers like [babel-eslint][babel] can be specified in the `.eslintrc.js` file.
+The default parser is [Espree][espree] but alternative parsers, like [babel-eslint][babel], can be specified in the `.eslintrc.js` file.
 
 ```js
 module.exports = {
@@ -226,7 +236,7 @@ module.exports = {
 
 ## Contributing
 
-See the section on [overriding rules][overriding] to learn how to alter any of them for your own project.
+If you want to customize any of the rules for your own project, see the section on [overriding rules][overriding] to learn how.
 
 Pull requests are very much welcome for the following.
 
@@ -254,3 +264,4 @@ Thanks goes to the Shopify team for publishing [eslint-config-shopify][shopify] 
 [language]: #language-configuration
 [overriding]: #overriding-rules
 [philosophy]: #philosophy
+[supplemental]: #supplemental-configuration
