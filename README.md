@@ -237,7 +237,7 @@ module.exports = {
 
 ## Additional environments
 
-Additional ESLint environments, like `commonjs`, can also be specified in the `.eslintrc.js` file.
+Additional [ESLint environments][env], like `commonjs`, can also be specified in the `.eslintrc.js` file.
 
 ```js
 module.exports = {
@@ -278,6 +278,7 @@ Thanks goes to the Shopify team for publishing [eslint-config-shopify][shopify] 
 
 [angular]: https://github.com/Gillespie59/eslint-plugin-angular
 [babel]: https://github.com/babel/babel-eslint
+[env]: http://eslint.org/docs/user-guide/configuring#specifying-environments
 [eslint]: http://eslint.org/
 [eslint_philosophy]: http://eslint.org/docs/about/
 [espree]: https://github.com/eslint/espree
