@@ -124,12 +124,24 @@ module.exports = {
 
 A project can be linted by **any** of the following supplemental configurations.
 
-| Supplement | Module            |
-|------------|-------------------|
-| Node.js    | `ryansobol/node`  |
-| React.js   | `ryansobol/react` |
+| Supplement  | Module              |
+|-------------|---------------------|
+| web browser | `ryansobol/browser` |
+| Node.js     | `ryansobol/node`    |
+| React.js    | `ryansobol/react`   |
 
-Add the following code to the `.eslintrc.js` file of an ECMAScript 6 project using Node.js.
+Add the following code to the `.eslintrc.js` file of an ECMAScript 5 project running in a web browser.
+
+```js
+module.exports = {
+  extends: [
+    'ryansobol/browser',
+    'ryansobol/es5'
+  ]
+};
+```
+
+Add the following code to the `.eslintrc.js` file of an ECMAScript 6 project running in Node.js.
 
 ```js
 module.exports = {
@@ -140,7 +152,7 @@ module.exports = {
 };
 ```
 
-Add the following code to the `.eslintrc.js` file of an ECMAScript 6 project using Node.js and React.js.
+Add the following code to the `.eslintrc.js` file of an ECMAScript 6 project running in Node.js and using React.js.
 
 ```js
 module.exports = {
