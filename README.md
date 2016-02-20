@@ -247,9 +247,9 @@ module.exports = {
   },
 
   extends: [
-    'ryansobol/es6',
     'ryansobol/browser',
-    'ryansobol/react',
+    'ryansobol/es6',
+    'ryansobol/react'
   ]
 };
 ```
