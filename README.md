@@ -267,7 +267,9 @@ Pull requests are very much welcome for the following.
 
 ## Credits
 
-Thanks goes to the Shopify team for publishing [eslint-config-shopify][shopify] under a permissive license.
+Thanks to the Shopify team for publishing [eslint-config-shopify][shopify] under a permissive license.
+
+Also, thanks to my colleagues and students at [Galvanize][galvanize] for helping me with testing.
 
 [build-img]: https://img.shields.io/travis/ryansobol/eslint-config-ryansobol/master.svg?style=flat-square
 [build-url]: https://travis-ci.org/ryansobol/eslint-config-ryansobol
@@ -282,6 +284,7 @@ Thanks goes to the Shopify team for publishing [eslint-config-shopify][shopify] 
 [eslint]: http://eslint.org/
 [eslint_philosophy]: http://eslint.org/docs/about/
 [espree]: https://github.com/eslint/espree
+[galvanize]: http://www.galvanize.com/
 [node]: https://nodejs.org/
 [react]: https://github.com/yannickcr/eslint-plugin-react
 [shopify]: https://github.com/Shopify/eslint-config-shopify
