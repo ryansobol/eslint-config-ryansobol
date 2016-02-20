@@ -1,11 +1,10 @@
 # eslint-config-ryansobol
 
-[![NPM version][ni]][nu]
-[![Build status][ti]][tu]
+[![Build][build-img]][build-url]
+[![License][license-img]][license-url]
+[![NPM][npm-img]][npm-url]
 
 Ryan Sobol's shareable ESLint configuration
-
-The MIT License - Copyright (c) 2016 Brigade and Ryan Sobol
 
 ## Philosophy
 
@@ -270,10 +269,13 @@ Pull requests are very much welcome for the following.
 
 Thanks goes to the Shopify team for publishing [eslint-config-shopify][shopify] under a permissive license.
 
-[ni]: https://img.shields.io/npm/v/eslint-config-ryansobol.svg?style=flat-square
-[nu]: https://www.npmjs.com/package/eslint-config-ryansobol
-[ti]: https://img.shields.io/travis/ryansobol/eslint-config-ryansobol/master.svg?style=flat-square
-[tu]: https://travis-ci.org/ryansobol/eslint-config-ryansobol
+[build-img]: https://img.shields.io/travis/ryansobol/eslint-config-ryansobol/master.svg?style=flat-square
+[build-url]: https://travis-ci.org/ryansobol/eslint-config-ryansobol
+[license-img]: https://img.shields.io/npm/l/eslint-config-ryansobol.svg?style=flat-square
+[license-url]: https://github.com/ryansobol/eslint-config-ryansobol/blob/readme/LICENSE
+[npm-img]: https://img.shields.io/npm/v/eslint-config-ryansobol.svg?style=flat-square
+[npm-url]: https://www.npmjs.com/package/eslint-config-ryansobol
+
 [angular]: https://github.com/Gillespie59/eslint-plugin-angular
 [babel]: https://github.com/babel/babel-eslint
 [eslint]: http://eslint.org/
