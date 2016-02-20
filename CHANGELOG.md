@@ -21,6 +21,7 @@ All changes to this project are documented in this file. This project adheres to
 
 #### React
 - Close #13 Change `react/sort-comp` rule to support static methods
+- Close #14 Rename `react/jsx-sort-prop-types` rule to `react/sort-prop-types`
 
 ## [6.0.0-beta.1] - 2016-02-13
 ### Added

@@ -49,9 +49,6 @@ module.exports = {
   // Enforce PascalCase for user-defined JSX components
   'react/jsx-pascal-case': 2,
 
-  // Enforce propTypes declarations alphabetical sorting
-  'react/jsx-sort-prop-types': 2,
-
   // Enforce props alphabetical sorting
   'react/jsx-sort-props': 2,
 
@@ -141,6 +138,9 @@ module.exports = {
       ]
     }
   }],
+
+  // Enforce propTypes declarations alphabetical sorting
+  'react/sort-prop-types': 2,
 
   // Prevent missing parentheses around multilines JSX
   'react/wrap-multilines': [2, {
