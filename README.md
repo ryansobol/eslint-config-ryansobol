@@ -26,7 +26,7 @@ A major aspect of the [ESLint philosophy](eslint_philosophy) is that it doesn't 
 | [eslint-plugin-react][react] | Required | `^4.0.0`  |
 | [node][node]                 | Engine   | `>=4.2.0` |
 
-## Global Installation & Usage
+## Global usage
 
 Install the package globally.
 
@@ -57,7 +57,7 @@ Run the package globally and fix any linting errors.
 eslint .
 ```
 
-## Local Installation & Usage
+## Local usage
 
 Install the package locally by adding it to the `package.json` file as a development dependency.
 
@@ -104,7 +104,7 @@ Then run the `npm` script locally and fix any linting errors.
 npm run lint
 ```
 
-## Language Configuration
+## Language configuration
 
 A project is linted by **one** of the following language configurations.
 
@@ -129,7 +129,7 @@ module.exports = {
 };
 ```
 
-## Overriding Rules
+## Overriding rules
 
 Customize any rule by overriding it in the `.eslintrc.js` file.
 
