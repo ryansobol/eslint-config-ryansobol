@@ -234,6 +234,24 @@ module.exports = {
 };
 ```
 
+## Additional environments
+
+Additional ESLint environments, like `commonjs`, can also be specified in the `.eslintrc.js` file.
+
+```js
+module.exports = {
+  env: {
+    commonjs: true
+  },
+
+  extends: [
+    'ryansobol/es6',
+    'ryansobol/browser',
+    'ryansobol/react',
+  ]
+};
+```
+
 ## Contributing
 
 If you want to customize any of the rules for your own project, see the section on [overriding rules][overriding] to learn how.
