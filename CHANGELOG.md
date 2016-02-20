@@ -8,6 +8,7 @@ All changes to this project are documented in this file. This project adheres to
 - Close #18 Fix React examples in the README
 - Close #19 Add MIT License badge
 - Close #20 Make README headers consistent
+- Close #21 Clarify the run step in the usage sections of the README
 
 ## [6.0.0] - 2016-02-20
 ### Added

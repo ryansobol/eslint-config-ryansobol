@@ -51,7 +51,7 @@ module.exports = {
 };
 ```
 
-Run the package globally and fix any linting errors.
+Run `eslint` globally and fix any linting errors.
 
 ```shell
 eslint .
@@ -82,7 +82,7 @@ module.exports = {
 };
 ```
 
-Run the package locally and fix any linting errors.
+Run `eslint` locally and fix any linting errors.
 
 ```shell
 ./node_modules/.bin/eslint .
