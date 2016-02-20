@@ -19,6 +19,9 @@ All changes to this project are documented in this file. This project adheres to
 - Close #10 Link to the ESLint philosophy in the README
 - Close #11 Update `eslint-plugin-react` dependency to ^4.0.0
 
+#### React
+- Close #13 Change `react/sort-comp` rule to support static methods
+
 ## [6.0.0-beta.1] - 2016-02-13
 ### Added
 #### Stylistic Issues
