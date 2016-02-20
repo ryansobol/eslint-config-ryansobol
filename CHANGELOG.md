@@ -5,6 +5,7 @@ All changes to this project are documented in this file. This project adheres to
 ## [Unreleased]
 ### Changed
 - Close #17 Fix environments example in the README
+- Close #18 Fix React examples in the README
 
 ## [6.0.0] - 2016-02-20
 ### Added

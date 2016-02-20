@@ -197,7 +197,7 @@ module.exports = {
   extends: [
     'ryansobol/es6',
     'ryansobol/node',
-    'ryansobol/react',
+    'ryansobol/react'
   ]
 };
 ```
@@ -211,7 +211,7 @@ module.exports = {
   extends: [
     'ryansobol/es6',
     'ryansobol/node',
-    'ryansobol/react',
+    'ryansobol/react'
   ],
 
   parser: 'babel-eslint'
@@ -225,7 +225,7 @@ module.exports = {
   extends: [
     'ryansobol/es6',
     'ryansobol/node',
-    'ryansobol/react',
+    'ryansobol/react'
   ],
 
   parser: 'babel-eslint',
