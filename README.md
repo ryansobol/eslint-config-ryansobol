@@ -126,7 +126,8 @@ A project can be linted by **any** of the following supplemental configurations.
 
 | Supplement  | Module              |
 |-------------|---------------------|
-| web browser | `ryansobol/browser` |
+| browser     | `ryansobol/browser` |
+| Mocha       | `ryansobol/mocha`   |
 | Node.js     | `ryansobol/node`    |
 | React.js    | `ryansobol/react`   |
 
@@ -147,6 +148,18 @@ Add the following code to the `.eslintrc.js` file of an ECMAScript 6 project run
 module.exports = {
   extends: [
     'ryansobol/es6',
+    'ryansobol/node'
+  ]
+};
+```
+
+Add the following code to the `.eslintrc.js` file of an ECMAScript 6 project running in Node.js and using Mocha.
+
+```js
+module.exports = {
+  extends: [
+    'ryansobol/es5',
+    'ryansobol/mocha'
     'ryansobol/node'
   ]
 };
