@@ -9,6 +9,8 @@ The MIT License - Copyright (c) 2016 Brigade and Ryan Sobol
 
 ## Philosophy
 
+While there are many ways to lint an ECMAScript project, the philosophy behind these ESLint rules are the following.
+
 - Declare all available rules
 - Support ECMAScript 5 and above
 - Be compatible with alternative parsers
