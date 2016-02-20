@@ -98,7 +98,7 @@ Additionally, add a script to the `package.json` file.
 }
 ```
 
-Then run the `npm` script locally and fix any linting errors.
+Then run the `npm` script and fix any linting errors.
 
 ```shell
 npm run lint

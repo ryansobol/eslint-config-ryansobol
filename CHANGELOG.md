@@ -11,6 +11,7 @@ All changes to this project are documented in this file. This project adheres to
 - Close #21 Clarify the run step in the usage sections of the README
 - Close #22 Link to ESLint environments in the README
 - Close #23 Credit colleagues and students at Galvanize in README
+- Close #24 Rename npm script to lint
 
 ## [6.0.0] - 2016-02-20
 ### Added
