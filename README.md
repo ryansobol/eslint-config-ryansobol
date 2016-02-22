@@ -46,7 +46,7 @@ Create a `.eslintrc.js` configuration file.
 touch .eslintrc.js
 ```
 
-Add [language configuration][language] and [supplemental configuration][supplemental] to the `.eslintrc.js` file.
+Add [language configuration][language] and [environment configuration][environment] to the `.eslintrc.js` file.
 
 ```js
 module.exports = {
@@ -89,7 +89,7 @@ Create a `.eslintrc.js` configuration file.
 touch .eslintrc.js
 ```
 
-Add [language configuration][language] and [supplemental configuration][supplemental] to the `.eslintrc.js` file.
+Add [language configuration][language] and [environmnent configuration][environmnent] to the `.eslintrc.js` file.
 
 ```js
 module.exports = {
@@ -161,11 +161,11 @@ module.exports = {
 };
 ```
 
-## Supplemental configuration
+## Environment configuration
 
-Additionally, a project is linted by **any** of the following supplemental configurations.
+Additionally, a project is linted by **any** of the following environment configurations.
 
-| Supplement  | Module              |
+| Environment | Module              |
 |-------------|---------------------|
 | browser     | `ryansobol/browser` |
 | jQuery      | `ryansobol/jquery`  |
@@ -219,6 +219,24 @@ module.exports = {
 };
 ```
 
+## ESLint environments
+
+Additional [ESLint environments][env], like `commonjs`, can also be specified in the `.eslintrc.js` file.
+
+```js
+module.exports = {
+  env: {
+    commonjs: true
+  },
+
+  extends: [
+    'ryansobol/browser',
+    'ryansobol/es6',
+    'ryansobol/react'
+  ]
+};
+```
+
 ## Alternative parsers
 
 The default parser is [Espree][espree] but alternative parsers, like [babel-eslint][babel], can be specified in the `.eslintrc.js` file.
@@ -250,24 +268,6 @@ module.exports = {
   parserOptions: {
     sourceType: 'module'
   }
-};
-```
-
-## Additional environments
-
-Additional [ESLint environments][env], like `commonjs`, can also be specified in the `.eslintrc.js` file.
-
-```js
-module.exports = {
-  env: {
-    commonjs: true
-  },
-
-  extends: [
-    'ryansobol/browser',
-    'ryansobol/es6',
-    'ryansobol/react'
-  ]
 };
 ```
 
@@ -309,4 +309,4 @@ Also, thanks to my colleagues and students at [Galvanize][galvanize] for helping
 [language]: #language-configuration
 [overriding]: #overriding-rules
 [philosophy]: #philosophy
-[supplemental]: #supplemental-configuration
+[environment]: #environment-configuration
