@@ -89,7 +89,7 @@ Create a `.eslintrc.js` configuration file.
 touch .eslintrc.js
 ```
 
-Add [language configuration][language] and [environmnent configuration][environmnent] to the `.eslintrc.js` file.
+Add [language configuration][language] and [environmnent configuration][environment] to the `.eslintrc.js` file.
 
 ```js
 module.exports = {
