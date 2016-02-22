@@ -3,6 +3,8 @@
 All changes to this project are documented in this file. This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+
+## [6.0.2] - 2016-02-21
 ## Changed
 - Close #26 Clarify usage instructions in the README
 
@@ -463,7 +465,8 @@ All changes to this project are documented in this file. This project adheres to
 ### Added
 - Initial commit
 
-[Unreleased]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v6.0.1...HEAD
+[Unreleased]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v6.0.2...HEAD
+[6.0.2]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v6.0.1...v6.0.2
 [6.0.1]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v6.0.0...v6.0.1
 [6.0.0]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v6.0.0-beta.1...v6.0.0
 [6.0.0-beta.1]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v6.0.0-alpha.2...v6.0.0-beta.1
