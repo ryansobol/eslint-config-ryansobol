@@ -34,6 +34,12 @@ Install the package globally.
 npm install -g eslint eslint-config-ryansobol
 ```
 
+Change into your project's directory.
+
+```shell
+cd path/to/project
+```
+
 Create a `.eslintrc.js` configuration file.
 
 ```shell
@@ -59,7 +65,19 @@ eslint .
 
 ## Local usage
 
-Install the package locally by adding it to the `package.json` file as a development dependency.
+Change into your project's directory.
+
+```shell
+cd path/to/project
+```
+
+If you haven't already, create a `package.json` file.
+
+```shell
+npm init
+```
+
+Install the package locally and add it to the `package.json` file as a development dependency.
 
 ```shell
 npm install -D eslint eslint-config-ryansobol
