@@ -3,6 +3,8 @@
 All changes to this project are documented in this file. This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+### Added
+- Close #33 Add node v5.7 to continuous test
 
 ## [6.0.5] - 2016-02-27
 ### Changed
