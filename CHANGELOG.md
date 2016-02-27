@@ -3,6 +3,8 @@
 All changes to this project are documented in this file. This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+### Changed
+- Close #32 Change to `ryansobol/browser` in usage sections of the README
 
 ## [6.0.4] - 2016-02-21
 ### Changed

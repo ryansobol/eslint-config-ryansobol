@@ -51,8 +51,8 @@ Add [language configuration][language] and [environment configuration][environme
 ```js
 module.exports = {
   extends: [
-    'ryansobol/es5',
-    'ryansobol/node'  
+    'ryansobol/browser',
+    'ryansobol/es5'
   ]
 };
 ```
@@ -94,8 +94,8 @@ Add [language configuration][language] and [environmnent configuration][environm
 ```js
 module.exports = {
   extends: [
-    'ryansobol/es5',
-    'ryansobol/node'  
+    'ryansobol/browser',
+    'ryansobol/es5'
   ]
 };
 ```
