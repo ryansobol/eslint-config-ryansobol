@@ -3,6 +3,8 @@
 All changes to this project are documented in this file. This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+
+## [6.0.5] - 2016-02-27
 ### Changed
 - Close #32 Change to `ryansobol/browser` in usage sections of the README
 
@@ -475,7 +477,8 @@ All changes to this project are documented in this file. This project adheres to
 ### Added
 - Initial commit
 
-[Unreleased]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v6.0.4...HEAD
+[Unreleased]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v6.0.5...HEAD
+[6.0.5]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v6.0.4...v6.0.5
 [6.0.4]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v6.0.3...v6.0.4
 [6.0.3]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v6.0.2...v6.0.3
 [6.0.2]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v6.0.1...v6.0.2
