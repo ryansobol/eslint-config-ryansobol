@@ -3,6 +3,8 @@
 All changes to this project are documented in this file. This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+### Changed
+- Close #34 Update eslint-plugin-react dependency to ^4.1.0
 
 ## [6.0.6] - 2016-02-27
 ### Added
