@@ -3,6 +3,8 @@
 All changes to this project are documented in this file. This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+
+## [6.0.6] - 2016-02-27
 ### Added
 - Close #33 Add node v5.7 to continuous test
 
@@ -479,7 +481,8 @@ All changes to this project are documented in this file. This project adheres to
 ### Added
 - Initial commit
 
-[Unreleased]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v6.0.5...HEAD
+[Unreleased]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v6.0.6...HEAD
+[6.0.6]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v6.0.5...v6.0.6
 [6.0.5]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v6.0.4...v6.0.5
 [6.0.4]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v6.0.3...v6.0.4
 [6.0.3]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v6.0.2...v6.0.3
