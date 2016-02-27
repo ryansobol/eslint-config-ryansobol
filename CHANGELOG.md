@@ -3,6 +3,8 @@
 All changes to this project are documented in this file. This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+
+## [6.1.0] - 2016-02-27
 ### Changed
 - Close #34 Update eslint-plugin-react dependency to ^4.1.0
 
@@ -483,7 +485,8 @@ All changes to this project are documented in this file. This project adheres to
 ### Added
 - Initial commit
 
-[Unreleased]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v6.0.6...HEAD
+[Unreleased]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v6.1.0...HEAD
+[6.1.0]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v6.0.6...v6.1.0
 [6.0.6]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v6.0.5...v6.0.6
 [6.0.5]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v6.0.4...v6.0.5
 [6.0.4]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v6.0.3...v6.0.4
