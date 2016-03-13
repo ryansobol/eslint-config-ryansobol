@@ -3,6 +3,8 @@
 All changes to this project are documented in this file. This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+### Changed
+- Close #35 Update eslint dependency to ^2.3.0
 
 ## [6.1.0] - 2016-02-27
 ### Changed
