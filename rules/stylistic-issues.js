@@ -99,6 +99,9 @@ module.exports = {
   // Allow/disallow an empty newline after var statement
   'newline-after-var': 2,
 
+  // Require newline before return statement
+  'newline-before-return': 2,
+
   // Don't enforce newline after each call when chaining the calls
   'newline-per-chained-call': 0,
 

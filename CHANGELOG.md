@@ -3,6 +3,9 @@
 All changes to this project are documented in this file. This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+### Added
+- Close #36 Add `newline-before-return` to require newline before return statement
+
 ### Changed
 - Close #35 Update eslint dependency to ^2.3.0
 
