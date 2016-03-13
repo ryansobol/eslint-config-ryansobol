@@ -6,6 +6,7 @@ All changes to this project are documented in this file. This project adheres to
 ### Added
 - Close #36 Add `newline-before-return` to require newline before return statement
 - Close #37 Add `no-restricted-globals` to disallow specific global variables
+- Close #38 Add node v5.8 to continuous test
 
 ### Changed
 - Close #35 Update eslint dependency to ^2.3.0
