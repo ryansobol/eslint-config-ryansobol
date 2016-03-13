@@ -4,69 +4,72 @@ All changes to this project are documented in this file. This project adheres to
 
 ## [Unreleased]
 ### Added
-- Close #36 Add `newline-before-return` to require newline before return statement
-- Close #37 Add `no-restricted-globals` to disallow specific global variables
-- Close #38 Add node v5.8 to continuous test
+- Add `newline-before-return` to require newline before return statement
+- Add `no-restricted-globals` to disallow specific global variables
+- Add node v5.8 to continuous test
 
 ### Changed
-- Close #35 Update eslint dependency to ^2.3.0
+- Update eslint dependency to ^2.3.0
+
+### Removed
+- Remove close and issue number from CHANGELOG
 
 ## [6.1.0] - 2016-02-27
 ### Changed
-- Close #34 Update eslint-plugin-react dependency to ^4.1.0
+- Update eslint-plugin-react dependency to ^4.1.0
 
 ## [6.0.6] - 2016-02-27
 ### Added
-- Close #33 Add node v5.7 to continuous test
+- Add node v5.7 to continuous test
 
 ## [6.0.5] - 2016-02-27
 ### Changed
-- Close #32 Change to `ryansobol/browser` in usage sections of the README
+- Change to `ryansobol/browser` in usage sections of the README
 
 ## [6.0.4] - 2016-02-21
 ### Changed
-- Close #30 Fix broken link in the README
+- Fix broken link in the README
 
 ## [6.0.3] - 2016-02-21
 ### Changed
-- Close #28 Rename supplement configuration to environment configuration
+- Rename supplement configuration to environment configuration
 
 ## [6.0.2] - 2016-02-21
 ### Changed
-- Close #26 Clarify usage instructions in the README
+- Clarify usage instructions in the README
 
 ## [6.0.1] - 2016-02-20
 ### Changed
-- Close #17 Fix environments example in the README
-- Close #18 Fix React examples in the README
-- Close #19 Add MIT License badge
-- Close #20 Make README headers consistent
-- Close #21 Clarify the run step in the usage sections of the README
-- Close #22 Link to ESLint environments in the README
-- Close #23 Credit colleagues and students at Galvanize in README
-- Close #24 Rename npm script to lint
+- Fix environments example in the README
+- Fix React examples in the README
+- Add MIT License badge
+- Make README headers consistent
+- Clarify the run step in the usage sections of the README
+- Link to ESLint environments in the README
+- Credit colleagues and students at Galvanize in README
+- Rename npm script to lint
 
 ## [6.0.0] - 2016-02-20
 ### Added
 - Add semicolons to config examples (fixes #5)
-- Close #6 Add ryansobol/browser config
-- Close #7 Add ryansobol/mocha config
-- Close #8 Add ryansobol/jquery config
-- Close #3 Add README section on additional ESLint environments
+- Add ryansobol/browser config
+- Add ryansobol/mocha config
+- Add ryansobol/jquery config
+- Add README section on additional ESLint environments
 
 #### React
-- Close #12 Add `react/jsx-space-before-closing` rule to validate spacing before closing bracket
+- Add `react/jsx-space-before-closing` rule to validate spacing before closing bracket
 
 ### Changed
-- Close #9 Clarify the language and examples in the README
-- Close #2 Tighten up the Philosophy section of the README
-- Close #10 Link to the ESLint philosophy in the README
-- Close #11 Update `eslint-plugin-react` dependency to ^4.0.0
+- Clarify the language and examples in the README
+- Tighten up the Philosophy section of the README
+- Link to the ESLint philosophy in the README
+- Update `eslint-plugin-react` dependency to ^4.0.0
 
 #### React
-- Close #13 Change `react/sort-comp` rule to support static methods
-- Close #14 Rename `react/jsx-sort-prop-types` rule to `react/sort-prop-types`
-- Close #15 Change `react/display-name` rule to use `ignoreTranspilerName` option
+- Change `react/sort-comp` rule to support static methods
+- Rename `react/jsx-sort-prop-types` rule to `react/sort-prop-types`
+- Change `react/display-name` rule to use `ignoreTranspilerName` option
 
 ## [6.0.0-beta.1] - 2016-02-13
 ### Added
