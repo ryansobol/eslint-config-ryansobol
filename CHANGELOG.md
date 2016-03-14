@@ -3,6 +3,8 @@
 All changes to this project are documented in this file. This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+
+## [6.2.0] - 2016-03-13
 ### Added
 - Add `newline-before-return` to require newline before return statement
 - Add `no-restricted-globals` to disallow specific global variables
@@ -495,7 +497,8 @@ All changes to this project are documented in this file. This project adheres to
 ### Added
 - Initial commit
 
-[Unreleased]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v6.1.0...HEAD
+[Unreleased]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v6.2.0...HEAD
+[6.2.0]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v6.1.0...v.6.2.0
 [6.1.0]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v6.0.6...v6.1.0
 [6.0.6]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v6.0.5...v6.0.6
 [6.0.5]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v6.0.4...v6.0.5
