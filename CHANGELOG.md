@@ -3,6 +3,8 @@
 All changes to this project are documented in this file. This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+### Changed
+- Disable the `consistent-return` rule
 
 ## [6.2.0] - 2016-03-13
 ### Added

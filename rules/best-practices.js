@@ -15,7 +15,7 @@ module.exports = {
   'complexity': 0,
 
   // Require return statements to either always or never specify values
-  'consistent-return': 2,
+  'consistent-return': 0,
 
   // Specify curly brace conventions for all control statements
   'curly': [2, 'all'],
