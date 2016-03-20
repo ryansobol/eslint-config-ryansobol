@@ -6,6 +6,9 @@ All changes to this project are documented in this file. This project adheres to
 ### Added
 - Add `argsIgnorePattern` to `no-unused-vars` rule
 
+### Changed
+- Update eslint-plugin-react dependency to ^4.2.3
+
 ## [7.0.0] - 2016-03-14
 ### Changed
 - Disable the `consistent-return` rule
