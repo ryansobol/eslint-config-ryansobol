@@ -94,6 +94,9 @@ module.exports = {
   // Enforce ES5 or ES6 class for React Components
   'react/prefer-es6-class': 0,
 
+  // Enforce stateless React Components to be written as a pure function
+  'react/prefer-stateless-function': 2,
+
   // Prevent missing props validation in a React component definition
   'react/prop-types': 0,
 

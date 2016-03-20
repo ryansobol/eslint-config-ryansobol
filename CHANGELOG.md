@@ -5,6 +5,7 @@ All changes to this project are documented in this file. This project adheres to
 ## [Unreleased]
 ### Added
 - Add `argsIgnorePattern` to `no-unused-vars` rule
+- Add `react/prefer-stateless-function` to enforce stateless components written as a pure function
 
 ### Changed
 - Update eslint-plugin-react dependency to ^4.2.3
