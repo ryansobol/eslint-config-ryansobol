@@ -3,6 +3,8 @@
 All changes to this project are documented in this file. This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+
+## [7.1.0] - 2016-03-20
 ### Added
 - Add `argsIgnorePattern` to `no-unused-vars` rule
 - Add `react/prefer-stateless-function` to enforce stateless components written as a pure function
@@ -507,7 +509,8 @@ All changes to this project are documented in this file. This project adheres to
 ### Added
 - Initial commit
 
-[Unreleased]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v7.0.0...HEAD
+[Unreleased]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v7.1.0...HEAD
+[7.1.0]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v7.0.0...v7.1.0
 [7.0.0]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v6.2.0...v7.0.0
 [6.2.0]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v6.1.0...v.6.2.0
 [6.1.0]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v6.0.6...v6.1.0
