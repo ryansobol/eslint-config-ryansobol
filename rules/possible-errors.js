@@ -79,6 +79,9 @@ module.exports = {
   // statement
   'no-unreachable': 2,
 
+  // Disallow control flow statements in finally blocks
+  'no-unsafe-finally': 2,
+
   // Disallow comparisons with the value NaN
   'use-isnan': 2,
 
