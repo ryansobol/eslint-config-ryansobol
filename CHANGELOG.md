@@ -3,6 +3,8 @@
 All changes to this project are documented in this file. This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+
+## [7.2.0] - 2016-05-19
 ### Added
 - Add `no-useless-escape` to disallow unnecessary escape characters
 - Add `max-statements-per-line` to enforce a max number of statements per line
@@ -520,7 +522,8 @@ All changes to this project are documented in this file. This project adheres to
 ### Added
 - Initial commit
 
-[Unreleased]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v7.1.0...HEAD
+[Unreleased]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v7.2.0...HEAD
+[7.2.0]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v7.1.0...v7.2.0
 [7.1.0]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v7.0.0...v7.1.0
 [7.0.0]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v6.2.0...v7.0.0
 [6.2.0]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v6.1.0...v.6.2.0
