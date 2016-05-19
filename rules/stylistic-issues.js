@@ -165,6 +165,9 @@ module.exports = {
   // Require or disallow padding inside curly braces
   'object-curly-spacing': [2, 'always', { objectsInObjects: false }],
 
+  // Don't enforce placing object properties on separate lines
+  'object-property-newline': 0,
+
   // Allow or disallow one variable declaration per function
   'one-var': [2, 'never'],
 
