@@ -89,6 +89,9 @@ module.exports = {
   // Specify the maximum number of statement allowed in a function
   'max-statements': [2, 15],
 
+  // Enforce a maximum number of statements allowed per line
+  'max-statements-per-line': [2, 2],
+
   // Require a capital letter for constructors
   'new-cap': 2,
 
