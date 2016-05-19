@@ -41,6 +41,9 @@ module.exports = {
   // Require let or const instead of var
   'no-var': 2,
 
+  // Disallow unnecessary computed property keys on objects
+  'no-useless-computed-key': 2,
+
   // Disallow unnecessary constructor
   'no-useless-constructor': 2,
 
