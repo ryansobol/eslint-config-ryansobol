@@ -20,11 +20,11 @@ A major aspect of the [ESLint philosophy](eslint_philosophy) is that it doesn't 
 
 ## Dependencies
 
-| Dependency                   | Type     | Version   |
-|------------------------------|----------|-----------|
-| [eslint][eslint]             | Peer     | `^2.3.0`  |
-| [eslint-plugin-react][react] | Required | `^4.2.3`  |
-| [node][node]                 | Engine   | `>=4.2.0` |
+| Dependency                   | Type     | Version    |
+|------------------------------|----------|------------|
+| [eslint][eslint]             | Peer     | `^2.10.2`  |
+| [eslint-plugin-react][react] | Required | `^4.2.3`   |
+| [node][node]                 | Engine   | `>=4.2.0`  |
 
 ## Global usage
 

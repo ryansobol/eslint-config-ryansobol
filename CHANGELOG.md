@@ -5,6 +5,7 @@ All changes to this project are documented in this file. This project adheres to
 ## [Unreleased]
 ### Changed
 - Test with Node.js 4.4, 5.9, 5.10, 5.11, 6.0, 6.1, and 6.2 on TravisCI
+- Update eslint dependency to ^2.10.2
 
 ## [7.1.0] - 2016-03-20
 ### Added
