@@ -6,6 +6,7 @@ All changes to this project are documented in this file. This project adheres to
 ### Added
 - Add `no-useless-escape` to disallow unnecessary escape characters
 - Add `max-statements-per-line` to enforce a max number of statements per line
+- Add `no-duplicate-imports` to disallow duplicate imports
 
 ### Changed
 - Test with Node.js 4.4, 5.9, 5.10, 5.11, 6.0, 6.1, and 6.2 on TravisCI

@@ -29,6 +29,9 @@ module.exports = {
   // Disallow duplicate name in class members
   'no-dupe-class-members': 2,
 
+  // Disallow duplicate imports
+  'no-duplicate-imports': 2,
+
   // Disallow use of the new operator with the Symbol object
   'no-new-symbol': 2,
 
