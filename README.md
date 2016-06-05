@@ -165,13 +165,14 @@ module.exports = {
 
 Additionally, a project is linted by **any** of the following environment configurations.
 
-| Environment | Module              |
-|-------------|---------------------|
-| browser     | `ryansobol/browser` |
-| jQuery      | `ryansobol/jquery`  |
-| Mocha       | `ryansobol/mocha`   |
-| Node.js     | `ryansobol/node`    |
-| React.js    | `ryansobol/react`   |
+| Environment | Module                  |
+|-------------|-------------------------|
+| browser     | `ryansobol/browser`     |
+| jQuery      | `ryansobol/jquery`      |
+| Materialize | `ryansobol/materialize` |
+| Mocha       | `ryansobol/mocha`       |
+| Node.js     | `ryansobol/node`        |
+| React.js    | `ryansobol/react`       |
 
 Add the following code to the `.eslintrc.js` file of an ECMAScript 5 project that's running in a browser.
 

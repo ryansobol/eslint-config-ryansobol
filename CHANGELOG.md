@@ -3,6 +3,8 @@
 All changes to this project are documented in this file. This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+### Added
+- Document Materialize environment configuration
 
 ## [7.3.0] - 2016-06-05
 ### Added
