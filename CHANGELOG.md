@@ -3,6 +3,8 @@
 All changes to this project are documented in this file. This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+### Added
+- Add a read-only `Materialize` global
 
 ## [7.2.0] - 2016-05-19
 ### Added
