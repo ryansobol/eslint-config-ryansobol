@@ -6,6 +6,9 @@ All changes to this project are documented in this file. This project adheres to
 ### Added
 - Document Materialize environment configuration
 
+### Removed
+- Remove unnecessary comma in `.eslintrc.js`
+
 ## [7.3.0] - 2016-06-05
 ### Added
 - Add a read-only `Materialize` global
