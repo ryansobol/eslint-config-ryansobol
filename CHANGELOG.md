@@ -12,6 +12,9 @@ All changes to this project are documented in this file. This project adheres to
 - Add `object-curly-newline` to not require line breaks inside braces
 - Add `rest-spread-spacing` enforce spacing between rest and spread operators and their expressions
 
+### Changed
+Update eslint dependency to ^3.0.0
+
 ## [7.3.1] - 2016-06-05
 ### Added
 - Document Materialize environment configuration
