@@ -47,6 +47,10 @@ module.exports = {
   // Disallow unnecessary constructor
   'no-useless-constructor': 2,
 
+  // Disallow renaming import, export, and destructured assignments to the same
+  // name
+  'no-useless-rename': 2,
+
   // Require method and property shorthand syntax for object literals
   'object-shorthand': [2, 'always'],
 

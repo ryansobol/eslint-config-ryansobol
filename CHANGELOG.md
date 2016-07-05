@@ -3,6 +3,8 @@
 All changes to this project are documented in this file. This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+### Added
+- Add `no-useless-rename` to disallow renaming import, export, and destructured assignments to the same name
 
 ## [7.3.1] - 2016-06-05
 ### Added
