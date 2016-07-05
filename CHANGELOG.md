@@ -3,6 +3,8 @@
 All changes to this project are documented in this file. This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+
+## [7.4.0] - 2016-07-04
 ### Added
 - Add `no-useless-rename` to disallow renaming import, export, and destructured assignments to the same name
 - Add `unicode-bom` to disallow the Unicode Byte Order Mark (BOM)
@@ -544,7 +546,8 @@ Update eslint dependency to ^3.0.0
 ### Added
 - Initial commit
 
-[Unreleased]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v7.3.1...HEAD
+[Unreleased]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v7.4.0...HEAD
+[7.4.0]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v7.3.1...v7.4.0
 [7.3.1]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v7.3.0...v7.3.1
 [7.3.0]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v7.2.0...v7.3.0
 [7.2.0]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v7.1.0...v7.2.0
