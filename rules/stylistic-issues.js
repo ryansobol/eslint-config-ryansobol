@@ -150,9 +150,6 @@ module.exports = {
   // Disallow use of certain syntax in code
   'no-restricted-syntax': 0,
 
-  // Disallow whitespace before properties
-  'no-whitespace-before-property': 2,
-
   // Disallow space between function identifier and application
   'no-spaced-func': 2,
 
@@ -167,6 +164,12 @@ module.exports = {
 
   // Disallow the use of Boolean literals in conditional expressions
   'no-unneeded-ternary': 2,
+
+  // Disallow whitespace before properties
+  'no-whitespace-before-property': 2,
+
+  // Require or disallow line breaks inside braces
+  'object-curly-newline': 0,
 
   // Require or disallow padding inside curly braces
   'object-curly-spacing': [2, 'always', { objectsInObjects: false }],

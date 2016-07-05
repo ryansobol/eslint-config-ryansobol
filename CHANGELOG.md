@@ -9,6 +9,7 @@ All changes to this project are documented in this file. This project adheres to
 - Add `no-prototype-builtins` to allow use of `Object.prototypes` builtins directly
 - Add `max-lines` to enforce a maximum file length
 - Add `no-mixed-operators` to allow mixes of different operators
+- Add `object-curly-newline` to not require line breaks inside braces
 
 ## [7.3.1] - 2016-06-05
 ### Added
