@@ -79,6 +79,9 @@ module.exports = {
   // Specify the maximum length of a line in your program
   'max-len': [2, 80, 4, { ignoreUrls: true }],
 
+  // Enforce a maximum file length
+  'max-lines': [2, { max: 300, skipBlankLines: true, skipComments: true }],
+
   // Specify the maximum depth callbacks can be nested
   'max-nested-callbacks': [2, 4],
 
