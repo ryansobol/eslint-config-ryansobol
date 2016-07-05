@@ -5,6 +5,7 @@ All changes to this project are documented in this file. This project adheres to
 ## [Unreleased]
 ### Added
 - Add `no-useless-rename` to disallow renaming import, export, and destructured assignments to the same name
+- Add `unicode-bom` to disallow the Unicode Byte Order Mark (BOM)
 
 ## [7.3.1] - 2016-06-05
 ### Added

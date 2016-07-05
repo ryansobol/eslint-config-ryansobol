@@ -230,6 +230,9 @@ module.exports = {
   // Require or disallow a space immediately following the // or /* in a comment
   'spaced-comment': [2, 'always'],
 
+  // Require or disallow the Unicode Byte Order Mark (BOM)
+  'unicode-bom': 0,
+
   // Require regex literals to be wrapped in parentheses
   'wrap-regex': 0
 };
