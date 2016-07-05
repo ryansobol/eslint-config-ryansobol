@@ -76,6 +76,9 @@ module.exports = {
   // Disallow generator functions that do not have yield
   'require-yield': 2,
 
+  // Enforce spacing between rest and spread operators and their expressions
+  'rest-spread-spacing': 2,
+
   // Enforce spacing around embedded expressions of template strings
   'template-curly-spacing': [2, 'never'],
 
