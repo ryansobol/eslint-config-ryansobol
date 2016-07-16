@@ -239,6 +239,25 @@ module.exports = {
 };
 ```
 
+## Parsers options
+
+Parser options, like support for ECMAScript 6 modules, can be specified in the `.eslintrc.js` file as well.
+
+```js
+module.exports = {
+  extends: [
+    'ryansobol/browser',
+    'ryansobol/es6',
+    'ryansobol/node',
+    'ryansobol/react'
+  ],
+
+  parserOptions: {
+    sourceType: 'module'
+  }
+};
+```
+
 ## Alternative parsers
 
 The default parser is [Espree][espree] but alternative parsers, like [babel-eslint][babel], can be specified in the `.eslintrc.js` file.
@@ -246,20 +265,7 @@ The default parser is [Espree][espree] but alternative parsers, like [babel-esli
 ```js
 module.exports = {
   extends: [
-    'ryansobol/es6',
-    'ryansobol/node',
-    'ryansobol/react'
-  ],
-
-  parser: 'babel-eslint'
-};
-```
-
-Parser options can be specified in the `.eslintrc.js` file as well.
-
-```js
-module.exports = {
-  extends: [
+    'ryansobol/browser',
     'ryansobol/es6',
     'ryansobol/node',
     'ryansobol/react'
