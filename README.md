@@ -223,25 +223,6 @@ module.exports = {
 
 **NOTE:** To include `.jsx` files in the linting, use the `eslint . --ext .js,.jsx` command.
 
-## ESLint environments
-
-Additional [ESLint environments][env], like `mocha`, can also be specified in the `.eslintrc.js` file.
-
-```js
-module.exports = {
-  env: {
-    mocha: true
-  },
-
-  extends: [
-    'ryansobol/browser',
-    'ryansobol/es6',
-    'ryansobol/node',
-    'ryansobol/react'
-  ]
-};
-```
-
 ## Parsers options
 
 Parser options, like support for ECMAScript 6 modules, can be specified in the `.eslintrc.js` file.
@@ -275,6 +256,25 @@ module.exports = {
   ],
 
   parser: 'babel-eslint'
+};
+```
+
+## ESLint environments
+
+Additional [ESLint environments][env], like `worker`, can also be specified in the `.eslintrc.js` file.
+
+```js
+module.exports = {
+  env: {
+    worker: true
+  },
+
+  extends: [
+    'ryansobol/browser',
+    'ryansobol/es6',
+    'ryansobol/node',
+    'ryansobol/react'
+  ]
 };
 ```
 
