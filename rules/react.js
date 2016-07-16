@@ -19,6 +19,9 @@ module.exports = {
   // Enforce or disallow spaces around equal signs in JSX attributes
   'react/jsx-equals-spacing': [2, 'never'],
 
+  // Restrict file extensions that may contain JSX
+  'react/jsx-filename-extension': 2,
+
   // Configure the position of the first property
   'react/jsx-first-prop-new-line': [2, 'multiline'],
 

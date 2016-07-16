@@ -8,6 +8,7 @@ All changes to this project are documented in this file. This project adheres to
 - Add `react/jsx-first-prop-new-line` to configure the position of the first property
 - Add `react/jsx-no-target-blank` to prevent usage of unsafe `target='_blank'`
 - Add `react/require-optimization` to not enforce React components to have a shouldComponentUpdate method
+- Add `react/jsx-filename-extension` to restrict file extensions that may contain JSX
 
 ## [7.4.0] - 2016-07-04
 ### Added
