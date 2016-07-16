@@ -5,6 +5,7 @@ All changes to this project are documented in this file. This project adheres to
 ## [Unreleased]
 ## Added
 - Add `allowParens: true` option to `no-confusing-arrow`
+- Add `functions` option to `no-extra-parens`
 
 ## [7.5.0] - 2016-07-16
 ### Added
