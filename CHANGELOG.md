@@ -5,6 +5,7 @@ All changes to this project are documented in this file. This project adheres to
 ## [Unreleased]
 ### Added
 - Add `react/require-render-return` to enforce ES5 or ES6 class for returning value in render function
+- Add `react/jsx-first-prop-new-line` to configure the position of the first property
 
 ## [7.4.0] - 2016-07-04
 ### Added

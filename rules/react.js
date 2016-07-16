@@ -19,6 +19,9 @@ module.exports = {
   // Enforce or disallow spaces around equal signs in JSX attributes
   'react/jsx-equals-spacing': [2, 'never'],
 
+  // Configure the position of the first property
+  'react/jsx-first-prop-new-line': [2, 'multiline'],
+
   // Enforce event handler naming conventions in JSX
   'react/jsx-handler-names': 2,
 
