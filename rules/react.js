@@ -70,6 +70,9 @@ module.exports = {
   // Prevent variables used in JSX to be incorrectly marked as unused
   'react/jsx-uses-vars': 2,
 
+  // Prevent comments from being inserted as text nodes
+  'react/no-comment-textnodes': 2,
+
   // Prevent usage of dangerous JSX properties
   'react/no-danger': 2,
 
