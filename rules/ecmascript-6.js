@@ -21,7 +21,7 @@ module.exports = {
   'no-class-assign': 2,
 
   // Disallow arrow functions where they could be confused with comparisons
-  'no-confusing-arrow': 2,
+  'no-confusing-arrow': [2, { allowParens: true }],
 
   // Disallow modifying variables that are declared using const
   'no-const-assign': 2,

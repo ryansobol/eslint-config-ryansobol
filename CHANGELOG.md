@@ -3,6 +3,8 @@
 All changes to this project are documented in this file. This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+## Added
+- Add `allowParens: true` option to `no-confusing-arrow`
 
 ## [7.5.0] - 2016-07-16
 ### Added
