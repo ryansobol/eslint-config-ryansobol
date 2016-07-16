@@ -3,6 +3,8 @@
 All changes to this project are documented in this file. This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+
+## [7.5.0] - 2016-07-16
 ### Added
 - Add `react/require-render-return` to enforce ES5 or ES6 class for returning value in render function
 - Add `react/jsx-first-prop-new-line` to configure the position of the first property
@@ -564,7 +566,8 @@ All changes to this project are documented in this file. This project adheres to
 ### Added
 - Initial commit
 
-[Unreleased]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v7.4.0...HEAD
+[Unreleased]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v7.5.0...HEAD
+[7.5.0]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v7.4.0...v7.5.0
 [7.4.0]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v7.3.1...v7.4.0
 [7.3.1]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v7.3.0...v7.3.1
 [7.3.0]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v7.2.0...v7.3.0
