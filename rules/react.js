@@ -46,6 +46,9 @@ module.exports = {
   // Prevent usage of unwrapped JSX strings
   'react/jsx-no-literals': 0,
 
+  // Prevent usage of unsafe target='_blank'
+  'react/jsx-no-target-blank': 2,
+
   // Disallow undeclared variables in JSX
   'react/jsx-no-undef': 2,
 
