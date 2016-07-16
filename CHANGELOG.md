@@ -13,6 +13,9 @@ All changes to this project are documented in this file. This project adheres to
 - Add `react/no-comment-textnodes` to prevent comments from being inserted as text nodes
 - Add option to `react/self-closing-comp` to check HTML tags
 
+### Changed
+- Update eslint-plugin-react dependency to ^5.2.2
+
 ## [7.4.0] - 2016-07-04
 ### Added
 - Add `no-useless-rename` to disallow renaming import, export, and destructured assignments to the same name
