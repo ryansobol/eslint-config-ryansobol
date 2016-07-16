@@ -15,6 +15,7 @@ All changes to this project are documented in this file. This project adheres to
 
 ### Changed
 - Update eslint-plugin-react dependency to ^5.2.2
+- Fix missing `jsx-space-before-closing` rule
 
 ## [7.4.0] - 2016-07-04
 ### Added
@@ -28,7 +29,6 @@ All changes to this project are documented in this file. This project adheres to
 
 ### Changed
 - Update eslint dependency to ^3.0.0
-- Fix missing `jsx-space-before-closing` rule
 
 ## [7.3.1] - 2016-06-05
 ### Added
