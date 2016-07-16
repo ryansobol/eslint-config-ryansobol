@@ -128,7 +128,7 @@ module.exports = {
   'react/require-render-return': 2,
 
   // Prevent extra closing tags for components without children
-  'react/self-closing-comp': 2,
+  'react/self-closing-comp': [2, { html: true }],
 
   // Enforce component methods order
   'react/sort-comp': [2, {

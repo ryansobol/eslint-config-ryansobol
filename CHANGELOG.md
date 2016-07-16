@@ -11,6 +11,7 @@ All changes to this project are documented in this file. This project adheres to
 - Add `react/jsx-filename-extension` to restrict file extensions that may contain JSX
 - Add `react/no-render-return-value` to prevent usage of the return value of React.render
 - Add `react/no-comment-textnodes` to prevent comments from being inserted as text nodes
+- Add option to `react/self-closing-comp` to check HTML tags
 
 ## [7.4.0] - 2016-07-04
 ### Added
