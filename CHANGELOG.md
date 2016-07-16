@@ -19,6 +19,7 @@ All changes to this project are documented in this file. This project adheres to
 - Fix missing `jsx-space-before-closing` rule
 - Improve the browser, ES6, Node, and React configuration docs
 - Improve the parser options configuration docs
+- Improve the ESLint environments configuration docs
 
 ## [7.4.0] - 2016-07-04
 ### Added

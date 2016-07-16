@@ -223,17 +223,18 @@ module.exports = {
 
 ## ESLint environments
 
-Additional [ESLint environments][env], like `commonjs`, can also be specified in the `.eslintrc.js` file.
+Additional [ESLint environments][env], like `mocha`, can also be specified in the `.eslintrc.js` file.
 
 ```js
 module.exports = {
   env: {
-    commonjs: true
+    mocha: true
   },
 
   extends: [
     'ryansobol/browser',
     'ryansobol/es6',
+    'ryansobol/node',
     'ryansobol/react'
   ]
 };
@@ -241,7 +242,7 @@ module.exports = {
 
 ## Parsers options
 
-Parser options, like support for ECMAScript 6 modules, can be specified in the `.eslintrc.js` file as well.
+Parser options, like support for ECMAScript 6 modules, can be specified in the `.eslintrc.js` file.
 
 ```js
 module.exports = {
@@ -271,11 +272,7 @@ module.exports = {
     'ryansobol/react'
   ],
 
-  parser: 'babel-eslint',
-
-  parserOptions: {
-    sourceType: 'module'
-  }
+  parser: 'babel-eslint'
 };
 ```
 
