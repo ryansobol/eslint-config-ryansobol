@@ -22,7 +22,7 @@ A major aspect of the [ESLint philosophy](eslint_philosophy) is that it doesn't 
 
 | Dependency                   | Type     | Version   |
 |------------------------------|----------|-----------|
-| [eslint][eslint]             | Peer     | `^3.0.0`  |
+| [eslint][eslint]             | Peer     | `^3.1.0`  |
 | [eslint-plugin-react][react] | Required | `^5.2.2`  |
 | [node][node]                 | Engine   | `>=4.2.0` |
 
