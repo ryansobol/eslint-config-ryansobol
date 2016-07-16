@@ -62,7 +62,7 @@ module.exports = {
   'react/jsx-sort-props': 2,
 
   // Validate spacing before closing bracket in JSX
-  'jsx-space-before-closing': [2, 'always'],
+  'react/jsx-space-before-closing': [2, 'always'],
 
   // Prevent React to be incorrectly marked as unused
   'react/jsx-uses-react': 2,

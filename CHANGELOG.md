@@ -27,7 +27,8 @@ All changes to this project are documented in this file. This project adheres to
 - Add `rest-spread-spacing` enforce spacing between rest and spread operators and their expressions
 
 ### Changed
-Update eslint dependency to ^3.0.0
+- Update eslint dependency to ^3.0.0
+- Fix missing `jsx-space-before-closing` rule
 
 ## [7.3.1] - 2016-06-05
 ### Added
