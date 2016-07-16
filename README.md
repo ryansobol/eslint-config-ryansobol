@@ -208,11 +208,12 @@ module.exports = {
 };
 ```
 
-Add the following code to the `.eslintrc.js` file of an ECMAScript 6 project that's running in Node.js and using React.js.
+Add the following code to the `.eslintrc.js` file of an ECMAScript 6 project that's running in both a browser and Node.js as well as using React.js.
 
 ```js
 module.exports = {
   extends: [
+    'ryansobol/browser',
     'ryansobol/es6',
     'ryansobol/node',
     'ryansobol/react'
