@@ -91,6 +91,9 @@ module.exports = {
   // Prevent multiple component definition per file
   'react/no-multi-comp': 2,
 
+  // Prevent usage of the return value of React.render
+  'react/no-render-return-value': 2,
+
   // Prevent usage of setState
   'react/no-set-state': 0,
 
