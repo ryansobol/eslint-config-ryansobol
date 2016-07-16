@@ -12,6 +12,7 @@ All changes to this project are documented in this file. This project adheres to
 - Add `react/no-render-return-value` to prevent usage of the return value of React.render
 - Add `react/no-comment-textnodes` to prevent comments from being inserted as text nodes
 - Add option to `react/self-closing-comp` to check HTML tags
+- Add `multiline-ternary` to not enforce newlines between operands of ternary expressions
 
 ### Changed
 - Update eslint-plugin-react dependency to ^5.2.2

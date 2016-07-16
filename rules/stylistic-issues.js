@@ -95,6 +95,9 @@ module.exports = {
   // Enforce a maximum number of statements allowed per line
   'max-statements-per-line': [2, { max: 2 }],
 
+  // Enforce newlines between operands of ternary expressions
+  'multiline-ternary': 0,
+
   // Require a capital letter for constructors
   'new-cap': 2,
 
