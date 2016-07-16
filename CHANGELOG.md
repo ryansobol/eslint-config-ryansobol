@@ -7,6 +7,7 @@ All changes to this project are documented in this file. This project adheres to
 - Add `react/require-render-return` to enforce ES5 or ES6 class for returning value in render function
 - Add `react/jsx-first-prop-new-line` to configure the position of the first property
 - Add `react/jsx-no-target-blank` to prevent usage of unsafe `target='_blank'`
+- Add `react/require-optimization` to not enforce React components to have a shouldComponentUpdate method
 
 ## [7.4.0] - 2016-07-04
 ### Added

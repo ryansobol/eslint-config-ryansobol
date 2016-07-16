@@ -112,6 +112,9 @@ module.exports = {
   // Restrict file extensions that may be required
   'react/require-extension': [2, { extensions: ['.js', '.jsx'] }],
 
+  // Enforce React components to have a shouldComponentUpdate method
+  'react/require-optimization': 0,
+
   // Enforce ES5 or ES6 class for returning value in render function
   'react/require-render-return': 2,
 
