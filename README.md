@@ -221,6 +221,8 @@ module.exports = {
 };
 ```
 
+**NOTE:** To include `.jsx` files in the linting, use the `eslint . --ext .js,.jsx` command.
+
 ## ESLint environments
 
 Additional [ESLint environments][env], like `mocha`, can also be specified in the `.eslintrc.js` file.

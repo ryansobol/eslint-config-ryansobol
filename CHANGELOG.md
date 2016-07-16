@@ -13,6 +13,7 @@ All changes to this project are documented in this file. This project adheres to
 - Add `react/no-comment-textnodes` to prevent comments from being inserted as text nodes
 - Add option to `react/self-closing-comp` to check HTML tags
 - Add `multiline-ternary` to not enforce newlines between operands of ternary expressions
+- Add documentation on how to include `.jsx` files in the linting
 
 ### Changed
 - Update eslint-plugin-react dependency to ^5.2.2
