@@ -106,6 +106,9 @@ module.exports = {
   // Restrict file extensions that may be required
   'react/require-extension': [2, { extensions: ['.js', '.jsx'] }],
 
+  // Enforce ES5 or ES6 class for returning value in render function
+  'react/require-render-return': 2,
+
   // Prevent extra closing tags for components without children
   'react/self-closing-comp': 2,
 

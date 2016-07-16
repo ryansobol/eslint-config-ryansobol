@@ -3,6 +3,8 @@
 All changes to this project are documented in this file. This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+### Added
+- Add `react/require-render-return` to enforce ES5 or ES6 class for returning value in render function
 
 ## [7.4.0] - 2016-07-04
 ### Added
