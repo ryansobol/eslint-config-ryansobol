@@ -3,6 +3,9 @@
 All changes to this project are documented in this file. This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+### Added
+- Add `no-tabs` to disallow tabs in file
+
 ### Changed
 - Disable `react/prefer-stateless-function` rule
 

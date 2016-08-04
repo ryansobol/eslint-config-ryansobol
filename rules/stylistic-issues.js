@@ -156,6 +156,9 @@ module.exports = {
   // Disallow space between function identifier and application
   'no-spaced-func': 2,
 
+  // Disallow tabs in file
+  'no-tabs': 2,
+
   // Disallow the use of ternary operators
   'no-ternary': 0,
 
