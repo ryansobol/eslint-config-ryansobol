@@ -73,6 +73,13 @@ module.exports = {
   // Prevent variables used in JSX to be incorrectly marked as unused
   'react/jsx-uses-vars': 2,
 
+  // Prevent missing parentheses around multilines JSX
+  'react/jsx-wrap-multilines': [2, {
+    assignment: false,
+    declaration: false,
+    return: false
+  }],
+
   // Prevent usage of dangerous JSX properties
   'react/no-danger': 2,
 
@@ -164,12 +171,5 @@ module.exports = {
   }],
 
   // Enforce propTypes declarations alphabetical sorting
-  'react/sort-prop-types': 2,
-
-  // Prevent missing parentheses around multilines JSX
-  'react/wrap-multilines': [2, {
-    assignment: false,
-    declaration: false,
-    return: false
-  }]
+  'react/sort-prop-types': 2
 };

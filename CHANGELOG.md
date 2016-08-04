@@ -12,6 +12,8 @@ All changes to this project are documented in this file. This project adheres to
 - Allow tailing directory to be specified for npm run lint command
 - Add `react/no-find-dom-node` to prevent usage of findDOMNode
 - Use the default options for `react/self-closing-comp`
+- Rename `react/no-comment-textnodes` to `react/jsx-no-comment-textnodes`
+- Rename `react/wrap-multilines` to `react/jsx-wrap-multilines`
 
 ### Removed
 - Remove `react/require-extension` rule
