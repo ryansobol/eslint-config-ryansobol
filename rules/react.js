@@ -110,7 +110,7 @@ module.exports = {
   'react/prefer-es6-class': 0,
 
   // Enforce stateless React Components to be written as a pure function
-  'react/prefer-stateless-function': 2,
+  'react/prefer-stateless-function': 0,
 
   // Prevent missing props validation in a React component definition
   'react/prop-types': 0,

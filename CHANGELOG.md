@@ -3,6 +3,8 @@
 All changes to this project are documented in this file. This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+### Changed
+- Disable `react/prefer-stateless-function` rule
 
 ## [7.7.0] - 2016-07-21
 ### Changed
