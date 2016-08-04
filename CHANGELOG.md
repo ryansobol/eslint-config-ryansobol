@@ -12,6 +12,9 @@ All changes to this project are documented in this file. This project adheres to
 - Allow tailing directory to be specified for npm run lint command
 - Add react/no-find-dom-node to prevent usage of findDOMNode
 
+### Removed
+- Remove react/require-extension rule
+
 ## [7.7.0] - 2016-07-21
 ### Changed
 - Disable `arrow-body-style` rule
