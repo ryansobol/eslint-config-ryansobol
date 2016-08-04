@@ -7,6 +7,7 @@ All changes to this project are documented in this file. This project adheres to
 - Add `no-tabs` to disallow tabs in file
 
 ### Changed
+- Update eslint dependency to ^3.2.2
 - Disable `react/prefer-stateless-function` rule
 
 ## [7.7.0] - 2016-07-21
