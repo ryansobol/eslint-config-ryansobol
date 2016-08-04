@@ -10,11 +10,11 @@ All changes to this project are documented in this file. This project adheres to
 - Update eslint dependency to ^3.2.2
 - Disable `react/prefer-stateless-function` rule
 - Allow tailing directory to be specified for npm run lint command
-- Add react/no-find-dom-node to prevent usage of findDOMNode
+- Add `react/no-find-dom-node` to prevent usage of findDOMNode
 - Use the default options for `react/self-closing-comp`
 
 ### Removed
-- Remove react/require-extension rule
+- Remove `react/require-extension` rule
 
 ## [7.7.0] - 2016-07-21
 ### Changed
