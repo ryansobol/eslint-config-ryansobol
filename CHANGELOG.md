@@ -9,6 +9,7 @@ All changes to this project are documented in this file. This project adheres to
 ### Changed
 - Update eslint dependency to ^3.2.2
 - Disable `react/prefer-stateless-function` rule
+- Allow tailing directory to be specified for npm run lint command
 
 ## [7.7.0] - 2016-07-21
 ### Changed
