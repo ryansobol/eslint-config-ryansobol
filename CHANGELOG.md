@@ -3,6 +3,8 @@
 All changes to this project are documented in this file. This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+
+## [8.0.0] - 2016-08-04
 ### Added
 - Add `no-tabs` to disallow tabs in file
 
@@ -589,7 +591,8 @@ All changes to this project are documented in this file. This project adheres to
 ### Added
 - Initial commit
 
-[Unreleased]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v7.7.0...HEAD
+[Unreleased]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v8.0.0...HEAD
+[Unreleased]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v7.7.0...v8.0.0
 [7.7.0]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v7.6.0...v7.7.0
 [7.6.0]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v7.5.0...v7.6.0
 [7.5.0]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v7.4.0...v7.5.0
