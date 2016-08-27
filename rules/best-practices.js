@@ -77,6 +77,9 @@ module.exports = {
   // Disallow the use of leading or trailing decimal points in numeric literals
   'no-floating-decimal': 2,
 
+  // Disallow assignments to native objects or read-only global variables
+  'no-global-assign': 2,
+
   // Disallow the type conversions with shorter notations
   'no-implicit-coercion': 2,
 
@@ -109,9 +112,6 @@ module.exports = {
 
   // Disallow use of multiline strings
   'no-multi-str': 0,
-
-  // Disallow reassignments of native objects
-  'no-native-reassign': 2,
 
   // Disallow use of new operator for Function object
   'no-new-func': 2,

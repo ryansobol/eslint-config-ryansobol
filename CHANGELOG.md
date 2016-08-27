@@ -6,6 +6,9 @@ All changes to this project are documented in this file. This project adheres to
 ### Added
 - Add Node v4.5, v6.3, and v6.4 to continuous testing
 
+### Changed
+- Replace `no-native-reassign` with `no-global-assign`
+
 ### Removed
 - Remove support for Node v5
 - Remove Node v5 from continuous testing
