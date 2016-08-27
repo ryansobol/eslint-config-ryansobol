@@ -59,9 +59,6 @@ module.exports = {
   // Disallow irregular whitespace outside of strings and comments
   'no-irregular-whitespace': 2,
 
-  // Disallow negation of the left operand of an in expression
-  'no-negated-in-lhs': 2,
-
   // Disallow the use of object properties of the global object (Math and JSON)
   // as functions
   'no-obj-calls': 2,
@@ -84,6 +81,9 @@ module.exports = {
 
   // Disallow control flow statements in finally blocks
   'no-unsafe-finally': 2,
+
+  // Disallow negating the left operand of relational operators
+  'no-unsafe-negation': 2,
 
   // Disallow comparisons with the value NaN
   'use-isnan': 2,
