@@ -9,6 +9,7 @@ All changes to this project are documented in this file. This project adheres to
 ### Changed
 - Replace `no-native-reassign` with `no-global-assign`
 - Replace `no-negated-in-lhs` with `no-unsafe-negation`
+- Replace `no-spaced-func` with `func-call-spacing`
 
 ### Removed
 - Remove support for Node v5

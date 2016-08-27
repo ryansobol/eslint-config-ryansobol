@@ -29,6 +29,9 @@ module.exports = {
   // Enforce newline at the end of file, with no multiple empty lines
   'eol-last': 2,
 
+  // Disallow spacing between function identifiers and their invocations
+  'func-call-spacing': [2, 'never'],
+
   // Don't require function expressions to have a name
   'func-names': 0,
 
@@ -152,9 +155,6 @@ module.exports = {
 
   // Disallow use of certain syntax in code
   'no-restricted-syntax': 0,
-
-  // Disallow space between function identifier and application
-  'no-spaced-func': 2,
 
   // Disallow tabs in file
   'no-tabs': 2,
