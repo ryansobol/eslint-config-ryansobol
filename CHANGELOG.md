@@ -3,6 +3,9 @@
 All changes to this project are documented in this file. This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+### Added
+- Add Node v4.5, v6.3, and v6.4 to continuous testing
+
 ### Removed
 - Remove Node v5 from continuous testing
 
