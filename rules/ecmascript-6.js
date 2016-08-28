@@ -79,6 +79,13 @@ module.exports = {
   // Enforce spacing between rest and spread operators and their expressions
   'rest-spread-spacing': 2,
 
+  // Sort import declarations within module
+  'sort-imports': [2, {
+    ignoreCase: false,
+    ignoreMemberSort: false,
+    memberSyntaxSortOrder: ['none', 'all', 'multiple', 'single']
+  }],
+
   // Enforce spacing around embedded expressions of template strings
   'template-curly-spacing': [2, 'never'],
 

@@ -222,13 +222,6 @@ module.exports = {
   // Sort variables within the same declaration block
   'sort-vars': [2, { ignoreCase: false }],
 
-  // Sort import declarations within module
-  'sort-imports': [2, {
-    ignoreCase: false,
-    ignoreMemberSort: false,
-    memberSyntaxSortOrder: ['none', 'all', 'multiple', 'single']
-  }],
-
   // Require or disallow space before blocks
   'space-before-blocks': [2, 'always'],
 

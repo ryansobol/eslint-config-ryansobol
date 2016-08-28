@@ -11,6 +11,7 @@ All changes to this project are documented in this file. This project adheres to
 - Replace `no-native-reassign` with `no-global-assign`
 - Replace `no-negated-in-lhs` with `no-unsafe-negation`
 - Replace `no-spaced-func` with `func-call-spacing`
+- Move `sort-imports` to ECMAScript 6 rules
 
 ### Removed
 - Remove support for Node v5
