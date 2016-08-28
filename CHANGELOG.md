@@ -13,6 +13,7 @@ All changes to this project are documented in this file. This project adheres to
 - Add `class-methods-use-this` rule to not enforce that class methods utilize `this`
 
 ### Changed
+- Update `eslint` dependency to ^3.4.0
 - Replace `no-native-reassign` with `no-global-assign`
 - Replace `no-negated-in-lhs` with `no-unsafe-negation`
 - Replace `no-spaced-func` with `func-call-spacing`

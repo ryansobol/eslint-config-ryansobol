@@ -27,14 +27,14 @@
   },
   "homepage": "https://github.com/ryansobol/eslint-config-ryansobol",
   "devDependencies": {
-    "eslint": "^3.2.2",
+    "eslint": "^3.4.0",
     "eslint-config-ryansobol": "file:."
   },
   "dependencies": {
     "eslint-plugin-react": "^6.0.0"
   },
   "peerDependencies": {
-    "eslint": "^3.2.2"
+    "eslint": "^3.4.0"
   },
   "engines": {
     "node": "^4.2.0 || >= 6.0.0"
