@@ -9,13 +9,13 @@ module.exports = {
   'arrow-parens': [2, 'always'],
 
   // Require space before/after arrow function's arrow
-  'arrow-spacing': [2, { before: true, after: true }],
+  'arrow-spacing': [2, { after: true, before: true }],
 
   // Verify super() callings in constructors
   'constructor-super': 2,
 
   // Enforce the spacing around the * in generator functions
-  'generator-star-spacing': [2, { before: false, after: true }],
+  'generator-star-spacing': [2, { after: true, before: false }],
 
   // Disallow modifying variables of class declarations
   'no-class-assign': 2,
@@ -38,9 +38,6 @@ module.exports = {
   // Disallow to use this/super before super() calling in constructors.
   'no-this-before-super': 2,
 
-  // Require let or const instead of var
-  'no-var': 2,
-
   // Disallow unnecessary computed property keys on objects
   'no-useless-computed-key': 2,
 
@@ -50,6 +47,9 @@ module.exports = {
   // Disallow renaming import, export, and destructured assignments to the same
   // name
   'no-useless-rename': 2,
+
+  // Require let or const instead of var
+  'no-var': 2,
 
   // Require method and property shorthand syntax for object literals
   'object-shorthand': [2, 'always'],
@@ -90,5 +90,5 @@ module.exports = {
   'template-curly-spacing': [2, 'never'],
 
   // Enforce spacing around the * in yield* expressions
-  'yield-star-spacing': [2, { before: false, after: true }]
+  'yield-star-spacing': [2, { after: true, before: false }]
 };

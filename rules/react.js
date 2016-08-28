@@ -28,11 +28,11 @@ module.exports = {
   // Enforce event handler naming conventions in JSX
   'react/jsx-handler-names': 2,
 
-  // Validate props indentation in JSX
-  'react/jsx-indent-props': [2, 2],
-
   // Validate JSX indentation
   'react/jsx-indent': [2, 2],
+
+  // Validate props indentation in JSX
+  'react/jsx-indent-props': [2, 2],
 
   // Validate JSX has key prop when in array or iterator
   'react/jsx-key': 2,
@@ -139,12 +139,6 @@ module.exports = {
 
   // Enforce component methods order
   'react/sort-comp': [2, {
-    order: [
-      'static-methods',
-      'lifecycle',
-      'everything-else',
-      'render'
-    ],
     groups: {
       lifecycle: [
         'displayName',
@@ -167,7 +161,13 @@ module.exports = {
         'componentDidUpdate',
         'componentWillUnmount'
       ]
-    }
+    },
+    order: [
+      'static-methods',
+      'lifecycle',
+      'everything-else',
+      'render'
+    ]
   }],
 
   // Enforce propTypes declarations alphabetical sorting

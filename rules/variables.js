@@ -18,18 +18,18 @@ module.exports = {
   // Restrict usage of specified global variables
   'no-restricted-globals': 0,
 
-  // Disallow shadowing of names such as arguments
-  'no-shadow-restricted-names': 2,
-
   // Disallow declaration of variables already declared in the outer scope
   'no-shadow': [2, { hoist: 'all' }],
 
-  // Disallow use of undefined when initializing variables
-  'no-undef-init': 2,
+  // Disallow shadowing of names such as arguments
+  'no-shadow-restricted-names': 2,
 
   // Disallow use of undeclared variables unless mentioned in a /*global */
   // block
   'no-undef': 2,
+
+  // Disallow use of undefined when initializing variables
+  'no-undef-init': 2,
 
   // Disallow use of undefined variable
   'no-undefined': 2,

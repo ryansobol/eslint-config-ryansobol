@@ -15,7 +15,7 @@ module.exports = {
   'camelcase': [2, { properties: 'always' }],
 
   // Enforce spacing before and after comma
-  'comma-spacing': [2, { before: false, after: true }],
+  'comma-spacing': [2, { after: true, before: false }],
 
   // Enforce one true comma style
   'comma-style': [2, 'last'],
@@ -38,19 +38,19 @@ module.exports = {
   // Enforces use of function declarations or expressions
   'func-style': [2, 'expression'],
 
+  // Blacklist certain identifiers to prevent them being used
+  'id-blacklist': 0,
+
   // This option enforces minimum and maximum identifier lengths (variable
   // names, property names etc.)
   'id-length': [2, {
+    exceptions: ['x', 'y', 'z', 'e', 'i', 'j', 'k', 'v', '_'],
     min: 2,
-    properties: 'always',
-    exceptions: ['x', 'y', 'z', 'e', 'i', 'j', 'k', 'v', '_']
+    properties: 'always'
   }],
 
   // Require identifiers to match the provided regular expression
   'id-match': 0,
-
-  // Blacklist certain identifiers to prevent them being used
-  'id-blacklist': 0,
 
   // This option sets a specific tab width for your code
   'indent': [2, 2, { SwitchCase: 1 }],
@@ -59,7 +59,7 @@ module.exports = {
   'jsx-quotes': [2, 'prefer-double'],
 
   // Enforces spacing between keys and values in object literal properties
-  'key-spacing': [2, { beforeColon: false, afterColon: true }],
+  'key-spacing': [2, { afterColon: true, beforeColon: false }],
 
   // Enforce spacing before and after keywords
   'keyword-spacing': 2,
@@ -195,7 +195,7 @@ module.exports = {
 
   // Enforce operators to be placed before or after line breaks
   'operator-linebreak': [2, 'after', {
-    overrides: { '?': 'before', ':': 'before' }
+    overrides: { ':': 'before', '?': 'before' }
   }],
 
   // Enforce padding within blocks
@@ -210,11 +210,11 @@ module.exports = {
   // Don't require JSDoc comment
   'require-jsdoc': 0,
 
-  // Enforce spacing before and after semicolons
-  'semi-spacing': [2, { before: false, after: true }],
-
   // Require or disallow use of semicolons instead of ASI
   'semi': [2, 'always'],
+
+  // Enforce spacing before and after semicolons
+  'semi-spacing': [2, { after: true, before: false }],
 
   // Require object keys to be sorted
   'sort-keys': [2, 'asc', { caseSensitive: true, natural: true }],
@@ -236,7 +236,7 @@ module.exports = {
 
   // Require or disallow spaces before/after unary operators (words on by
   // default, nonwords)
-  'space-unary-ops': [2, { words: true, nonwords: false }],
+  'space-unary-ops': [2, { nonwords: false, words: true }],
 
   // Require or disallow a space immediately following the // or /* in a comment
   'spaced-comment': [2, 'always'],
