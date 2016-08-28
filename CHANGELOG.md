@@ -9,6 +9,7 @@ All changes to this project are documented in this file. This project adheres to
 - Add `no-template-curly-in-string` rule to disallow template literal placeholder syntax in regular strings
 - Add a `ryansobol/express` environment
 - Add `props` option to `no-self-assign` rule to disallow self-assignment of properties
+- Add symbol-description rule to require symbol description
 
 ### Changed
 - Replace `no-native-reassign` with `no-global-assign`

@@ -86,6 +86,9 @@ module.exports = {
     memberSyntaxSortOrder: ['none', 'all', 'multiple', 'single']
   }],
 
+  // Require symbol description
+  'symbol-description': 2,
+
   // Enforce spacing around embedded expressions of template strings
   'template-curly-spacing': [2, 'never'],
 
