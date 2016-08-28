@@ -44,7 +44,7 @@ module.exports = {
   // This option enforces minimum and maximum identifier lengths (variable
   // names, property names etc.)
   'id-length': [2, {
-    exceptions: ['x', 'y', 'z', 'e', 'i', 'j', 'k', 'v', '_'],
+    exceptions: ['x', 'y', 'z', 'a', 'e', 'i', 'j', 'k', 'v', '_'],
     min: 2,
     properties: 'always'
   }],
