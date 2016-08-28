@@ -13,6 +13,7 @@ All changes to this project are documented in this file. This project adheres to
 - Add `class-methods-use-this` rule to not enforce that class methods utilize `this`
 - Add `react/forbid-component-props` rule to not forbid certain props on Components
 - Add `react/no-danger-with-children` to prevent problems with children and `props.dangerouslySetInnerHTML`
+- Add `react/no-unused-prop-types` to prevent definitions of unused prop types
 
 ### Changed
 - Update `eslint` dependency to ^3.4.0
