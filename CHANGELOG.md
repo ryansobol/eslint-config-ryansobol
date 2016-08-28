@@ -5,6 +5,7 @@ All changes to this project are documented in this file. This project adheres to
 ## [Unreleased]
 ### Added
 - Add Node v4.5, v6.3, and v6.4 to continuous testing
+- Add `sort-keys` rule to require object keys to be sorted
 
 ### Changed
 - Replace `no-native-reassign` with `no-global-assign`

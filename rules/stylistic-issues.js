@@ -216,6 +216,9 @@ module.exports = {
   // Require or disallow use of semicolons instead of ASI
   'semi': [2, 'always'],
 
+  // Require object keys to be sorted
+  'sort-keys': [2, 'asc', { caseSensitive: true, natural: true }],
+
   // Sort variables within the same declaration block
   'sort-vars': [2, { ignoreCase: false }],
 
