@@ -180,5 +180,8 @@ module.exports = {
   }],
 
   // Enforce propTypes declarations alphabetical sorting
-  'react/sort-prop-types': 2
+  'react/sort-prop-types': 2,
+
+  // Enforce style prop value being an object
+  'react/style-prop-object': 2
 };
