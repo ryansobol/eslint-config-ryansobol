@@ -6,6 +6,7 @@ All changes to this project are documented in this file. This project adheres to
 ### Added
 - Add Node v4.5, v6.3, and v6.4 to continuous testing
 - Add `sort-keys` rule to require object keys to be sorted
+- Add `no-template-curly-in-string` rule to disallow template literal placeholder syntax in regular strings
 
 ### Changed
 - Replace `no-native-reassign` with `no-global-assign`

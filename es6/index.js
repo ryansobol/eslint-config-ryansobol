@@ -7,5 +7,8 @@ module.exports = {
 
   extends: 'ryansobol/core',
 
-  rules: require('../rules/ecmascript-6')
+  rules: Object.assign(require('../rules/ecmascript-6'), {
+    // Disallow template literal placeholder syntax in regular strings
+    'no-template-curly-in-string': 2
+  })
 };
