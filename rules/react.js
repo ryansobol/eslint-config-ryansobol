@@ -4,6 +4,9 @@ module.exports = {
   // Prevent missing displayName in a React component definition
   'react/display-name': [2, { ignoreTranspilerName: false }],
 
+  // Forbid certain props on Components
+  'react/forbid-component-props': 0,
+
   // Forbid certain propTypes
   'react/forbid-prop-types': [2, { forbid: ['any', 'array', 'object'] }],
 
