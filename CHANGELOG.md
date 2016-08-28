@@ -16,6 +16,7 @@ All changes to this project are documented in this file. This project adheres to
 - Move `sort-imports` to ECMAScript 6 rules
 - Silence the log output of `npm run lint`
 - Exempt `'a'` from `id-length` rule
+- Change deprecated `allow-null` option for `eqeqeq` rule
 
 ### Removed
 - Remove support for Node v5

@@ -30,7 +30,7 @@ module.exports = {
   'dot-notation': 2,
 
   // Require the use of === and !==
-  'eqeqeq': [2, 'allow-null'],
+  'eqeqeq': [2, 'always', { null: 'ignore' }],
 
   // Make sure for-in loops have an if statement
   'guard-for-in': 0,
