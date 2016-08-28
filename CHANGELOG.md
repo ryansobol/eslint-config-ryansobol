@@ -12,6 +12,7 @@ All changes to this project are documented in this file. This project adheres to
 - Add `symbol-description` rule to require symbol description
 - Add `class-methods-use-this` rule to not enforce that class methods utilize `this`
 - Add `react/forbid-component-props` rule to not forbid certain props on Components
+- Add `react/no-danger-with-children` to prevent problems with children and `props.dangerouslySetInnerHTML`
 
 ### Changed
 - Update `eslint` dependency to ^3.4.0
