@@ -15,6 +15,7 @@ All changes to this project are documented in this file. This project adheres to
 - Add `react/no-danger-with-children` to prevent problems with children and `props.dangerouslySetInnerHTML`
 - Add `react/no-unused-prop-types` to prevent definitions of unused prop types
 - Add `react/style-prop-object` to enforce style prop value being an object
+- Add `type-annotations` order option for the `react/sort-comp` rule
 
 ### Changed
 - Update `eslint` dependency to ^3.4.0

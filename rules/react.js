@@ -172,6 +172,7 @@ module.exports = {
       ]
     },
     order: [
+      'type-annotations',
       'static-methods',
       'lifecycle',
       'everything-else',
