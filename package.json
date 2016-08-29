@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ryansobol",
-  "version": "8.0.0",
+  "version": "9.0.0",
   "description": "Ryan Sobol's shareable ESLint configuration",
   "main": "./es5/index.js",
   "repository": {
