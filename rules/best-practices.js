@@ -116,21 +116,21 @@ module.exports = {
   // Disallow use of multiline strings
   'no-multi-str': 0,
 
-  // Disallow use of new operator when not part of the assignment or comparison
-  'no-new': 2,
-
   // Disallow use of new operator for Function object
   'no-new-func': 2,
 
   // Disallows creating new instances of String, Number, and Boolean
   'no-new-wrappers': 2,
 
-  // Disallow use of octal literals
-  'no-octal': 2,
+  // Disallow use of new operator when not part of the assignment or comparison
+  'no-new': 2,
 
   // Disallow use of octal escape sequences in string literals,
   // such as var foo = "Copyright \251";
   'no-octal-escape': 2,
+
+  // Disallow use of octal literals
+  'no-octal': 2,
 
   // Allow reassignment of function parameters
   'no-param-reassign': 0,

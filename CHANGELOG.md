@@ -3,6 +3,8 @@
 All changes to this project are documented in this file. This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+### Changed
+- Sort the rules by the official ESLint rule order
 
 ## [9.1.0] - 2016-08-30
 ### Changed

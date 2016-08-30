@@ -9,13 +9,13 @@ module.exports = {
   'arrow-parens': [2, 'always'],
 
   // Require space before/after arrow function's arrow
-  'arrow-spacing': [2, { after: true, before: true }],
+  'arrow-spacing': [2, { before: true, after: true }],
 
   // Verify super() callings in constructors
   'constructor-super': 2,
 
   // Enforce the spacing around the * in generator functions
-  'generator-star-spacing': [2, { after: true, before: false }],
+  'generator-star-spacing': [2, { before: false, after: true }],
 
   // Disallow modifying variables of class declarations
   'no-class-assign': 2,
@@ -93,5 +93,5 @@ module.exports = {
   'template-curly-spacing': [2, 'never'],
 
   // Enforce spacing around the * in yield* expressions
-  'yield-star-spacing': [2, { after: true, before: false }]
+  'yield-star-spacing': [2, { before: false, after: true }]
 };

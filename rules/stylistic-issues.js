@@ -15,7 +15,7 @@ module.exports = {
   'camelcase': [2, { properties: 'always' }],
 
   // Enforce spacing before and after comma
-  'comma-spacing': [2, { after: true, before: false }],
+  'comma-spacing': [2, { before: false, after: true }],
 
   // Enforce one true comma style
   'comma-style': [2, 'last'],
@@ -59,7 +59,7 @@ module.exports = {
   'jsx-quotes': [2, 'prefer-double'],
 
   // Enforces spacing between keys and values in object literal properties
-  'key-spacing': [2, { afterColon: true, beforeColon: false }],
+  'key-spacing': [2, { beforeColon: false, afterColon: true }],
 
   // Enforce spacing before and after keywords
   'keyword-spacing': 2,
@@ -210,11 +210,11 @@ module.exports = {
   // Don't require JSDoc comment
   'require-jsdoc': 0,
 
+  // Enforce spacing before and after semicolons
+  'semi-spacing': [2, { before: false, after: true }],
+
   // Require or disallow use of semicolons instead of ASI
   'semi': [2, 'always'],
-
-  // Enforce spacing before and after semicolons
-  'semi-spacing': [2, { after: true, before: false }],
 
   // Don't require object keys to be sorted
   'sort-keys': 0,
