@@ -3,6 +3,8 @@
 All changes to this project are documented in this file. This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+
+## [9.1.1] - 2016-08-30
 ### Changed
 - Sort the rules by the official ESLint rule order
 
@@ -627,7 +629,8 @@ All changes to this project are documented in this file. This project adheres to
 ### Added
 - Initial commit
 
-[Unreleased]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v9.1.0...HEAD
+[Unreleased]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v9.1.1...HEAD
+[9.1.1]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v9.1.0...v9.1.1
 [9.1.0]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v9.0.0...v9.1.0
 [9.0.0]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v8.0.0...9.0.0
 [8.0.0]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v7.7.0...v8.0.0
