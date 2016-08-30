@@ -3,6 +3,8 @@
 All changes to this project are documented in this file. This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+### Changed
+- Disable the `sort-keys` rule
 
 ## [9.0.0] - 2016-08-29
 ### Added

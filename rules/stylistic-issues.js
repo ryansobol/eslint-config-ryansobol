@@ -216,8 +216,8 @@ module.exports = {
   // Enforce spacing before and after semicolons
   'semi-spacing': [2, { after: true, before: false }],
 
-  // Require object keys to be sorted
-  'sort-keys': [2, 'asc', { caseSensitive: true, natural: true }],
+  // Don't require object keys to be sorted
+  'sort-keys': 0,
 
   // Sort variables within the same declaration block
   'sort-vars': [2, { ignoreCase: false }],
