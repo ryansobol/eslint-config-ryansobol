@@ -1,5 +1,7 @@
 # eslint-config-ryansobol
 
+[![Join the chat at https://gitter.im/eslint-config-ryansobol/Lobby](https://badges.gitter.im/eslint-config-ryansobol/Lobby.svg)](https://gitter.im/eslint-config-ryansobol/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 [![Build][build-img]][build-url]
 [![License][license-img]][license-url]
 [![NPM][npm-img]][npm-url]
