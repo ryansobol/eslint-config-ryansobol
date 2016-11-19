@@ -3,6 +3,11 @@
 All changes to this project are documented in this file. This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+### Added
+- Add a Gitter chat badge to README.md
+
+### Changed
+- Change Gitter badge to a matching flat icon
 
 ## [9.1.1] - 2016-08-30
 ### Changed
