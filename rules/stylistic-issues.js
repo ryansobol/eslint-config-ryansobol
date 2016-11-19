@@ -79,6 +79,9 @@ module.exports = {
     beforeLineComment: true
   }],
 
+  // Require newlines around directives
+  'lines-around-directive': [2, { before: 'never', after: 'always' }],
+
   // Specify the maximum depth that blocks can be nested
   'max-depth': [2, 4],
 
