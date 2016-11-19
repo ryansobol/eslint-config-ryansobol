@@ -144,6 +144,9 @@ module.exports = {
   // Disallow declaring the same variable more than once
   'no-redeclare': 2,
 
+  // Disallow certain object properties
+  'no-restricted-properties': 0,
+
   // Disallow use of assignment in return statement
   'no-return-assign': 2,
 
