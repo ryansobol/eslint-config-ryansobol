@@ -64,6 +64,9 @@ module.exports = {
   // Enforce spacing before and after keywords
   'keyword-spacing': 2,
 
+  // Enforce position of line comments
+  'line-comment-position': 2,
+
   // Disallow mixed 'LF' and 'CRLF' as linebreaks
   'linebreak-style': [2, 'unix'],
 

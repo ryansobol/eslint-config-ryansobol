@@ -5,11 +5,12 @@ All changes to this project are documented in this file. This project adheres to
 ## [Unreleased]
 ### Added
 - Add a Gitter chat badge to README.md
+- Add `prefer-numeric-literals` rule to disallow `parseInt()` in favor of binary, octal, and hexadecimal literals
+- Add `no-restricted-properties` to not disallow certain object properties
+- Add `line-comment-position` rule to enforce position of line comments
 
 ### Changed
 - Change Gitter badge to a matching flat icon
-- Add `prefer-numeric-literals` rule to disallow `parseInt()` in favor of binary, octal, and hexadecimal literals
-- Add `no-restricted-properties` to not disallow certain object properties
 
 ## [9.1.1] - 2016-08-30
 ### Changed
