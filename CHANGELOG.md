@@ -8,6 +8,7 @@ All changes to this project are documented in this file. This project adheres to
 
 ### Changed
 - Change Gitter badge to a matching flat icon
+- Add `prefer-numeric-literals` rule to disallow `parseInt()` in favor of binary, octal, and hexadecimal literals
 
 ## [9.1.1] - 2016-08-30
 ### Changed
