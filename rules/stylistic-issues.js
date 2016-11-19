@@ -86,7 +86,12 @@ module.exports = {
   'max-depth': [2, 4],
 
   // Specify the maximum length of a line in your program
-  'max-len': [2, 80, 4, { ignoreUrls: true }],
+  'max-len': [2, 80, 4, {
+    ignoreStrings: true,
+    ignoreRegExpLiterals: true,
+    ignoreTemplateLiterals: true,
+    ignoreUrls: true
+  }],
 
   // Enforce a maximum file length
   'max-lines': [2, { max: 300, skipBlankLines: true, skipComments: true }],
