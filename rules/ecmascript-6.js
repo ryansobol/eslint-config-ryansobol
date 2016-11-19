@@ -62,7 +62,7 @@ module.exports = {
   'prefer-const': 2,
 
   // Disallow parseInt() in favor of binary, octal, and hexadecimal literals
-  `prefer-numeric-literals`: 2,
+  'prefer-numeric-literals': 2,
 
   // Suggest using Reflect methods where applicable
   'prefer-reflect': 0,
