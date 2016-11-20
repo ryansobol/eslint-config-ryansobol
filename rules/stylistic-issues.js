@@ -20,7 +20,7 @@ module.exports = {
   // Enforce spacing before and after comma
   'comma-spacing': [2, { before: false, after: true }],
 
-  // Enforce one true comma style
+  // Enforce consistent comma style
   'comma-style': [2, 'last'],
 
   // Require or disallow padding inside computed properties
