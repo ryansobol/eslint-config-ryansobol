@@ -131,6 +131,8 @@ A project is linted by **one** of the following language configurations.
 |--------------|-------------------|
 | ECMAScript 5 | `ryansobol/es5`   |
 | ECMAScript 6 | `ryansobol/es6`   |
+| ECMAScript 7 | `ryansobol/es7`   |
+| ECMAScript 8 | `ryansobol/es8`   |
 
 Add the following code to the `.eslintrc.js` file of an ECMAScript 5 project.
 
