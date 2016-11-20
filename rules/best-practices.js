@@ -150,6 +150,9 @@ module.exports = {
   // Disallow use of assignment in return statement
   'no-return-assign': 2,
 
+  // Disallows unnecessary `return await`
+  'no-return-await': 2,
+
   // Disallow use of javascript: urls.,
   'no-script-url': 2,
 
