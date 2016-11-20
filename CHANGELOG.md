@@ -10,6 +10,7 @@ All changes to this project are documented in this file. This project adheres to
 - Add `line-comment-position` rule to enforce position of line comments
 - Add `lines-around-directive` rule to require newlines around directives
 - Add `ignoreStrings`, `ignoreRegExpLiterals`, and `ignoreTemplateLiterals` options to `max-len` rule
+- Add `CallExpression` option to `indent` rule
 
 ### Changed
 - Change Gitter badge to a matching flat icon

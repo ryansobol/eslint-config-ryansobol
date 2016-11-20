@@ -52,8 +52,8 @@ module.exports = {
   // Require identifiers to match the provided regular expression
   'id-match': 0,
 
-  // This option sets a specific tab width for your code
-  'indent': [2, 2, { SwitchCase: 1 }],
+  // Enforce consistent indentation
+  'indent': [2, 2, { CallExpression: { arguments: 1 }, SwitchCase: 1 }],
 
   // Specify whether double or single quotes should be used in JSX attributes
   'jsx-quotes': [2, 'prefer-double'],
