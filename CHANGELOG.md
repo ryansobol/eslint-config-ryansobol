@@ -25,6 +25,7 @@ All changes to this project are documented in this file. This project adheres to
 - Default to ES6 rules
 - Re-categorize `comma-dangle` rule under stylistic issues
 - Improve the description of the `comma-style` rule
+- Update eslint dependency to ^3.10.2
 
 ## [9.1.1] - 2016-08-30
 ### Changed
