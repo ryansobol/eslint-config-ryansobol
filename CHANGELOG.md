@@ -17,6 +17,7 @@ All changes to this project are documented in this file. This project adheres to
 - Add `anonymous`, `asyncArrow`, `named` options to the `space-before-function-paren` rule
 - Add the `functionPrototypeMethods` option to the `wrap-iife` rule
 - Add `no-useless-return` rule to disallow redundant return statements
+- Remove deprecated `prefer-reflect` rule
 
 ### Changed
 - Change Gitter badge to a matching flat icon
