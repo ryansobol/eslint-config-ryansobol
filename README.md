@@ -53,7 +53,7 @@ Add [language configuration][language] and [environment configuration][environme
 module.exports = {
   extends: [
     'ryansobol/browser',
-    'ryansobol/es5'
+    'ryansobol/es6'
   ]
 };
 ```
@@ -96,7 +96,7 @@ Add [language configuration][language] and [environmnent configuration][environm
 module.exports = {
   extends: [
     'ryansobol/browser',
-    'ryansobol/es5'
+    'ryansobol/es6'
   ]
 };
 ```
@@ -134,19 +134,19 @@ A project is linted by **one** of the following language configurations.
 | ECMAScript 7 | `ryansobol/es7`   |
 | ECMAScript 8 | `ryansobol/es8`   |
 
-Add the following code to the `.eslintrc.js` file of an ECMAScript 5 project.
-
-```js
-module.exports = {
-  extends: 'ryansobol/es5'
-};
-```
-
-Or add the following code to the `.eslintrc.js` file of an ECMAScript 6 project.
+Add the following code to the `.eslintrc.js` file of an ECMAScript 6 project.
 
 ```js
 module.exports = {
   extends: 'ryansobol/es6'
+};
+```
+
+Or add the following code to the `.eslintrc.js` file of an ECMAScript 7 project.
+
+```js
+module.exports = {
+  extends: 'ryansobol/es7'
 };
 ```
 
@@ -156,7 +156,7 @@ Customize any rule by overriding it in the `.eslintrc.js` file.
 
 ```js
 module.exports = {
-  extends: 'ryansobol/es5',
+  extends: 'ryansobol/es6',
 
   rules: {
     'brace-style': [2, '1tbs', { allowSingleLine: true }],
@@ -178,24 +178,24 @@ Additionally, a project is linted by **any** of the following environment config
 | Node.js     | `ryansobol/node`        |
 | React       | `ryansobol/react`       |
 
-Add the following code to the `.eslintrc.js` file of an ECMAScript 5 project that's running in a browser.
+Add the following code to the `.eslintrc.js` file of an ECMAScript 6 project that's running in a browser.
 
 ```js
 module.exports = {
   extends: [
     'ryansobol/browser',
-    'ryansobol/es5'
+    'ryansobol/es6'
   ]
 };
 ```
 
-Add the following code to the `.eslintrc.js` file of an ECMAScript 5 project that's running in a browser and using jQuery.
+Add the following code to the `.eslintrc.js` file of an ECMAScript 6 project that's running in a browser and using jQuery.
 
 ```js
 module.exports = {
   extends: [
     'ryansobol/browser',
-    'ryansobol/es5',
+    'ryansobol/es6',
     'ryansobol/jquery'
   ]
 };

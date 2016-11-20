@@ -15,6 +15,7 @@ All changes to this project are documented in this file. This project adheres to
 
 ### Changed
 - Change Gitter badge to a matching flat icon
+- Default to ES6 rules
 
 ## [9.1.1] - 2016-08-30
 ### Changed
