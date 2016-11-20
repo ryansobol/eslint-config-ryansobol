@@ -199,7 +199,7 @@ module.exports = {
   'vars-on-top': 0,
 
   // Require immediate function invocation to be wrapped in parentheses
-  'wrap-iife': [2, 'inside'],
+  'wrap-iife': [2, 'inside', { functionPrototypeMethods: true }],
 
   // Require or disallow Yoda conditions
   'yoda': [2, 'never', { exceptRange: true }]
