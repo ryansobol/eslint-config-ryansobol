@@ -13,6 +13,7 @@ All changes to this project are documented in this file. This project adheres to
 - Add `CallExpression` option to `indent` rule
 - Add ES7 and ES8 environments
 - Add `experimentalObjectRestSpread` parser option to React rules
+- Add `func-name-matching` rule to require function names to match the name of the variable or property to which they are assigned
 
 ### Changed
 - Change Gitter badge to a matching flat icon
