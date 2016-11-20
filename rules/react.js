@@ -122,6 +122,9 @@ module.exports = {
   // Prevent using string references in ref attribute.
   'react/no-string-refs': 2,
 
+  // Prevent invalid characters from appearing in markup
+  'react/no-unescaped-entities': 2,
+
   // Prevent usage of unknown DOM property
   'react/no-unknown-property': 2,
 

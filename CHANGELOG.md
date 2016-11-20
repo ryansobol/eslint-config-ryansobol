@@ -20,6 +20,7 @@ All changes to this project are documented in this file. This project adheres to
 - Remove deprecated `prefer-reflect` rule
 - Add `no-return-await` rule to disallow unnecessary `return await`
 - Add `react/no-children-prop` rule to prevent passing of children as props
+- Add `react/no-unescaped-entities` rule to prevent invalid characters from appearing in markup
 
 ### Changed
 - Change Gitter badge to a matching flat icon
