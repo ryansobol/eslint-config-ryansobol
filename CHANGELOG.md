@@ -19,6 +19,7 @@ All changes to this project are documented in this file. This project adheres to
 - Add `no-useless-return` rule to disallow redundant return statements
 - Remove deprecated `prefer-reflect` rule
 - Add `no-return-await` rule to disallow unnecessary `return await`
+- Add `react/no-children-prop` rule to prevent passing of children as props
 
 ### Changed
 - Change Gitter badge to a matching flat icon

@@ -83,6 +83,9 @@ module.exports = {
     return: false
   }],
 
+  // Prevent passing of children as props
+  'react/no-children-prop': 2,
+
   // Prevent usage of dangerous JSX properties
   'react/no-danger': 2,
 
