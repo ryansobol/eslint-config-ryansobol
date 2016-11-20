@@ -14,6 +14,7 @@ All changes to this project are documented in this file. This project adheres to
 - Add ES7 and ES8 environments
 - Add `experimentalObjectRestSpread` parser option to React rules
 - Add `func-name-matching` rule to require function names to match the name of the variable or property to which they are assigned
+- Add `anonymous`, `asyncArrow`, `named` options to the `space-before-function-paren` rule
 
 ### Changed
 - Change Gitter badge to a matching flat icon
