@@ -29,6 +29,7 @@ All changes to this project are documented in this file. This project adheres to
 - Improve the description of the `comma-style` rule
 - Update eslint dependency to ^3.10.2
 - Enable `react/prop-types` rule with `skipUndeclared` option
+- Change to the `multiline-multiprop` option for the `react/jsx-first-prop-new-line` rule
 
 ## [9.1.1] - 2016-08-30
 ### Changed

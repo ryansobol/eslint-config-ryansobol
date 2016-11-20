@@ -26,7 +26,7 @@ module.exports = {
   'react/jsx-filename-extension': 2,
 
   // Configure the position of the first property
-  'react/jsx-first-prop-new-line': [2, 'multiline'],
+  'react/jsx-first-prop-new-line': [2, 'multiline-multiprop'],
 
   // Enforce event handler naming conventions in JSX
   'react/jsx-handler-names': 2,
