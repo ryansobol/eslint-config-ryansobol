@@ -16,6 +16,7 @@ All changes to this project are documented in this file. This project adheres to
 - Add `func-name-matching` rule to require function names to match the name of the variable or property to which they are assigned
 - Add `anonymous`, `asyncArrow`, `named` options to the `space-before-function-paren` rule
 - Add the `functionPrototypeMethods` option to the `wrap-iife` rule
+- Add `no-useless-return` rule to disallow redundant return statements
 
 ### Changed
 - Change Gitter badge to a matching flat icon

@@ -180,8 +180,11 @@ module.exports = {
   // Disallow unnecessary concatenation of literals or template literals
   'no-useless-concat': 2,
 
-  // disallow unnecessary escape characters
+  // Disallow unnecessary escape characters
   'no-useless-escape': 2,
+
+  // Disallow redundant return statements
+  'no-useless-return': 2,
 
   // Disallow use of void operator
   'no-void': 2,
