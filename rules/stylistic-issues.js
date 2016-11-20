@@ -14,6 +14,9 @@ module.exports = {
   // Require camel case names
   'camelcase': [2, { properties: 'always' }],
 
+  // Disallow or enforce trailing commas
+  'comma-dangle': 2,
+
   // Enforce spacing before and after comma
   'comma-spacing': [2, { before: false, after: true }],
 

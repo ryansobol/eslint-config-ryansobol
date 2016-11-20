@@ -2,9 +2,6 @@
 
 // see http://eslint.org/docs/rules/#possible-errors
 module.exports = {
-  // Disallow or enforce trailing commas
-  'comma-dangle': 2,
-
   // Disallow assignment in conditional expressions
   'no-cond-assign': 2,
 
