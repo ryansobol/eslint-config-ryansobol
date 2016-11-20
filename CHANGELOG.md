@@ -28,6 +28,7 @@ All changes to this project are documented in this file. This project adheres to
 - Re-categorize `comma-dangle` rule under stylistic issues
 - Improve the description of the `comma-style` rule
 - Update eslint dependency to ^3.10.2
+- Enable `react/prop-types` rule with `skipUndeclared` option
 
 ## [9.1.1] - 2016-08-30
 ### Changed

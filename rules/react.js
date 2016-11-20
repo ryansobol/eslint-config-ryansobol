@@ -138,7 +138,7 @@ module.exports = {
   'react/prefer-stateless-function': 0,
 
   // Prevent missing props validation in a React component definition
-  'react/prop-types': 0,
+  'react/prop-types': [2, { skipUndeclared: true }],
 
   // Prevent missing React when using JSX
   'react/react-in-jsx-scope': 2,
