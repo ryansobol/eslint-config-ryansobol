@@ -21,6 +21,7 @@ All changes to this project are documented in this file. This project adheres to
 - Add `no-return-await` rule to disallow unnecessary `return await`
 - Add `react/no-children-prop` rule to prevent passing of children as props
 - Add `react/no-unescaped-entities` rule to prevent invalid characters from appearing in markup
+- Add `react/jsx-tag-spacing` rule to validate whitespace in and around the JSX opening and closing brackets
 
 ### Changed
 - Change Gitter badge to a matching flat icon
