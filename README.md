@@ -303,9 +303,9 @@ Also, thanks to my colleagues and students at [Galvanize][galvanize] for helping
 [build-img]: https://img.shields.io/travis/ryansobol/eslint-config-ryansobol/master.svg?style=flat-square
 [build-url]: https://travis-ci.org/ryansobol/eslint-config-ryansobol
 [chat-img]: https://img.shields.io/gitter/room/eslint-config-ryansobol/Lobby.svg?style=flat-square
-[chat-url]: https://gitter.im/eslint-config-ryansobol/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
+[chat-url]: https://gitter.im/eslint-config-ryansobol/Lobby
 [license-img]: https://img.shields.io/npm/l/eslint-config-ryansobol.svg?style=flat-square
-[license-url]: https://github.com/ryansobol/eslint-config-ryansobol/blob/readme/LICENSE
+[license-url]: https://github.com/ryansobol/eslint-config-ryansobol/blob/master/LICENSE
 [npm-img]: https://img.shields.io/npm/v/eslint-config-ryansobol.svg?style=flat-square
 [npm-url]: https://www.npmjs.com/package/eslint-config-ryansobol
 
