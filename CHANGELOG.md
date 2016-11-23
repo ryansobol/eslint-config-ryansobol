@@ -3,6 +3,8 @@
 All changes to this project are documented in this file. This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+
+## [10.0.2] - 2016-11-22
 ### Changed
 - Refactor the package.json script instructions in the README.md
 
@@ -666,7 +668,8 @@ All changes to this project are documented in this file. This project adheres to
 ### Added
 - Initial commit
 
-[Unreleased]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v10.0.1...HEAD
+[Unreleased]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v10.0.2...HEAD
+[10.0.2]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v10.0.1...v10.0.2
 [10.0.1]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v10.0.0...v10.0.1
 [10.0.0]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v9.1.1...v10.0.0
 [9.1.1]: https://github.com/ryansobol/eslint-config-ryansobol/compare/v9.1.0...v9.1.1
