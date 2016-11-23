@@ -112,7 +112,7 @@ Additionally, add a script to the `package.json` file.
 ```json
 {
   "script": {
-    "lint": "eslint ."
+    "lint": "eslint"
   }
 }
 ```
@@ -120,7 +120,7 @@ Additionally, add a script to the `package.json` file.
 Then run the `npm` script and fix any linting errors.
 
 ```shell
-npm run lint
+npm run lint .
 ```
 
 ## Language configuration

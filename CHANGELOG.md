@@ -3,6 +3,8 @@
 All changes to this project are documented in this file. This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+### Changed
+- Refactor the package.json script instructions in the README.md
 
 ## [10.0.1] - 2016-11-22
 ### Changed
